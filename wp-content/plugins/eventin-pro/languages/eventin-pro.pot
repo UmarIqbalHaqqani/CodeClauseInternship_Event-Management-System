@@ -1,0 +1,5801 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Eventin Pro\n"
+"POT-Creation-Date: 2024-02-08 19:54+0600\n"
+"PO-Revision-Date: 2024-02-08 19:54+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: eventin-pro.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: bootstrap.php:199
+msgid ""
+"Please activate Eventin Pro to get automatic updates and premium support."
+msgstr ""
+
+#: bootstrap.php:266
+msgid "Something went wrong! Please try again."
+msgstr ""
+
+#: bootstrap.php:270
+msgid "This event has been expired."
+msgstr ""
+
+#: bootstrap.php:286
+msgid "Add New Category"
+msgstr ""
+
+#: bootstrap.php:287
+msgid "Category Name"
+msgstr ""
+
+#: bootstrap.php:288
+msgid "Search Category"
+msgstr ""
+
+#: bootstrap.php:289
+#: multivendor/src/components/common/SelectWithAddNewButton.js:45
+msgid "Category name should not empty!"
+msgstr ""
+
+#: bootstrap.php:290
+msgid "Category Description"
+msgstr ""
+
+#: bootstrap.php:291
+msgid "Create Category"
+msgstr ""
+
+#: bootstrap.php:292
+msgid "Update Category"
+msgstr ""
+
+#: bootstrap.php:293
+msgid "Edit"
+msgstr ""
+
+#: bootstrap.php:294
+msgid "Preview"
+msgstr ""
+
+#: bootstrap.php:295
+msgid "Delete"
+msgstr ""
+
+#: bootstrap.php:296
+msgid "Delete!"
+msgstr ""
+
+#: bootstrap.php:297
+msgid "Deleted!"
+msgstr ""
+
+#: bootstrap.php:298
+msgid "Something went wrong!"
+msgstr ""
+
+#: bootstrap.php:299
+msgid "Back to Category"
+msgstr ""
+
+#: bootstrap.php:300
+msgid "Loading..."
+msgstr ""
+
+#: bootstrap.php:301
+msgid "Please Wait."
+msgstr ""
+
+#: bootstrap.php:302
+msgid "Loader will vanish after all data load."
+msgstr ""
+
+#: bootstrap.php:303
+msgid "You haven't added any categories yet."
+msgstr ""
+
+#: bootstrap.php:304
+msgid "Event Info"
+msgstr ""
+
+#: bootstrap.php:305
+msgid "Add new event"
+msgstr ""
+
+#: bootstrap.php:306
+msgid "Name your event"
+msgstr ""
+
+#: bootstrap.php:307
+msgid "Event title"
+msgstr ""
+
+#: bootstrap.php:308
+msgid "Post title and content should not empty!"
+msgstr ""
+
+#: bootstrap.php:309
+msgid "Event content"
+msgstr ""
+
+#: bootstrap.php:310
+msgid "Attendee list"
+msgstr ""
+
+#: bootstrap.php:311
+msgid "Back to Events"
+msgstr ""
+
+#: bootstrap.php:312 bootstrap.php:584 core/event/event.php:101
+msgid "Ticket Scanner"
+msgstr ""
+
+#: bootstrap.php:313 bootstrap.php:423
+msgid "This event doesn't have any attendee"
+msgstr ""
+
+#: bootstrap.php:314
+msgid "You haven't added any events yet."
+msgstr ""
+
+#: bootstrap.php:315
+msgid "Shouldn't empty!"
+msgstr ""
+
+#: bootstrap.php:316
+msgid "Upload event logo:"
+msgstr ""
+
+#: bootstrap.php:317
+msgid "Upload feature image:"
+msgstr ""
+
+#: bootstrap.php:318
+msgid "Upload banner image:"
+msgstr ""
+
+#: bootstrap.php:319
+msgid "Add category:"
+msgstr ""
+
+#: bootstrap.php:320
+msgid "Search category"
+msgstr ""
+
+#: bootstrap.php:321
+msgid "Add tags:"
+msgstr ""
+
+#: bootstrap.php:322
+msgid "Search tags"
+msgstr ""
+
+#: bootstrap.php:323
+msgid "Add social links"
+msgstr ""
+
+#: bootstrap.php:324
+msgid "Add"
+msgstr ""
+
+#: bootstrap.php:325
+msgid "Event Created."
+msgstr ""
+
+#: bootstrap.php:326
+msgid "Your event has been created. Take next action from the below button."
+msgstr ""
+
+#: bootstrap.php:327
+msgid "Event couldn't saved."
+msgstr ""
+
+#: bootstrap.php:328
+msgid "Your event is not saved successfully."
+msgstr ""
+
+#: bootstrap.php:329
+msgid "Start and end date"
+msgstr ""
+
+#: bootstrap.php:330
+msgid "Start and end time"
+msgstr ""
+
+#: bootstrap.php:331 core/metaboxs/event-meta.php:276
+msgid "Location Type"
+msgstr ""
+
+#: bootstrap.php:332 core/metaboxs/event-meta.php:282
+msgid "Existing Locations"
+msgstr ""
+
+#: bootstrap.php:333
+msgid "Select Locations"
+msgstr ""
+
+#: bootstrap.php:334
+msgid "Event location"
+msgstr ""
+
+#: bootstrap.php:335
+msgid "Full Address"
+msgstr ""
+
+#: bootstrap.php:336 core/metaboxs/event-meta.php:281
+msgid "Enter Full Address"
+msgstr ""
+
+#: bootstrap.php:337
+msgid "Timezone"
+msgstr ""
+
+#: bootstrap.php:338 widgets/schedule-list/schedule-list.php:75
+#: widgets/schedule-tab/schedule-tab.php:73
+msgid "Schedule"
+msgstr ""
+
+#: bootstrap.php:339
+msgid "Search Schedule"
+msgstr ""
+
+#: bootstrap.php:340
+msgid "Add New Tag"
+msgstr ""
+
+#: bootstrap.php:341
+msgid "Tag Name"
+msgstr ""
+
+#: bootstrap.php:342
+msgid "Tag Description"
+msgstr ""
+
+#: bootstrap.php:343
+msgid "Create Tag"
+msgstr ""
+
+#: bootstrap.php:344
+msgid "Update Tag"
+msgstr ""
+
+#: bootstrap.php:345
+msgid "Oops! You haven't added any tags yet."
+msgstr ""
+
+#: bootstrap.php:346
+msgid "Back to Tags"
+msgstr ""
+
+#: bootstrap.php:347
+#: multivendor/src/components/common/SelectWithAddNewButton.js:75
+msgid "Tag name should not empty!"
+msgstr ""
+
+#: bootstrap.php:348
+msgid "Create another"
+msgstr ""
+
+#: bootstrap.php:349 core/event/event-location.php:81
+msgid "Add New Location"
+msgstr ""
+
+#: bootstrap.php:350
+msgid "Location Name"
+msgstr ""
+
+#: bootstrap.php:351
+msgid "Location Description"
+msgstr ""
+
+#: bootstrap.php:352
+msgid "Back to Location"
+msgstr ""
+
+#: bootstrap.php:353
+msgid "Location Address"
+msgstr ""
+
+#: bootstrap.php:354 core/attendee/hooks.php:699
+#: core/event/event-location.php:129 core/event/event-location.php:188
+#: core/event/event-location.php:282
+#: core/modules/rsvp/admin/views/invitations.php:41
+#: core/modules/sells-engine/sells-engine.php:175
+#: core/modules/sells-engine/stripe/orders/order-details.php:98
+#: core/modules/sells-engine/stripe/orders/order-exporter.php:102
+#: core/modules/sells-engine/stripe/orders/orders-report.php:43
+msgid "Email"
+msgstr ""
+
+#: bootstrap.php:355
+msgid "Please enter a valid E-mail"
+msgstr ""
+
+#: bootstrap.php:356 core/event/event-location.php:135
+#: core/event/event-location.php:199
+msgid "Latitude"
+msgstr ""
+
+#: bootstrap.php:357 core/event/event-location.php:141
+#: core/event/event-location.php:215
+msgid "Longitude"
+msgstr ""
+
+#: bootstrap.php:358 core/event/event-location.php:80
+msgid "Update Location"
+msgstr ""
+
+#: bootstrap.php:359
+msgid "Create Location"
+msgstr ""
+
+#: bootstrap.php:360
+msgid "Location name should not empty!"
+msgstr ""
+
+#: bootstrap.php:361 templates/event/parts/event-details-parts-pro.php:70
+#: widgets/speakers/speakers.php:78
+msgid "Speaker"
+msgstr ""
+
+#: bootstrap.php:362
+msgid "Ops! You haven't added any speaker yet"
+msgstr ""
+
+#: bootstrap.php:363
+msgid "Add new speaker"
+msgstr ""
+
+#: bootstrap.php:364
+msgid "Back to speakers"
+msgstr ""
+
+#: bootstrap.php:365
+msgid "Speaker name should not empty!"
+msgstr ""
+
+#: bootstrap.php:366 bootstrap.php:427 core/attendee/hooks.php:697
+#: core/modules/rsvp/admin/views/invitations.php:37
+msgid "Name"
+msgstr ""
+
+#: bootstrap.php:367
+msgid "Designation"
+msgstr ""
+
+#: bootstrap.php:368
+msgid "Enter Designation"
+msgstr ""
+
+#: bootstrap.php:369
+msgid "Speaker profile image:"
+msgstr ""
+
+#: bootstrap.php:370
+msgid "Company logo:"
+msgstr ""
+
+#: bootstrap.php:371
+msgid "Summary"
+msgstr ""
+
+#: bootstrap.php:372 core/metaboxs/event-meta.php:51
+msgid "Create Speaker"
+msgstr ""
+
+#: bootstrap.php:373
+msgid "Update Speaker"
+msgstr ""
+
+#: bootstrap.php:374
+msgid "Category"
+msgstr ""
+
+#: bootstrap.php:375 core/shortcodes/views/shortcode-settings.php:23
+#: core/shortcodes/views/shortcode-settings.php:118
+#: core/shortcodes/views/shortcode-settings.php:209
+#: core/shortcodes/views/shortcode-settings.php:316
+#: core/shortcodes/views/shortcode-settings.php:403
+#: core/shortcodes/views/shortcode-settings.php:541
+#: core/shortcodes/views/shortcode-settings.php:729
+#: core/shortcodes/views/shortcode-settings.php:892
+#: core/shortcodes/views/shortcode-settings.php:1086
+msgid "Select Category"
+msgstr ""
+
+#: bootstrap.php:376 core/shortcodes/views/shortcode-settings.php:302
+#: widgets/organizers/organizers.php:75
+msgid "Organizer"
+msgstr ""
+
+#: bootstrap.php:377
+msgid "Add More Organizer"
+msgstr ""
+
+#: bootstrap.php:378
+msgid "Select organizer"
+msgstr ""
+
+#: bootstrap.php:379
+msgid "Display name of the day"
+msgstr ""
+
+#: bootstrap.php:380
+msgid "Program Title"
+msgstr ""
+
+#: bootstrap.php:381
+msgid "Topic"
+msgstr ""
+
+#: bootstrap.php:382
+msgid "Topic Details"
+msgstr ""
+
+#: bootstrap.php:383
+msgid "Start Time"
+msgstr ""
+
+#: bootstrap.php:384
+msgid "End Time"
+msgstr ""
+
+#: bootstrap.php:385
+msgid "Add New Schedule"
+msgstr ""
+
+#: bootstrap.php:386
+msgid "Schedule Title"
+msgstr ""
+
+#: bootstrap.php:387
+msgid "Create Schedule"
+msgstr ""
+
+#: bootstrap.php:388
+msgid "Update Schedule"
+msgstr ""
+
+#: bootstrap.php:389
+msgid "Schedule Updated Successfully"
+msgstr ""
+
+#: bootstrap.php:390
+msgid "Your schedule has been updated successfully."
+msgstr ""
+
+#: bootstrap.php:391
+msgid "Schedule Created Successfully"
+msgstr ""
+
+#: bootstrap.php:392
+msgid "Your schedule has been created successfully."
+msgstr ""
+
+#: bootstrap.php:393
+msgid "Are you sure you want to delete this schedule?"
+msgstr ""
+
+#: bootstrap.php:394
+msgid "Please select speakers"
+msgstr ""
+
+#: bootstrap.php:395
+msgid "Add New Topic"
+msgstr ""
+
+#: bootstrap.php:396
+msgid "Back to Schedule"
+msgstr ""
+
+#: bootstrap.php:397
+msgid "Please input schedule title!"
+msgstr ""
+
+#: bootstrap.php:398
+msgid "You have not added any schedule yet!"
+msgstr ""
+
+#: bootstrap.php:399 core/event/sales/attendee-sales-report.php:47
+#: core/modules/sells-engine/stripe/orders/order-details.php:42
+#: core/modules/sells-engine/stripe/orders/order-exporter.php:104
+#: core/modules/sells-engine/stripe/orders/orders-report.php:47
+msgid "Date"
+msgstr ""
+
+#: bootstrap.php:400
+msgid "Day of the Week"
+msgstr ""
+
+#: bootstrap.php:401
+msgid "Schedule Topic"
+msgstr ""
+
+#: bootstrap.php:402
+msgid "Select Speaker"
+msgstr ""
+
+#: bootstrap.php:403
+msgid "Attendee name"
+msgstr ""
+
+#: bootstrap.php:404
+msgid "Edit attendee"
+msgstr ""
+
+#: bootstrap.php:405
+msgid "Delete attendee"
+msgstr ""
+
+#: bootstrap.php:406
+msgid "Attendee e-mail"
+msgstr ""
+
+#: bootstrap.php:407
+msgid "Update details"
+msgstr ""
+
+#: bootstrap.php:408 core/event/sales/attendee-sales-report.php:44
+#: core/modules/sells-engine/sells-engine.php:472
+#: core/modules/sells-engine/stripe/orders/order-details.php:50
+#: core/modules/sells-engine/stripe/orders/order-exporter.php:107
+#: core/modules/sells-engine/stripe/payments/thank-you.php:44
+msgid "Ticket Details"
+msgstr ""
+
+#: bootstrap.php:409
+msgid "Limited tickets"
+msgstr ""
+
+#: bootstrap.php:410
+msgid "Enable limited ticket. Set ticket stock from ticket variation."
+msgstr ""
+
+#: bootstrap.php:411
+msgid "Ticket variation"
+msgstr ""
+
+#: bootstrap.php:412 core/action.php:142
+msgid "Ticket Name:"
+msgstr ""
+
+#: bootstrap.php:413
+msgid "Ticket Price:"
+msgstr ""
+
+#: bootstrap.php:414
+msgid "No. of Tickets:"
+msgstr ""
+
+#: bootstrap.php:415
+msgid "Minimum Purchase Qty:"
+msgstr ""
+
+#: bootstrap.php:416
+msgid "Maximum Purchase Qty:"
+msgstr ""
+
+#: bootstrap.php:417 core/attendee/hooks.php:82 core/attendee/hooks.php:220
+#: core/attendee/hooks.php:227 core/attendee/hooks.php:707
+#: core/shortcodes/views/shortcode-settings.php:1815
+msgid "Ticket ID"
+msgstr ""
+
+#: bootstrap.php:418
+msgid "Ticket status"
+msgstr ""
+
+#: bootstrap.php:419 core/attendee/hooks.php:509
+msgid "Used"
+msgstr ""
+
+#: bootstrap.php:420 core/attendee/hooks.php:508
+msgid "Unused"
+msgstr ""
+
+#: bootstrap.php:421
+msgid "Payment status"
+msgstr ""
+
+#: bootstrap.php:422
+msgid "Attendees List"
+msgstr ""
+
+#: bootstrap.php:424
+msgid "General Info"
+msgstr ""
+
+#: bootstrap.php:425
+#: multivendor/src/components/common/SelectWithAddNewButton.js:44
+#: multivendor/src/components/common/SelectWithAddNewButton.js:74
+msgid "Input missing!"
+msgstr ""
+
+#: bootstrap.php:426
+msgid "Are you sure you want to delete this item?"
+msgstr ""
+
+#: bootstrap.php:428
+msgid "Description"
+msgstr ""
+
+#: bootstrap.php:429
+msgid "Create"
+msgstr ""
+
+#: bootstrap.php:430 core/modules/rsvp/frontend/views/forms/rsvp-form.php:153
+msgid "Previous"
+msgstr ""
+
+#: bootstrap.php:431
+msgid "Next"
+msgstr ""
+
+#: bootstrap.php:432
+msgid "Update"
+msgstr ""
+
+#: bootstrap.php:433
+msgid "Updated"
+msgstr ""
+
+#: bootstrap.php:434 core/attendee/hooks.php:485
+#: core/attendee/ticket-markup-style-2.php:8
+#: core/event/api-event-taxonomy.php:135 core/event/api-schedules.php:50
+#: core/event/api-speaker-taxonomy.php:49 core/event/script-generator.php:238
+msgid "Success"
+msgstr ""
+
+#: bootstrap.php:435 core/attendee/hooks.php:486
+#: core/attendee/ticket-markup-style-2.php:9
+msgid "Failed"
+msgstr ""
+
+#: bootstrap.php:436
+msgid "Cancel"
+msgstr ""
+
+#: bootstrap.php:437 core/modules/rsvp/frontend/views/forms/rsvp-form.php:155
+msgid "Submit"
+msgstr ""
+
+#: bootstrap.php:438 core/event/sales/sales-report.php:45
+#: core/modules/sells-engine/stripe/orders/orders-report.php:48
+msgid "Action"
+msgstr ""
+
+#: bootstrap.php:439
+msgid "Refresh"
+msgstr ""
+
+#: bootstrap.php:440
+msgid "Select All"
+msgstr ""
+
+#: bootstrap.php:441
+msgid "Already exists"
+msgstr ""
+
+#: bootstrap.php:442
+msgid "Virtual Product"
+msgstr ""
+
+#: bootstrap.php:443
+msgid ""
+"Register event as WooCommerce virtual product and let WooCommerce handle "
+"it's behaviour."
+msgstr ""
+
+#: bootstrap.php:444
+msgid "Add Variation"
+msgstr ""
+
+#: bootstrap.php:445
+msgid "Event external link"
+msgstr ""
+
+#: bootstrap.php:446
+msgid "Google meet link"
+msgstr ""
+
+#: bootstrap.php:447
+#: core/modules/integrations/google-meet/admin/metaboxs/metabox.php:58
+msgid "Google Meet Description"
+msgstr ""
+
+#: bootstrap.php:448
+msgid "Enable Google Meet"
+msgstr ""
+
+#: bootstrap.php:449 core/metaboxs/event-meta.php:153
+msgid "Select Certificate Template"
+msgstr ""
+
+#: bootstrap.php:450 core/metaboxs/event-meta.php:154
+msgid "Select the page template which will be used as event certificate."
+msgstr ""
+
+#: bootstrap.php:451
+msgid "Item"
+msgstr ""
+
+#: bootstrap.php:452 core/metaboxs/event-meta.php:180
+msgid "Event FAQ's"
+msgstr ""
+
+#: bootstrap.php:453
+msgid "Faq Title"
+msgstr ""
+
+#: bootstrap.php:454
+msgid "Faq Content"
+msgstr ""
+
+#: bootstrap.php:455 core/attendee/hooks.php:838
+#: core/modules/integrations/buddyboss/admin/admin-tab.php:179
+#: core/modules/integrations/buddyboss/admin/admin-tab.php:182
+#: core/modules/integrations/buddyboss/frontend/frontend.php:121
+#: core/modules/integrations/buddyboss/frontend/frontend.php:208
+#: core/modules/multivendor/template/store-event-listing.php:12
+msgid "Events"
+msgstr ""
+
+#: bootstrap.php:456
+msgid "Event Categories "
+msgstr ""
+
+#: bootstrap.php:457
+msgid "Event Tags "
+msgstr ""
+
+#: bootstrap.php:458
+msgid "Event Locations"
+msgstr ""
+
+#: bootstrap.php:459
+msgid "Speakers"
+msgstr ""
+
+#: bootstrap.php:460
+msgid "Schedules"
+msgstr ""
+
+#: bootstrap.php:461
+msgid "Upload"
+msgstr ""
+
+#: bootstrap.php:462
+msgid "Avatar Image"
+msgstr ""
+
+#: bootstrap.php:463
+msgid "Search and select"
+msgstr ""
+
+#: bootstrap.php:464
+msgid "No data found"
+msgstr ""
+
+#: bootstrap.php:465
+msgid "Yearly Month's Day"
+msgstr ""
+
+#: bootstrap.php:466
+msgid "Select month"
+msgstr ""
+
+#: bootstrap.php:467
+msgid "Preview will appear here"
+msgstr ""
+
+#: bootstrap.php:468
+msgid "Icons"
+msgstr ""
+
+#: bootstrap.php:469
+msgid "Close"
+msgstr ""
+
+#: bootstrap.php:470
+msgid "Do want to hide Recurring event thumbnail?"
+msgstr ""
+
+#: bootstrap.php:471 core/shortcodes/views/shortcode-settings.php:1648
+msgid "Recurring Event"
+msgstr ""
+
+#: bootstrap.php:472
+msgid "Registration Deadline"
+msgstr ""
+
+#: bootstrap.php:473 core/modules/rsvp/frontend/views/forms/rsvp-form.php:57
+msgid "Step 1"
+msgstr ""
+
+#: bootstrap.php:474 core/modules/rsvp/frontend/views/forms/rsvp-form.php:62
+msgid "Step 2"
+msgstr ""
+
+#: bootstrap.php:475
+msgid "Step 3"
+msgstr ""
+
+#: bootstrap.php:476
+msgid "Welcome to Eventin"
+msgstr ""
+
+#: bootstrap.php:477
+msgid "Subscription"
+msgstr ""
+
+#: bootstrap.php:478
+msgid "step"
+msgstr ""
+
+#: bootstrap.php:479
+msgid "of"
+msgstr ""
+
+#: bootstrap.php:480
+msgid "Event will repeat"
+msgstr ""
+
+#: bootstrap.php:481
+msgid "Recurrence Interval"
+msgstr ""
+
+#: bootstrap.php:482 widgets/event-calendar-list/event-calendar-list.php:81
+#: widgets/event-calendar/event-calendar.php:93
+msgid "Daily"
+msgstr ""
+
+#: bootstrap.php:483 widgets/event-calendar-list/event-calendar-list.php:80
+#: widgets/event-calendar/event-calendar.php:92
+msgid "Weekly"
+msgstr ""
+
+#: bootstrap.php:484 widgets/event-calendar-list/event-calendar-list.php:79
+#: widgets/event-calendar/event-calendar.php:91
+msgid "Monthly"
+msgstr ""
+
+#: bootstrap.php:485
+msgid "Monthly (advanced)"
+msgstr ""
+
+#: bootstrap.php:486
+msgid "Yearly"
+msgstr ""
+
+#: bootstrap.php:487
+msgid "Ends"
+msgstr ""
+
+#: bootstrap.php:488
+msgid "Each recurrence duration for Day(s)"
+msgstr ""
+
+#: bootstrap.php:489
+msgid "On event end date"
+msgstr ""
+
+#: bootstrap.php:490
+msgid "You must provide event start and end date for enabling recurrence"
+msgstr ""
+
+#: bootstrap.php:491
+msgid "Icon Name"
+msgstr ""
+
+#: bootstrap.php:492
+msgid "Social Title"
+msgstr ""
+
+#: bootstrap.php:493
+msgid "Social URL"
+msgstr ""
+
+#: bootstrap.php:494
+msgid "Select Schedule Type"
+msgstr ""
+
+#: bootstrap.php:495
+msgid "Schedule With Speaker"
+msgstr ""
+
+#: bootstrap.php:496
+msgid "Schedule Without Speaker"
+msgstr ""
+
+#: bootstrap.php:497
+msgid "Start Date"
+msgstr ""
+
+#: bootstrap.php:498
+msgid "End Date"
+msgstr ""
+
+#: bootstrap.php:499
+msgid "Select deadline"
+msgstr ""
+
+#: bootstrap.php:500
+msgid "-- Select --"
+msgstr ""
+
+#: bootstrap.php:501
+msgid "Add Question"
+msgstr ""
+
+#: bootstrap.php:502
+msgid "Please select a date!"
+msgstr ""
+
+#: bootstrap.php:503
+msgid "Select date"
+msgstr ""
+
+#: bootstrap.php:585
+msgid "Required"
+msgstr ""
+
+#: bootstrap.php:586
+msgid "Optional"
+msgstr ""
+
+#: bootstrap.php:587
+msgid "Please fill the label field"
+msgstr ""
+
+#: core/action.php:39
+msgid "Order data not found."
+msgstr ""
+
+#: core/action.php:145
+msgid "Ticket Quantity:"
+msgstr ""
+
+#: core/action.php:176
+msgid "Re-send"
+msgstr ""
+
+#: core/action.php:186
+msgid "Not available"
+msgstr ""
+
+#: core/action.php:549
+msgid "No data found."
+msgstr ""
+
+#: core/attendee/api.php:42
+msgid "Unsuported format"
+msgstr ""
+
+#: core/attendee/api.php:52
+msgid "Attendee ids can't be empty"
+msgstr ""
+
+#: core/attendee/hooks.php:221
+msgid ""
+"Ticket ID will be generated automatically after purchasing ticket "
+"successfully"
+msgstr ""
+
+#: core/attendee/hooks.php:234 core/attendee/hooks.php:241
+#: core/attendee/hooks.php:270 core/attendee/hooks.php:708
+msgid "Ticket Name"
+msgstr ""
+
+#: core/attendee/hooks.php:235 core/attendee/hooks.php:271
+msgid "Ticket Name which client have been purchased"
+msgstr ""
+
+#: core/attendee/hooks.php:257 core/event/sales/sales-report.php:97
+#: core/modules/multivendor/multivendor.php:143
+#: core/modules/sells-engine/stripe/orders/order-details.php:46
+#: core/modules/sells-engine/stripe/orders/order-exporter.php:106
+msgid "Event"
+msgstr ""
+
+#: core/attendee/hooks.php:258
+msgid "Select event for attendee"
+msgstr ""
+
+#: core/attendee/hooks.php:266
+#: core/modules/integrations/buddyboss/frontend/frontend.php:233
+msgid "Create Event"
+msgstr ""
+
+#: core/attendee/hooks.php:279
+msgid "Ticket Price"
+msgstr ""
+
+#: core/attendee/hooks.php:280
+msgid "Ticket price which client have been purchased"
+msgstr ""
+
+#: core/attendee/hooks.php:358 core/attendee/hooks.php:365
+msgid "Extra Fields"
+msgstr ""
+
+#: core/attendee/hooks.php:359
+msgid "Extra Fields for the event"
+msgstr ""
+
+#: core/attendee/hooks.php:469
+msgid "All Events"
+msgstr ""
+
+#: core/attendee/hooks.php:496
+msgid "All Payment Status"
+msgstr ""
+
+#: core/attendee/hooks.php:522
+msgid "All Ticket Status"
+msgstr ""
+
+#: core/attendee/hooks.php:546
+#, php-format
+msgid "Published %d posts."
+msgstr ""
+
+#: core/attendee/hooks.php:585
+msgid "Change to published"
+msgstr ""
+
+#: core/attendee/hooks.php:598
+msgid "Download Details as CSV"
+msgstr ""
+
+#: core/attendee/hooks.php:681
+#, php-format
+msgid "Downloaded %d attendee information."
+msgstr ""
+
+#: core/attendee/hooks.php:696 widgets/event-tab/event-tab.php:143
+#: widgets/events-one-line/events-one-line.php:111
+#: widgets/events-pro/events-pro.php:147
+#: widgets/events-slider/events-slider.php:141
+#: widgets/organizers/organizers.php:123
+#: widgets/speakers-slider/speakers-slider.php:123
+#: widgets/speakers/speakers.php:126
+msgid "Id"
+msgstr ""
+
+#: core/attendee/hooks.php:702
+msgid "Phone"
+msgstr ""
+
+#: core/attendee/hooks.php:704 core/event/sales/sales-report.php:39
+#: core/modules/rsvp/admin/admin.php:124
+msgid "Event Name"
+msgstr ""
+
+#: core/attendee/hooks.php:705
+msgid "Payment Status"
+msgstr ""
+
+#: core/attendee/hooks.php:706
+msgid "Ticket Status"
+msgstr ""
+
+#: core/attendee/hooks.php:798
+msgid "Scan the QR code: "
+msgstr ""
+
+#: core/attendee/hooks.php:819
+msgid "ID:"
+msgstr ""
+
+#: core/attendee/hooks.php:838
+msgid "Not found attendee"
+msgstr ""
+
+#: core/attendee/hooks.php:847
+msgid "Invalid ticket. This ticket is not valid for this event"
+msgstr ""
+
+#: core/attendee/hooks.php:854
+#: widgets/event-locations/actions/ajax-action.php:37
+msgid "Nonce is not valid! Please try again."
+msgstr ""
+
+#: core/attendee/hooks.php:876
+msgid "Organiser is not logged in. Please login first."
+msgstr ""
+
+#: core/attendee/hooks.php:981
+#: widgets/event-locations/actions/ajax-action.php:57
+msgid "ok"
+msgstr ""
+
+#: core/attendee/hooks.php:984 utils/helper.php:568
+msgid "Attendee: "
+msgstr ""
+
+#: core/attendee/hooks.php:985
+msgid "Ticket Type: "
+msgstr ""
+
+#: core/attendee/hooks.php:986
+msgid "Want to let him in? "
+msgstr ""
+
+#: core/attendee/hooks.php:989
+msgid "Information is missing for this ticket. Please try again."
+msgstr ""
+
+#: core/attendee/hooks.php:992
+msgid "Event not found for this ticket."
+msgstr ""
+
+#: core/attendee/hooks.php:995
+msgid "Attendee ID or Ticket ID is missing"
+msgstr ""
+
+#: core/attendee/hooks.php:1018
+msgid ""
+"Organizer must be logged in to backend panel and should have attendee manage "
+"permission."
+msgstr ""
+
+#: core/attendee/hooks.php:1055
+msgid "Event is already expired."
+msgstr ""
+
+#: core/attendee/hooks.php:1060
+msgid "Ticket is already used."
+msgstr ""
+
+#: core/attendee/hooks.php:1065
+msgid "Payment Status Failed."
+msgstr ""
+
+#: core/attendee/hooks.php:1071
+msgid "The Ticket is Valid. Successfully Checked in."
+msgstr ""
+
+#: core/attendee/hooks.php:1076
+msgid "Invalid ticket ID. Please try again."
+msgstr ""
+
+#: core/attendee/hooks.php:1178
+msgid "Eventin Certificate"
+msgstr ""
+
+#: core/attendee/hooks.php:1287 core/attendee/hooks.php:1463
+msgid "Ticket name"
+msgstr ""
+
+#: core/attendee/hooks.php:1401
+msgid "Imported order"
+msgstr ""
+
+#: core/attendee/hooks.php:1492
+msgid "Enable Bulk Attendee"
+msgstr ""
+
+#: core/attendee/scanner.php:168
+msgid "Event Title:"
+msgstr ""
+
+#: core/attendee/scanner.php:172
+msgid "Attendee Name:"
+msgstr ""
+
+#: core/attendee/scanner.php:176
+msgid "Ticket Type:"
+msgstr ""
+
+#: core/attendee/scanner.php:184
+msgid "Scan Another"
+msgstr ""
+
+#: core/attendee/scanner.php:190 core/attendee/scanner.php:220
+msgid "Back to Attendee"
+msgstr ""
+
+#: core/attendee/scanner.php:193 core/attendee/scanner.php:225
+msgid "Go Back"
+msgstr ""
+
+#: core/attendee/scanner.php:198
+msgid "Confirm"
+msgstr ""
+
+#: core/attendee/scanner.php:204
+msgid "Reject"
+msgstr ""
+
+#: core/attendee/scanner.php:215
+#: widgets/countdown-timer/countdown-timer.php:107
+msgid "Start"
+msgstr ""
+
+#: core/attendee/template-pdf-certificate.php:30
+msgid "Download Certificate"
+msgstr ""
+
+#: core/attendee/ticket-markup-style-2.php:81
+msgid "Date :"
+msgstr ""
+
+#: core/attendee/ticket-markup-style-2.php:88
+msgid "Time :"
+msgstr ""
+
+#: core/attendee/ticket-markup-style-2.php:94
+#: core/attendee/ticket-markup-style-2.php:100
+msgid "VENUE :"
+msgstr ""
+
+#: core/attendee/ticket-markup-style-2.php:115
+msgid "PRICE :"
+msgstr ""
+
+#: core/attendee/ticket-markup-style-2.php:140
+msgid "TYPE :"
+msgstr ""
+
+#: core/attendee/ticket-markup-style-2.php:146
+msgid "Seat :"
+msgstr ""
+
+#: core/attendee/ticket-markup-style-2.php:154
+msgid "ATTENDEE :"
+msgstr ""
+
+#: core/attendee/ticket-markup-style-2.php:161
+msgid "PHONE :"
+msgstr ""
+
+#: core/attendee/ticket-markup-style-2.php:167
+msgid "EMAIL :"
+msgstr ""
+
+#: core/attendee/ticket-markup-style-2.php:174
+msgid "Payment Status :"
+msgstr ""
+
+#: core/attendee/ticket-markup-style-2.php:187 core/woocommerce/hooks.php:141
+msgid "Print"
+msgstr ""
+
+#: core/attendee/ticket-markup-style-2.php:188 core/woocommerce/hooks.php:142
+msgid "Download"
+msgstr ""
+
+#: core/event/api-event-tags.php:78
+msgid "No tag found"
+msgstr ""
+
+#: core/event/api-event-tags.php:119
+msgid "Successfully deleted tag"
+msgstr ""
+
+#: core/event/api-event-tags.php:140
+msgid "Name can't be empty"
+msgstr ""
+
+#: core/event/api-event-taxonomy.php:55
+msgid "Could not get categories"
+msgstr ""
+
+#: core/event/api-event-taxonomy.php:71 core/event/api-event-taxonomy.php:143
+#: core/event/api-location-taxonomy.php:71 core/event/api-schedules.php:57
+#: core/event/api-speaker-taxonomy.php:56
+msgid "Something went wrong! Try again!"
+msgstr ""
+
+#: core/event/api-event-taxonomy.php:88
+msgid "Term not found"
+msgstr ""
+
+#: core/event/api-event-taxonomy.php:127
+msgid "Could not get tags"
+msgstr ""
+
+#: core/event/api-event-taxonomy.php:184
+#: core/event/api-location-taxonomy.php:129
+msgid "Successfully deleted"
+msgstr ""
+
+#: core/event/api-event-taxonomy.php:207
+msgid "Category name can't  be empty"
+msgstr ""
+
+#: core/event/api-event.php:92
+msgid "Event created successfully"
+msgstr ""
+
+#: core/event/api-event.php:97
+msgid "Could not create event"
+msgstr ""
+
+#: core/event/api-event.php:196
+msgid "Event updated successfully"
+msgstr ""
+
+#: core/event/api-event.php:200
+msgid "Could not update event"
+msgstr ""
+
+#: core/event/api-event.php:252
+msgid "Required fields are missing"
+msgstr ""
+
+#: core/event/api-event.php:353
+msgid "Timezone retrieved successfully"
+msgstr ""
+
+#: core/event/api-event.php:395
+msgid "All info retireved"
+msgstr ""
+
+#: core/event/api-event.php:468 core/event/api-event.php:472
+#: core/modules/integrations/buddyboss/api.php:36
+#: core/modules/integrations/buddyboss/api.php:40
+msgid "Event id can't be empty"
+msgstr ""
+
+#: core/event/api-event.php:481 core/modules/integrations/buddyboss/api.php:49
+msgid "Something went wrong, please try again"
+msgstr ""
+
+#: core/event/api-event.php:488 core/modules/integrations/buddyboss/api.php:56
+msgid "Successfully assigned event"
+msgstr ""
+
+#: core/event/api-location-taxonomy.php:55
+msgid "Could not get locations"
+msgstr ""
+
+#: core/event/api-location-taxonomy.php:88
+msgid "Term not found."
+msgstr ""
+
+#: core/event/api-location-taxonomy.php:156
+msgid "Location name can't be empty"
+msgstr ""
+
+#: core/event/api-schedules.php:42
+msgid "Could not get schedules"
+msgstr ""
+
+#: core/event/api-speaker-taxonomy.php:41
+msgid "Could not get speaker categories"
+msgstr ""
+
+#: core/event/cron.php:108
+msgid "You have an upcoming event."
+msgstr ""
+
+#: core/event/cron.php:110
+msgid "Email remainder"
+msgstr ""
+
+#: core/event/cron.php:119
+msgid "Admin"
+msgstr ""
+
+#: core/event/event-location.php:73 core/event/event-location.php:74
+#: core/event/event-location.php:83
+msgid "Location"
+msgstr ""
+
+#: core/event/event-location.php:75
+msgid "Search Location"
+msgstr ""
+
+#: core/event/event-location.php:76
+msgid "All Location"
+msgstr ""
+
+#: core/event/event-location.php:77
+msgid "Parent Location"
+msgstr ""
+
+#: core/event/event-location.php:78
+msgid "Parent Location:"
+msgstr ""
+
+#: core/event/event-location.php:79
+msgid "Edit Location"
+msgstr ""
+
+#: core/event/event-location.php:82
+msgid "New Location Name"
+msgstr ""
+
+#: core/event/event-location.php:84 core/event/event-location.php:85
+msgid "No Location Found"
+msgstr ""
+
+#: core/event/event-location.php:86
+msgid "← Back to Location"
+msgstr ""
+
+#: core/event/event-location.php:123 core/event/event-location.php:177
+msgid "Address"
+msgstr ""
+
+#: core/event/event-location.php:125 core/event/event-location.php:182
+msgid ""
+"Event location address. Note: From this address, latitude and longitude "
+"fields will be populated. After updating address, click the \"Address "
+"Position\" button to auto populate the latitude and longitude fields."
+msgstr ""
+
+#: core/event/event-location.php:131 core/event/event-location.php:193
+msgid "Email of the location"
+msgstr ""
+
+#: core/event/event-location.php:137 core/event/event-location.php:209
+msgid "Latitude of the location"
+msgstr ""
+
+#: core/event/event-location.php:143 core/event/event-location.php:225
+msgid "Longitude of the location"
+msgstr ""
+
+#: core/event/event-location.php:151 core/event/event-location.php:239
+msgid "Settings"
+msgstr ""
+
+#: core/event/event-location.php:153 core/event/event-location.php:241
+msgid "Google Api Key is empty. Please fill the api key field from "
+msgstr ""
+
+#: core/event/event-location.php:157
+msgid "Address Map Position"
+msgstr ""
+
+#: core/event/event-location.php:158 core/event/event-location.php:246
+msgid "From address field value, Position will show in map."
+msgstr ""
+
+#: core/event/event-location.php:231
+msgid "Location Map"
+msgstr ""
+
+#: core/event/event-location.php:245
+msgid "Address Position"
+msgstr ""
+
+#: core/event/event-location.php:283
+msgid "Lat"
+msgstr ""
+
+#: core/event/event-location.php:284
+msgid "Long"
+msgstr ""
+
+#: core/event/event.php:98 core/event/sales/attendee-sales-report.php:46
+#: core/modules/rsvp/admin/admin.php:109
+#: core/modules/sells-engine/stripe/orders/order-details.php:71
+#: core/modules/sells-engine/stripe/orders/order-exporter.php:113
+#: core/modules/sells-engine/stripe/orders/orders-report.php:46
+msgid "Status"
+msgstr ""
+
+#: core/event/event.php:99
+msgid "Seats"
+msgstr ""
+
+#: core/event/event.php:100 core/event/sales/sales-report.php:96
+msgid "Report"
+msgstr ""
+
+#: core/event/event.php:103
+msgid "Certificate"
+msgstr ""
+
+#: core/event/event.php:126
+msgid "Purchase report"
+msgstr ""
+
+#: core/event/event.php:131 core/event/event.php:144
+msgid "Not Available"
+msgstr ""
+
+#: core/event/event.php:164
+msgid "Scan Ticket"
+msgstr ""
+
+#: core/event/event.php:185
+msgid "Event Purchase Report"
+msgstr ""
+
+#: core/event/event.php:186
+msgid "Purchase Report"
+msgstr ""
+
+#: core/event/event.php:199 core/event/event.php:200
+msgid "Stripe Orders"
+msgstr ""
+
+#: core/event/event.php:223 core/event/event.php:227
+msgid "Orders Report"
+msgstr ""
+
+#: core/event/event.php:228
+msgid "Orders Reports"
+msgstr ""
+
+#: core/event/event.php:257
+msgid "Export to CSV"
+msgstr ""
+
+#: core/event/event.php:264
+msgid "Purchase list"
+msgstr ""
+
+#: core/event/event.php:265
+msgid "Purchase lists"
+msgstr ""
+
+#: core/event/event.php:269
+msgid "Purchase report of "
+msgstr ""
+
+#: core/event/event.php:296 core/event/event.php:308 core/event/event.php:320
+msgid "report settings icon"
+msgstr ""
+
+#: core/event/event.php:299
+msgid "Total Events"
+msgstr ""
+
+#: core/event/event.php:311
+msgid "Total Sold Tickets"
+msgstr ""
+
+#: core/event/event.php:323
+msgid "Total Sold Price"
+msgstr ""
+
+#: core/event/event.php:334
+msgid "Purchase History"
+msgstr ""
+
+#: core/event/event.php:338
+msgid "Sales Report"
+msgstr ""
+
+#: core/event/event.php:339
+msgid "Sales Reports"
+msgstr ""
+
+#: core/event/event.php:385
+msgid "Expire"
+msgstr ""
+
+#: core/event/event.php:388
+msgid "Ongoing"
+msgstr ""
+
+#: core/event/event.php:403
+msgid "Upcoming"
+msgstr ""
+
+#: core/event/event.php:497
+msgid "Could not generate certificate. Try again!"
+msgstr ""
+
+#: core/event/sales/attendee-sales-report.php:39
+#: core/modules/sells-engine/stripe/orders/order-details.php:38
+#: core/modules/sells-engine/stripe/orders/order-exporter.php:103
+#: core/modules/sells-engine/stripe/orders/orders-report.php:41
+msgid "Invoice"
+msgstr ""
+
+#: core/event/sales/attendee-sales-report.php:40
+msgid "Purchaser Name"
+msgstr ""
+
+#: core/event/sales/attendee-sales-report.php:41
+msgid "Purchaser Email"
+msgstr ""
+
+#: core/event/sales/attendee-sales-report.php:42
+msgid "Payment Type"
+msgstr ""
+
+#: core/event/sales/attendee-sales-report.php:43
+#: core/event/sales/sales-report.php:41
+msgid "Total Tickets"
+msgstr ""
+
+#: core/event/sales/attendee-sales-report.php:45
+#: core/modules/sells-engine/stripe/orders/order-details.php:54
+#: core/modules/sells-engine/stripe/orders/order-exporter.php:110
+#: core/modules/sells-engine/stripe/orders/orders-report.php:45
+msgid "Amount"
+msgstr ""
+
+#: core/event/sales/attendee-sales-report.php:48
+msgid "Resend Email(s)"
+msgstr ""
+
+#: core/event/sales/sales-report.php:40
+#: core/shortcodes/views/shortcode-settings.php:1813 utils/helper.php:289
+msgid "Event Date"
+msgstr ""
+
+#: core/event/sales/sales-report.php:42
+msgid "Total Tickets Sold"
+msgstr ""
+
+#: core/event/sales/sales-report.php:43
+msgid "Remaining Tickets"
+msgstr ""
+
+#: core/event/sales/sales-report.php:44
+msgid "Total Revenue"
+msgstr ""
+
+#: core/event/sales/sales-report.php:134
+#: core/shortcodes/views/shortcode-settings.php:524
+#: core/shortcodes/views/shortcode-settings.php:719
+#: core/shortcodes/views/shortcode-settings.php:876
+#: core/shortcodes/views/shortcode-settings.php:1070
+#: core/shortcodes/views/shortcode-settings.php:1305
+#: core/shortcodes/views/shortcode-settings.php:1423
+#: core/shortcodes/views/shortcode-settings.php:1483
+#: core/shortcodes/views/shortcode-settings.php:1535
+#: core/shortcodes/views/shortcode-settings.php:1587
+#: core/shortcodes/views/shortcode-settings.php:1654
+#: widgets/add-to-calendar/add-to-calendar.php:36
+#: widgets/attendee-list/attendee-list.php:36
+#: widgets/countdown-timer/countdown-timer.php:68
+#: widgets/event-ticket/event-ticket.php:36
+#: widgets/recurring-event/recurring-event.php:37
+msgid "Select Event"
+msgstr ""
+
+#: core/event/sales/sales-report.php:153
+msgid "Select category"
+msgstr ""
+
+#: core/event/sales/sales-report.php:172
+msgid "Select tag"
+msgstr ""
+
+#: core/event/sales/sales-report.php:233
+msgid "Filter"
+msgstr ""
+
+#: core/event/script-generator.php:256
+#: core/shortcodes/views/shortcode-settings.php:76
+#: core/shortcodes/views/shortcode-settings.php:158
+#: core/shortcodes/views/shortcode-settings.php:267
+#: core/shortcodes/views/shortcode-settings.php:354
+#: core/shortcodes/views/shortcode-settings.php:492
+#: core/shortcodes/views/shortcode-settings.php:688
+#: core/shortcodes/views/shortcode-settings.php:845
+#: core/shortcodes/views/shortcode-settings.php:1039
+#: core/shortcodes/views/shortcode-settings.php:1263
+#: core/shortcodes/views/shortcode-settings.php:1315
+#: core/shortcodes/views/shortcode-settings.php:1382
+#: core/shortcodes/views/shortcode-settings.php:1442
+#: core/shortcodes/views/shortcode-settings.php:1494
+#: core/shortcodes/views/shortcode-settings.php:1546
+#: core/shortcodes/views/shortcode-settings.php:1613
+#: core/shortcodes/views/shortcode-settings.php:1672
+#: core/shortcodes/views/shortcode-settings.php:1732
+#: core/shortcodes/views/shortcode-settings.php:1776
+#: core/shortcodes/views/shortcode-settings.php:1823
+msgid "Get Script"
+msgstr ""
+
+#: core/metaboxs/event-meta.php:44
+msgid "Event Speakers"
+msgstr ""
+
+#: core/metaboxs/event-meta.php:45
+msgid "Select the category which will be used as speaker."
+msgstr ""
+
+#: core/metaboxs/event-meta.php:65
+msgid "Integrate fluent CRM"
+msgstr ""
+
+#: core/metaboxs/event-meta.php:66
+msgid "Enable Fluent CRM integration with this event."
+msgstr ""
+
+#: core/metaboxs/event-meta.php:76
+msgid "Fluent Webhook"
+msgstr ""
+
+#: core/metaboxs/event-meta.php:77
+msgid "Enter fluent web hook here to integrate fluent CRM with this event."
+msgstr ""
+
+#: core/metaboxs/event-meta.php:82
+msgid "Enter URL"
+msgstr ""
+
+#: core/metaboxs/event-meta.php:91
+msgid "Groundhogg Tags"
+msgstr ""
+
+#: core/metaboxs/event-meta.php:92
+msgid "Enter groundhogg tags(seperate by comma for multiple)"
+msgstr ""
+
+#: core/metaboxs/event-meta.php:106
+msgid "Attendee Page URL"
+msgstr ""
+
+#: core/metaboxs/event-meta.php:107
+msgid "Page link where the details of the attendees of this event is located."
+msgstr ""
+
+#: core/metaboxs/event-meta.php:113
+msgid "Enter Attendee Page URL"
+msgstr ""
+
+#: core/metaboxs/event-meta.php:122
+msgid "Event logo"
+msgstr ""
+
+#: core/metaboxs/event-meta.php:127
+msgid "Event logo will be shown on single page"
+msgstr ""
+
+#: core/metaboxs/event-meta.php:134
+msgid "Background Color For Calendar"
+msgstr ""
+
+#: core/metaboxs/event-meta.php:135
+msgid "This color will be used as the background on calendar module"
+msgstr ""
+
+#: core/metaboxs/event-meta.php:144
+msgid "Text Color For Calendar"
+msgstr ""
+
+#: core/metaboxs/event-meta.php:145
+msgid "This color will be used as the text color on calendar module"
+msgstr ""
+
+#: core/metaboxs/event-meta.php:160
+msgid "Create Certificate Template"
+msgstr ""
+
+#: core/metaboxs/event-meta.php:165
+msgid "Event External Link"
+msgstr ""
+
+#: core/metaboxs/event-meta.php:166
+msgid "An external link where the event details will redirect"
+msgstr ""
+
+#: core/metaboxs/event-meta.php:172
+msgid "Enter External link"
+msgstr ""
+
+#: core/metaboxs/event-meta.php:187
+msgid "FAQ Title"
+msgstr ""
+
+#: core/metaboxs/event-meta.php:193
+msgid "Title Here"
+msgstr ""
+
+#: core/metaboxs/event-meta.php:198
+msgid "FAQ Content"
+msgstr ""
+
+#: core/metaboxs/event-meta.php:208
+msgid "FAQ Content Here"
+msgstr ""
+
+#: core/metaboxs/event-meta.php:212
+msgid "Add all frequently asked questions here"
+msgstr ""
+
+#: core/metaboxs/event-meta.php:228
+msgid "Display Banner"
+msgstr ""
+
+#: core/metaboxs/event-meta.php:229
+msgid ""
+"Place banner to event page. Banner will be displayed in Event template 2 and "
+"template 3."
+msgstr ""
+
+#: core/metaboxs/event-meta.php:237
+msgid "Background type"
+msgstr ""
+
+#: core/metaboxs/event-meta.php:238
+msgid "Choose background type text or image"
+msgstr ""
+
+#: core/metaboxs/event-meta.php:245 widgets/event-tab/event-tab.php:788
+#: widgets/events-one-line/events-one-line.php:455
+#: widgets/events-pro/events-pro.php:602
+#: widgets/events-slider/events-slider.php:667
+msgid "Background color"
+msgstr ""
+
+#: core/metaboxs/event-meta.php:246
+msgid "Choose background color of banner"
+msgstr ""
+
+#: core/metaboxs/event-meta.php:252
+msgid "Background image"
+msgstr ""
+
+#: core/metaboxs/event-meta.php:253
+msgid "Choose background image of banner"
+msgstr ""
+
+#: core/metaboxs/event-meta.php:277 core/metaboxs/event-meta.php:278
+msgid "Select locations type"
+msgstr ""
+
+#: core/metaboxs/event-meta.php:290 core/metaboxs/event-meta.php:302
+#: core/shortcodes/views/shortcode-settings.php:1707
+msgid "Event Location"
+msgstr ""
+
+#: core/metaboxs/event-meta.php:291 core/metaboxs/event-meta.php:292
+msgid "Place event location"
+msgstr ""
+
+#: core/metaboxs/event-meta.php:303 core/metaboxs/event-meta.php:304
+msgid "Select locations"
+msgstr ""
+
+#: core/metaboxs/event-meta.php:310
+msgid "Create New Locations"
+msgstr ""
+
+#: core/metaboxs/speaker-meta.php:32
+msgid "Company Url"
+msgstr ""
+
+#: core/metaboxs/speaker-meta.php:33
+msgid "Provide speaker / company site link"
+msgstr ""
+
+#: core/metaboxs/speaker-meta.php:40
+msgid "Type URL"
+msgstr ""
+
+#: core/modules/integrations/buddyboss/admin/admin-tab.php:89
+#: core/modules/integrations/buddyboss/admin/admin-tab.php:96
+msgid "Eventin Settings"
+msgstr ""
+
+#: core/modules/integrations/buddyboss/admin/admin-tab.php:136
+msgid "Event submission roles"
+msgstr ""
+
+#: core/modules/integrations/buddyboss/admin/admin-tab.php:142
+msgid "Event Tab Label"
+msgstr ""
+
+#: core/modules/integrations/buddyboss/admin/admin-tab.php:172
+msgid ""
+"Select roles that have access to submission events from individual user "
+"profile"
+msgstr ""
+
+#: core/modules/integrations/buddyboss/admin/admin-tab.php:183
+msgid "This label will be shown in the front end menu tab of profile and group"
+msgstr ""
+
+#: core/modules/integrations/buddyboss/admin/bb-integrations.php:17
+msgid "Eventin"
+msgstr ""
+
+#. translators: %1$s - user link, %2$s - group link.
+#: core/modules/integrations/buddyboss/frontend/feeds.php:63
+#, php-format
+msgid "%1$s scheduled a Eventin Event in the group %2$s"
+msgstr ""
+
+#: core/modules/integrations/buddyboss/frontend/feeds.php:153
+#, php-format
+msgid "%1$s added event \"%2$s\" to the group %3$s"
+msgstr ""
+
+#: core/modules/integrations/buddyboss/frontend/feeds.php:163
+#, php-format
+msgid "%1$s removed event \"%2$s\" from the group %3$s"
+msgstr ""
+
+#: core/modules/integrations/buddyboss/frontend/feeds.php:230
+msgid "New Eventin Event"
+msgstr ""
+
+#: core/modules/integrations/buddyboss/frontend/feeds.php:240
+msgid "Added event to group"
+msgstr ""
+
+#: core/modules/integrations/buddyboss/frontend/feeds.php:250
+msgid "Removed event to group"
+msgstr ""
+
+#: core/modules/integrations/buddyboss/frontend/feeds.php:302
+#, php-format
+msgid "%1$s scheduled a Eventin Event %2$s in the group %3$s"
+msgstr ""
+
+#: core/modules/integrations/buddyboss/frontend/frontend.php:105
+#: core/modules/integrations/buddyboss/frontend/frontend.php:357
+msgid "Eventin Events"
+msgstr ""
+
+#: core/modules/integrations/buddyboss/frontend/frontend.php:133
+msgid "Event List"
+msgstr ""
+
+#: core/modules/integrations/buddyboss/frontend/frontend.php:308
+msgid "Enable Eventin Events in Group"
+msgstr ""
+
+#: core/modules/integrations/buddyboss/frontend/frontend.php:309
+msgid "If you want to enable event tab in this group"
+msgstr ""
+
+#: core/modules/integrations/buddyboss/frontend/frontend.php:314
+msgid "Yes, I want this group to have an event tab."
+msgstr ""
+
+#: core/modules/integrations/buddyboss/frontend/frontend.php:322
+msgid "Group Permissions"
+msgstr ""
+
+#: core/modules/integrations/buddyboss/frontend/frontend.php:323
+msgid ""
+"Which members of this group are allowed to create, edit and delete Eventin "
+"Events?"
+msgstr ""
+
+#: core/modules/integrations/buddyboss/frontend/frontend.php:327
+msgid "All group members"
+msgstr ""
+
+#: core/modules/integrations/buddyboss/frontend/frontend.php:332
+msgid "Organizers and Moderators"
+msgstr ""
+
+#: core/modules/integrations/buddyboss/frontend/frontend.php:337
+msgid "Organizers"
+msgstr ""
+
+#: core/modules/integrations/buddyboss/frontend/frontend.php:344
+msgid "Save Changes"
+msgstr ""
+
+#: core/modules/integrations/buddyboss/frontend/views/create-new-events.php:25
+msgid "Events List"
+msgstr ""
+
+#: core/modules/integrations/buddyboss/frontend/views/create-new-events.php:27
+msgid "Hidden element for sidebar reload"
+msgstr ""
+
+#: core/modules/integrations/buddyboss/frontend/views/create-new-events.php:32
+msgid "Event Dashboard"
+msgstr ""
+
+#: core/modules/integrations/buddyboss/frontend/views/create-new-events.php:39
+msgid "Search Event"
+msgstr ""
+
+#: core/modules/integrations/buddyboss/frontend/views/create-new-events.php:40
+msgid "Event Search Button"
+msgstr ""
+
+#: core/modules/integrations/buddyboss/frontend/views/create-new-events.php:75
+#: core/modules/integrations/buddyboss/frontend/views/create-new-events.php:112
+msgid "No events found"
+msgstr ""
+
+#: core/modules/integrations/buddyboss/frontend/views/single-event-details.php:36
+msgid "Select Group"
+msgstr ""
+
+#: core/modules/integrations/buddyboss/frontend/views/single-event-details.php:47
+msgid "Assign"
+msgstr ""
+
+#: core/modules/integrations/buddyboss/frontend/views/single-event-details.php:51
+msgid "Group not found!"
+msgstr ""
+
+#: core/modules/integrations/google-meet/admin/admin.php:48
+#: core/modules/integrations/google-meet/admin/metaboxs/metabox.php:28
+msgid "Google Meet"
+msgstr ""
+
+#: core/modules/integrations/google-meet/admin/admin.php:83
+msgid "Client ID"
+msgstr ""
+
+#: core/modules/integrations/google-meet/admin/admin.php:85
+msgid "Please enter Google Meet client ID here."
+msgstr ""
+
+#: core/modules/integrations/google-meet/admin/admin.php:96
+msgid "Enter client ID"
+msgstr ""
+
+#: core/modules/integrations/google-meet/admin/admin.php:104
+msgid "Client Secret Key"
+msgstr ""
+
+#: core/modules/integrations/google-meet/admin/admin.php:106
+msgid "Please enter Google Meet client secret key."
+msgstr ""
+
+#: core/modules/integrations/google-meet/admin/admin.php:111
+msgid "Enter client secret key"
+msgstr ""
+
+#: core/modules/integrations/google-meet/admin/admin.php:119
+msgid "Authorized redirect URI"
+msgstr ""
+
+#: core/modules/integrations/google-meet/admin/admin.php:121
+msgid "Your redirection will authorize from this URL."
+msgstr ""
+
+#: core/modules/integrations/google-meet/admin/admin.php:126
+msgid "Enter redirect URL"
+msgstr ""
+
+#: core/modules/integrations/google-meet/admin/admin.php:133
+msgid "Authenticate with Google account"
+msgstr ""
+
+#: core/modules/integrations/google-meet/admin/admin.php:137
+msgid "Alert:"
+msgstr ""
+
+#: core/modules/integrations/google-meet/admin/admin.php:139
+msgid ""
+"Client ID and Client Secret Key must be entered and saved before "
+"authenticate."
+msgstr ""
+
+#: core/modules/integrations/google-meet/admin/admin.php:141
+msgid "For more details please check our "
+msgstr ""
+
+#: core/modules/integrations/google-meet/admin/admin.php:143
+msgid "documentation"
+msgstr ""
+
+#: core/modules/integrations/google-meet/admin/admin.php:151
+msgid "Authenticate"
+msgstr ""
+
+#: core/modules/integrations/google-meet/admin/admin.php:153
+msgid "Note: Save changes before authenticate."
+msgstr ""
+
+#: core/modules/integrations/google-meet/admin/metaboxs/metabox.php:29
+msgid "Enable if this event is a Google meet event"
+msgstr ""
+
+#: core/modules/integrations/google-meet/admin/metaboxs/metabox.php:39
+msgid "Google Meet Link"
+msgstr ""
+
+#: core/modules/integrations/google-meet/admin/metaboxs/metabox.php:42
+msgid "Link will be generated when you publish the event."
+msgstr ""
+
+#: core/modules/integrations/google-meet/admin/metaboxs/metabox.php:46
+msgid "Google Meet link here"
+msgstr ""
+
+#: core/modules/integrations/google-meet/admin/metaboxs/metabox.php:59
+msgid "Short description about the meeting."
+msgstr ""
+
+#: core/modules/integrations/google-meet/admin/metaboxs/metabox.php:64
+msgid "A short description for Google Meet"
+msgstr ""
+
+#: core/modules/integrations/google-meet/frontend/frontend.php:46
+msgid ""
+"[Note: This event will be held on Google Meet. Attendee will get Google Meet "
+"URL through email]"
+msgstr ""
+
+#: core/modules/integrations/google-meet/frontend/frontend.php:70
+msgid "Event Google Meet details"
+msgstr ""
+
+#: core/modules/integrations/google-meet/frontend/frontend.php:187
+#: core/woocommerce/hooks.php:103
+msgid "Event Page: "
+msgstr ""
+
+#: core/modules/integrations/google-meet/frontend/frontend.php:188
+#: core/woocommerce/hooks.php:104
+msgid "Click here. "
+msgstr ""
+
+#: core/modules/integrations/google-meet/frontend/frontend.php:190
+msgid "Start: "
+msgstr ""
+
+#: core/modules/integrations/google-meet/frontend/frontend.php:191
+msgid "End: "
+msgstr ""
+
+#: core/modules/integrations/google-meet/frontend/frontend.php:198
+msgid "Google Meet URL: "
+msgstr ""
+
+#: core/modules/integrations/google-meet/frontend/frontend.php:200
+msgid "Click to join the Google Meet"
+msgstr ""
+
+#: core/modules/multivendor/multivendor.php:86
+#: core/modules/sells-engine/stripe/stripe.php:115
+msgid "Something went wrong, Please try again."
+msgstr ""
+
+#: core/modules/multivendor/multivendor.php:166
+#: core/modules/multivendor/multivendor.php:181
+#: core/modules/multivendor/multivendor.php:195
+msgid "You have no permission to view this page"
+msgstr ""
+
+#: core/modules/multivendor/multivendor.php:216
+msgid ""
+"Sorry, Your cart contains products from another vendor. Multiple vendor "
+"products in same transaction currently not available. Do you want to remove "
+"other vendor prodcuts from cart and add this product?"
+msgstr ""
+
+#: core/modules/multivendor/multivendor.php:218
+#: core/shortcodes/views/shortcode-settings.php:36
+#: core/shortcodes/views/shortcode-settings.php:415
+#: core/shortcodes/views/shortcode-settings.php:654
+#: core/shortcodes/views/shortcode-settings.php:811
+#: core/shortcodes/views/shortcode-settings.php:1005
+#: core/shortcodes/views/shortcode-settings.php:1216
+#: core/shortcodes/views/shortcode-settings.php:1227
+#: widgets/attendee-list/attendee-list.php:47
+#: widgets/attendee-list/attendee-list.php:58
+#: widgets/countdown-timer/countdown-timer.php:81
+#: widgets/countdown-timer/countdown-timer.php:92
+#: widgets/event-calendar-list/event-calendar-list.php:90
+#: widgets/event-calendar-list/event-calendar-list.php:102
+#: widgets/event-calendar/event-calendar.php:77
+#: widgets/event-calendar/event-calendar.php:102
+#: widgets/event-calendar/event-calendar.php:114
+#: widgets/event-tab/event-tab.php:106 widgets/event-tab/event-tab.php:182
+#: widgets/event-tab/event-tab.php:193 widgets/event-tab/event-tab.php:203
+#: widgets/event-tab/event-tab.php:222 widgets/event-tab/event-tab.php:234
+#: widgets/event-tab/event-tab.php:247 widgets/event-tab/event-tab.php:258
+#: widgets/event-tab/event-tab.php:270
+#: widgets/events-one-line/events-one-line.php:150
+#: widgets/events-one-line/events-one-line.php:160
+#: widgets/events-one-line/events-one-line.php:171
+#: widgets/events-one-line/events-one-line.php:190
+#: widgets/events-one-line/events-one-line.php:202
+#: widgets/events-one-line/events-one-line.php:214
+#: widgets/events-one-line/events-one-line.php:225
+#: widgets/events-one-line/events-one-line.php:237
+#: widgets/events-pro/events-pro.php:110 widgets/events-pro/events-pro.php:186
+#: widgets/events-pro/events-pro.php:196 widgets/events-pro/events-pro.php:207
+#: widgets/events-pro/events-pro.php:226 widgets/events-pro/events-pro.php:238
+#: widgets/events-pro/events-pro.php:251 widgets/events-pro/events-pro.php:262
+#: widgets/events-pro/events-pro.php:274
+#: widgets/events-slider/events-slider.php:120
+#: widgets/events-slider/events-slider.php:182
+#: widgets/events-slider/events-slider.php:192
+#: widgets/events-slider/events-slider.php:203
+#: widgets/events-slider/events-slider.php:223
+#: widgets/events-slider/events-slider.php:262
+#: widgets/events-slider/events-slider.php:273
+#: widgets/events-slider/events-slider.php:285
+#: widgets/organizers/organizers.php:149
+#: widgets/schedule-list/schedule-list.php:86
+#: widgets/schedule-list/schedule-list.php:96
+#: widgets/schedule-list/schedule-list.php:107
+#: widgets/schedule-list/schedule-list.php:117
+#: widgets/schedule-tab/schedule-tab.php:96
+#: widgets/schedule-tab/schedule-tab.php:107
+#: widgets/schedule-tab/schedule-tab.php:117
+#: widgets/speakers-slider/speakers-slider.php:147
+#: widgets/speakers-slider/speakers-slider.php:157
+#: widgets/speakers/speakers.php:153 widgets/speakers/speakers.php:163
+msgid "Yes"
+msgstr ""
+
+#: core/modules/multivendor/multivendor.php:219
+#: core/shortcodes/views/shortcode-settings.php:37
+#: core/shortcodes/views/shortcode-settings.php:414
+#: core/shortcodes/views/shortcode-settings.php:655
+#: core/shortcodes/views/shortcode-settings.php:812
+#: core/shortcodes/views/shortcode-settings.php:1006
+#: core/shortcodes/views/shortcode-settings.php:1215
+#: core/shortcodes/views/shortcode-settings.php:1228
+#: widgets/attendee-list/attendee-list.php:48
+#: widgets/attendee-list/attendee-list.php:59
+#: widgets/countdown-timer/countdown-timer.php:82
+#: widgets/countdown-timer/countdown-timer.php:93
+#: widgets/event-calendar-list/event-calendar-list.php:91
+#: widgets/event-calendar-list/event-calendar-list.php:103
+#: widgets/event-calendar/event-calendar.php:78
+#: widgets/event-calendar/event-calendar.php:103
+#: widgets/event-calendar/event-calendar.php:115
+#: widgets/event-tab/event-tab.php:107 widgets/event-tab/event-tab.php:183
+#: widgets/event-tab/event-tab.php:194 widgets/event-tab/event-tab.php:204
+#: widgets/event-tab/event-tab.php:223 widgets/event-tab/event-tab.php:235
+#: widgets/event-tab/event-tab.php:248 widgets/event-tab/event-tab.php:259
+#: widgets/event-tab/event-tab.php:271
+#: widgets/events-one-line/events-one-line.php:151
+#: widgets/events-one-line/events-one-line.php:161
+#: widgets/events-one-line/events-one-line.php:172
+#: widgets/events-one-line/events-one-line.php:191
+#: widgets/events-one-line/events-one-line.php:203
+#: widgets/events-one-line/events-one-line.php:215
+#: widgets/events-one-line/events-one-line.php:226
+#: widgets/events-one-line/events-one-line.php:238
+#: widgets/events-pro/events-pro.php:111 widgets/events-pro/events-pro.php:187
+#: widgets/events-pro/events-pro.php:197 widgets/events-pro/events-pro.php:208
+#: widgets/events-pro/events-pro.php:227 widgets/events-pro/events-pro.php:239
+#: widgets/events-pro/events-pro.php:252 widgets/events-pro/events-pro.php:263
+#: widgets/events-pro/events-pro.php:275
+#: widgets/events-slider/events-slider.php:121
+#: widgets/events-slider/events-slider.php:183
+#: widgets/events-slider/events-slider.php:193
+#: widgets/events-slider/events-slider.php:204
+#: widgets/events-slider/events-slider.php:224
+#: widgets/events-slider/events-slider.php:263
+#: widgets/events-slider/events-slider.php:274
+#: widgets/events-slider/events-slider.php:286
+#: widgets/organizers/organizers.php:150
+#: widgets/schedule-list/schedule-list.php:87
+#: widgets/schedule-list/schedule-list.php:97
+#: widgets/schedule-list/schedule-list.php:108
+#: widgets/schedule-list/schedule-list.php:118
+#: widgets/schedule-tab/schedule-tab.php:97
+#: widgets/schedule-tab/schedule-tab.php:108
+#: widgets/schedule-tab/schedule-tab.php:118
+#: widgets/speakers-slider/speakers-slider.php:148
+#: widgets/speakers-slider/speakers-slider.php:158
+#: widgets/speakers/speakers.php:154 widgets/speakers/speakers.php:164
+msgid "No"
+msgstr ""
+
+#: core/modules/multivendor/multivendor.php:233
+#: core/modules/multivendor/multivendor.php:250
+#: core/modules/multivendor/multivendor.php:274
+msgid ""
+"Sorry, In cart you have products from multiple vendors. Multiple vendor "
+"products in same transaction currently not available."
+msgstr ""
+
+#: core/modules/multivendor/multivendor.php:259
+msgid "Return to cart"
+msgstr ""
+
+#: core/modules/multivendor/multivendor.php:350
+msgid ""
+"Sorry, You already have added products from another vendor. Multiple vendor "
+"products in same transaction currently not available."
+msgstr ""
+
+#: core/modules/multivendor/multivendor.php:364
+msgid "Something went wrong. Try again!"
+msgstr ""
+
+#: core/modules/multivendor/multivendor.php:438
+#: core/modules/rsvp/admin/metaboxs/metabox.php:157
+#: core/shortcodes/views/shortcode-settings.php:1581
+#: widgets/attendee-list/attendee-list.php:15
+#: widgets/attendee-list/attendee-list.php:30
+msgid "Attendee List"
+msgstr ""
+
+#: core/modules/multivendor/template/store-event-listing.php:8
+msgid "Purchase"
+msgstr ""
+
+#: core/modules/multivendor/template/store-event-listing.php:62
+#: widgets/events-pro/style/event-3.php:59
+#: widgets/events-pro/style/event-4.php:59
+#: widgets/events-slider/style/event-3.php:81
+msgid "People Joined"
+msgstr ""
+
+#: core/modules/rsvp/Notifications/base/notifications.php:46
+#: core/modules/rsvp/admin/actions/actions.php:50
+#: core/modules/rsvp/frontend/actions/actions.php:139
+#: core/modules/sells-engine/stripe/stripe.php:139
+msgid "Something is wrong"
+msgstr ""
+
+#: core/modules/rsvp/Notifications/base/notifications.php:61
+msgid "Email has been sent"
+msgstr ""
+
+#: core/modules/rsvp/Notifications/base/notifications.php:63
+msgid "Failed to send email"
+msgstr ""
+
+#: core/modules/rsvp/Notifications/invitations.php:59
+#: core/modules/rsvp/Notifications/rsvp-response.php:61
+msgid "Confirm your attendance here"
+msgstr ""
+
+#: core/modules/rsvp/Notifications/invitations.php:64
+#: core/modules/rsvp/Notifications/rsvp-response.php:64
+msgid " from "
+msgstr ""
+
+#: core/modules/rsvp/Notifications/rsvp-response.php:71
+msgid ""
+"We have received your request. Very soon will inform the update  for the "
+"event"
+msgstr ""
+
+#: core/modules/rsvp/admin/actions/actions.php:41
+msgid "RSVP invitation email sent successfully"
+msgstr ""
+
+#: core/modules/rsvp/admin/actions/actions.php:103
+msgid "You are invited to fill up the RSVP form"
+msgstr ""
+
+#: core/modules/rsvp/admin/admin.php:61 core/modules/rsvp/admin/admin.php:62
+msgid "RSVP Invitations"
+msgstr ""
+
+#: core/modules/rsvp/admin/admin.php:88 core/modules/rsvp/admin/admin.php:89
+#: core/modules/rsvp/admin/admin.php:113 core/modules/rsvp/admin/admin.php:121
+msgid "RSVP Report"
+msgstr ""
+
+#: core/modules/rsvp/admin/admin.php:106
+msgid "Responser"
+msgstr ""
+
+#: core/modules/rsvp/admin/admin.php:107
+msgid "Total Attendees"
+msgstr ""
+
+#: core/modules/rsvp/admin/admin.php:108
+msgid "Attendees"
+msgstr ""
+
+#: core/modules/rsvp/admin/admin.php:114
+msgid "RSVP Reports"
+msgstr ""
+
+#: core/modules/rsvp/admin/admin.php:131
+msgid "RSVP Limit"
+msgstr ""
+
+#: core/modules/rsvp/admin/admin.php:234
+msgid "RSVP form isn't submitted yet"
+msgstr ""
+
+#: core/modules/rsvp/admin/metaboxs/metabox.php:28
+msgid "RSVP Settings"
+msgstr ""
+
+#: core/modules/rsvp/admin/metaboxs/metabox.php:45
+msgid "Enable RSVP?"
+msgstr ""
+
+#: core/modules/rsvp/admin/metaboxs/metabox.php:46
+msgid "Do you want to enable RSVP for this event?"
+msgstr ""
+
+#: core/modules/rsvp/admin/metaboxs/metabox.php:54
+msgid "Disable Purchase Form?"
+msgstr ""
+
+#: core/modules/rsvp/admin/metaboxs/metabox.php:55
+msgid "Disable selling for this event?"
+msgstr ""
+
+#: core/modules/rsvp/admin/metaboxs/metabox.php:63
+msgid "Limit RSVP attendee capacity."
+msgstr ""
+
+#: core/modules/rsvp/admin/metaboxs/metabox.php:64
+msgid ""
+"If you want to maintain the limit for attendee capacity, turn on the "
+"switcher."
+msgstr ""
+
+#: core/modules/rsvp/admin/metaboxs/metabox.php:75
+msgid "RSVP capacity attendee limit"
+msgstr ""
+
+#: core/modules/rsvp/admin/metaboxs/metabox.php:76
+msgid "Total attendee for this RSVP"
+msgstr ""
+
+#: core/modules/rsvp/admin/metaboxs/metabox.php:81
+msgid "Maximum attendee registration for each response"
+msgstr ""
+
+#: core/modules/rsvp/admin/metaboxs/metabox.php:82
+msgid "Total attendee registration for a single response"
+msgstr ""
+
+#: core/modules/rsvp/admin/metaboxs/metabox.php:88
+msgid "Minimum attendee to start event"
+msgstr ""
+
+#: core/modules/rsvp/admin/metaboxs/metabox.php:89
+msgid "Minimum attendee to start a event"
+msgstr ""
+
+#: core/modules/rsvp/admin/metaboxs/metabox.php:94
+msgid "0"
+msgstr ""
+
+#: core/modules/rsvp/admin/metaboxs/metabox.php:99
+msgid "RSVP Form Type"
+msgstr ""
+
+#: core/modules/rsvp/admin/metaboxs/metabox.php:101
+msgid "How many form will be shown in form"
+msgstr ""
+
+#: core/modules/rsvp/admin/metaboxs/metabox.php:102
+msgid "Going"
+msgstr ""
+
+#: core/modules/rsvp/admin/metaboxs/metabox.php:102
+msgid "Not Going"
+msgstr ""
+
+#: core/modules/rsvp/admin/metaboxs/metabox.php:102
+msgid "Maybe"
+msgstr ""
+
+#: core/modules/rsvp/admin/metaboxs/metabox.php:108
+msgid "Display Attendee list"
+msgstr ""
+
+#: core/modules/rsvp/admin/metaboxs/metabox.php:109
+msgid "Do you want to display going attendee list?"
+msgstr ""
+
+#: core/modules/rsvp/admin/metaboxs/metabox.php:119
+msgid "Attendee List Limit"
+msgstr ""
+
+#: core/modules/rsvp/admin/metaboxs/metabox.php:120
+msgid ""
+"Number of attendee you want to show in the single event page. Empty or "
+"\"-1\" will show all the entries."
+msgstr ""
+
+#: core/modules/rsvp/admin/metaboxs/metabox.php:142
+msgid "General Settings"
+msgstr ""
+
+#: core/modules/rsvp/admin/metaboxs/metabox.php:147
+msgid "Forms"
+msgstr ""
+
+#: core/modules/rsvp/admin/metaboxs/metabox.php:152
+msgid "Stock"
+msgstr ""
+
+#: core/modules/rsvp/admin/table/table.php:95
+msgid "Show more details"
+msgstr ""
+
+#: core/modules/rsvp/admin/table/table.php:142
+msgid "No of Attendee : "
+msgstr ""
+
+#: core/modules/rsvp/admin/table/table.php:143
+#: widgets/organizers/style/organizer-1.php:32
+#: widgets/organizers/style/organizer-2.php:36
+msgid "Email : "
+msgstr ""
+
+#: core/modules/rsvp/admin/table/table.php:149
+msgid " Name : "
+msgstr ""
+
+#: core/modules/rsvp/admin/table/table.php:183
+msgid "Name:"
+msgstr ""
+
+#: core/modules/rsvp/admin/table/table.php:184
+#: core/modules/sells-engine/stripe/payments/thank-you.php:68
+msgid "Email:"
+msgstr ""
+
+#: core/modules/rsvp/admin/table/table.php:187
+msgid "Reason: "
+msgstr ""
+
+#: core/modules/rsvp/admin/table/table.php:188
+msgid "Unspecified by the responder."
+msgstr ""
+
+#: core/modules/rsvp/admin/views/invitations.php:13
+msgid "Send RSVP Invitations"
+msgstr ""
+
+#: core/modules/rsvp/admin/views/invitations.php:17
+msgid "Select an event"
+msgstr ""
+
+#: core/modules/rsvp/admin/views/invitations.php:32
+msgid "Invitation Information"
+msgstr ""
+
+#: core/modules/rsvp/admin/views/invitations.php:36
+msgid "Attendee Name List:"
+msgstr ""
+
+#: core/modules/rsvp/admin/views/invitations.php:40
+msgid "Attendee Email List:"
+msgstr ""
+
+#: core/modules/rsvp/admin/views/invitations.php:52
+msgid "Write the information about each invitation in one line as follows."
+msgstr ""
+
+#: core/modules/rsvp/admin/views/invitations.php:55
+msgid "Email Body"
+msgstr ""
+
+#: core/modules/rsvp/admin/views/invitations.php:61
+msgid "Send"
+msgstr ""
+
+#: core/modules/rsvp/frontend/actions/actions.php:129
+msgid "RSVP form submit successfully"
+msgstr ""
+
+#: core/modules/rsvp/frontend/actions/actions.php:187
+msgid "We received your RSVP request"
+msgstr ""
+
+#: core/modules/rsvp/frontend/frontend.php:33
+msgid "Attendee"
+msgstr ""
+
+#: core/modules/rsvp/frontend/views/forms/rsvp-form.php:53
+msgid "RSVP Form"
+msgstr ""
+
+#: core/modules/rsvp/frontend/views/forms/rsvp-form.php:56
+msgid "1"
+msgstr ""
+
+#: core/modules/rsvp/frontend/views/forms/rsvp-form.php:61
+msgid "2"
+msgstr ""
+
+#: core/modules/rsvp/frontend/views/forms/rsvp-form.php:100
+msgid "Number of attendees *"
+msgstr ""
+
+#: core/modules/rsvp/frontend/views/forms/rsvp-form.php:111
+msgid "Number of attendee"
+msgstr ""
+
+#: core/modules/rsvp/frontend/views/forms/rsvp-form.php:116
+msgid "Limit per submission:"
+msgstr ""
+
+#: core/modules/rsvp/frontend/views/forms/rsvp-form.php:122
+msgid "Full name *"
+msgstr ""
+
+#: core/modules/rsvp/frontend/views/forms/rsvp-form.php:123
+msgid "Enter name of attendee"
+msgstr ""
+
+#: core/modules/rsvp/frontend/views/forms/rsvp-form.php:127
+msgid "Email address *"
+msgstr ""
+
+#: core/modules/rsvp/frontend/views/forms/rsvp-form.php:128
+msgid "Enter email address"
+msgstr ""
+
+#: core/modules/rsvp/frontend/views/forms/rsvp-form.php:133
+msgid "Reason (Optional)"
+msgstr ""
+
+#: core/modules/rsvp/frontend/views/forms/rsvp-form.php:134
+msgid "Add not going reason here"
+msgstr ""
+
+#: core/modules/rsvp/frontend/views/forms/rsvp-form.php:139
+msgid "Attendee details:"
+msgstr ""
+
+#: core/modules/rsvp/frontend/views/forms/rsvp-form.php:144
+msgid "Keep the following response for attendees too"
+msgstr ""
+
+#: core/modules/rsvp/frontend/views/forms/rsvp-form.php:154
+msgid "Continue"
+msgstr ""
+
+#: core/modules/rsvp/frontend/views/forms/rsvp-form.php:161
+msgid "Your RSVP response has been submitted."
+msgstr ""
+
+#: core/modules/rsvp/frontend/views/forms/rsvp-form.php:165
+msgid "RSVP Capacity is Over"
+msgstr ""
+
+#: core/modules/rsvp/frontend/views/forms/rsvp-form.php:172
+msgid "RSVP Attendees"
+msgstr ""
+
+#: core/modules/rsvp/frontend/views/forms/rsvp-form.php:174
+msgid "Minimum Attendee to Start the Event: "
+msgstr ""
+
+#: core/modules/rsvp/frontend/views/forms/rsvp-form.php:177
+msgid "Hide Attendees"
+msgstr ""
+
+#: core/modules/rsvp/frontend/views/forms/rsvp-form.php:193
+msgid "No one has responded yet."
+msgstr ""
+
+#: core/modules/sells-engine/sells-engine.php:165
+#: core/modules/sells-engine/stripe/orders/order-details.php:90
+#: core/modules/sells-engine/stripe/orders/order-exporter.php:100
+msgid "First Name"
+msgstr ""
+
+#: core/modules/sells-engine/sells-engine.php:166
+msgid "Enter your first name here"
+msgstr ""
+
+#: core/modules/sells-engine/sells-engine.php:170
+#: core/modules/sells-engine/stripe/orders/order-details.php:94
+#: core/modules/sells-engine/stripe/orders/order-exporter.php:101
+msgid "Last Name"
+msgstr ""
+
+#: core/modules/sells-engine/sells-engine.php:171
+msgid "Enter your last name here"
+msgstr ""
+
+#: core/modules/sells-engine/sells-engine.php:176
+msgid "Enter your email here"
+msgstr ""
+
+#: core/modules/sells-engine/sells-engine.php:203
+msgid "Sorry event order token mismatched, Please try again"
+msgstr ""
+
+#: core/modules/sells-engine/sells-engine.php:210
+msgid "Sorry wrong event transaction."
+msgstr ""
+
+#: core/modules/sells-engine/sells-engine.php:216
+msgid "Invalid payment."
+msgstr ""
+
+#: core/modules/sells-engine/sells-engine.php:220
+msgid "Your payment already processed. [Code: "
+msgstr ""
+
+#: core/modules/sells-engine/sells-engine.php:235
+msgid "Test Secret key is empty. Please fill up"
+msgstr ""
+
+#: core/modules/sells-engine/sells-engine.php:240
+msgid "Live Secret key is empty. Please fill up"
+msgstr ""
+
+#: core/modules/sells-engine/sells-engine.php:279
+msgid "Thanks for your payment"
+msgstr ""
+
+#: core/modules/sells-engine/sells-engine.php:302
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: core/modules/sells-engine/sells-engine.php:452
+msgid "You've received the following order from "
+msgstr ""
+
+#: core/modules/sells-engine/sells-engine.php:455
+msgid "Order #"
+msgstr ""
+
+#: core/modules/sells-engine/sells-engine.php:459
+msgid "Thank you for your order"
+msgstr ""
+
+#: core/modules/sells-engine/sells-engine.php:462
+msgid "Hi "
+msgstr ""
+
+#: core/modules/sells-engine/sells-engine.php:465
+msgid "Just to let you know — we've received your order #"
+msgstr ""
+
+#: core/modules/sells-engine/sells-engine.php:491
+#: core/modules/sells-engine/stripe/payments/thank-you.php:87
+msgid "Product"
+msgstr ""
+
+#: core/modules/sells-engine/sells-engine.php:510
+#: core/modules/sells-engine/stripe/payments/thank-you.php:109
+msgid "Subtotal:"
+msgstr ""
+
+#: core/modules/sells-engine/sells-engine.php:516
+#: core/modules/sells-engine/stripe/payments/thank-you.php:74
+#: core/modules/sells-engine/stripe/payments/thank-you.php:115
+msgid "Payment method:"
+msgstr ""
+
+#: core/modules/sells-engine/sells-engine.php:519
+#: core/modules/sells-engine/stripe/payments/thank-you.php:75
+#: core/modules/sells-engine/stripe/payments/thank-you.php:118
+msgid "Stripe"
+msgstr ""
+
+#: core/modules/sells-engine/sells-engine.php:524
+#: core/modules/sells-engine/stripe/payments/thank-you.php:123
+msgid "Total:"
+msgstr ""
+
+#: core/modules/sells-engine/sells-engine.php:532
+#: core/modules/sells-engine/stripe/payments/thank-you.php:133
+msgid "Billing address"
+msgstr ""
+
+#: core/modules/sells-engine/sells-engine.php:549
+msgid "Your "
+msgstr ""
+
+#: core/modules/sells-engine/sells-engine.php:549
+msgid " order has been received!"
+msgstr ""
+
+#: core/modules/sells-engine/sells-engine.php:632
+msgid "New order"
+msgstr ""
+
+#: core/modules/sells-engine/stripe/orders/order-details.php:29
+#: core/modules/sells-engine/stripe/payments/thank-you.php:81
+msgid "Order details"
+msgstr ""
+
+#: core/modules/sells-engine/stripe/orders/order-details.php:34
+msgid "Order No."
+msgstr ""
+
+#: core/modules/sells-engine/stripe/orders/order-details.php:58
+#: core/modules/sells-engine/stripe/orders/order-exporter.php:111
+msgid "Currency"
+msgstr ""
+
+#: core/modules/sells-engine/stripe/orders/order-details.php:67
+#: core/modules/sells-engine/stripe/orders/order-exporter.php:112
+msgid "Payment gateway"
+msgstr ""
+
+#: core/modules/sells-engine/stripe/orders/order-details.php:80
+msgid "Billing details"
+msgstr ""
+
+#: core/modules/sells-engine/stripe/orders/order-details.php:108
+#: core/modules/sells-engine/stripe/payments/thank-you.php:161
+msgid "Invalid Order"
+msgstr ""
+
+#: core/modules/sells-engine/stripe/orders/order-exporter.php:99
+msgid "Order No"
+msgstr ""
+
+#: core/modules/sells-engine/stripe/orders/order-exporter.php:105
+msgid "Event ID"
+msgstr ""
+
+#: core/modules/sells-engine/stripe/orders/order-exporter.php:108
+msgid "Ticket Variations"
+msgstr ""
+
+#: core/modules/sells-engine/stripe/orders/order-exporter.php:109
+msgid "Ticket Quantity"
+msgstr ""
+
+#: core/modules/sells-engine/stripe/orders/orders-report.php:40
+msgid "Order ID"
+msgstr ""
+
+#: core/modules/sells-engine/stripe/orders/orders-report.php:42
+msgid "Purchaser"
+msgstr ""
+
+#: core/modules/sells-engine/stripe/orders/orders-report.php:44
+msgid "Payment Gateway"
+msgstr ""
+
+#: core/modules/sells-engine/stripe/orders/orders-report.php:95
+msgid "Details"
+msgstr ""
+
+#: core/modules/sells-engine/stripe/orders/orders-report.php:98
+msgid "Refund"
+msgstr ""
+
+#: core/modules/sells-engine/stripe/orders/orders-report.php:220
+msgid "Export"
+msgstr ""
+
+#: core/modules/sells-engine/stripe/orders/orders-report.php:220
+msgid "Export JSON Format"
+msgstr ""
+
+#: core/modules/sells-engine/stripe/orders/orders-report.php:220
+msgid "Export CSV Format"
+msgstr ""
+
+#: core/modules/sells-engine/stripe/orders/orders-report.php:222
+msgid "Import"
+msgstr ""
+
+#: core/modules/sells-engine/stripe/payments/thank-you.php:52
+msgid "Order received"
+msgstr ""
+
+#: core/modules/sells-engine/stripe/payments/thank-you.php:56
+msgid "Thank you. Your order has been received."
+msgstr ""
+
+#: core/modules/sells-engine/stripe/payments/thank-you.php:59
+msgid "Order number:"
+msgstr ""
+
+#: core/modules/sells-engine/stripe/payments/thank-you.php:62
+msgid "Invoice:"
+msgstr ""
+
+#: core/modules/sells-engine/stripe/payments/thank-you.php:65
+msgid "Date:"
+msgstr ""
+
+#: core/modules/sells-engine/stripe/payments/thank-you.php:71
+msgid "Total: "
+msgstr ""
+
+#: core/modules/sells-engine/stripe/payments/thank-you.php:88
+msgid "Total"
+msgstr ""
+
+#: core/modules/sells-engine/stripe/stripe.php:193
+msgid "Attendee insert successfully"
+msgstr ""
+
+#: core/modules/sells-engine/stripe/stripe.php:213
+msgid "Added popup successfully"
+msgstr ""
+
+#: core/modules/sells-engine/stripe/stripe.php:216
+msgid "Attendee is not insert successfully"
+msgstr ""
+
+#: core/modules/sells-engine/stripe/stripe.php:243
+msgid "Stripe order"
+msgstr ""
+
+#: core/settings/views/email-notification-settings.php:19
+msgid "Enabel Remainder Email"
+msgstr ""
+
+#: core/settings/views/email-notification-settings.php:21
+msgid "Do you want to send remainder email to event attendee?"
+msgstr ""
+
+#: core/settings/views/email-notification-settings.php:24
+msgid "yes"
+msgstr ""
+
+#: core/settings/views/email-notification-settings.php:31
+msgid "Reminder Email Sending Day"
+msgstr ""
+
+#: core/settings/views/email-notification-settings.php:33
+msgid "Reminder email will be sent X day(s) before event starting time"
+msgstr ""
+
+#: core/settings/views/email-notification-settings.php:42
+msgid "Set Reminder Email Time"
+msgstr ""
+
+#: core/settings/views/email-notification-settings.php:44
+msgid "Select the time to send the reminder email"
+msgstr ""
+
+#: core/settings/views/email-notification-settings.php:56
+msgid "Reminder Email Message"
+msgstr ""
+
+#: core/settings/views/email-notification-settings.php:57
+msgid "Reminder email message text"
+msgstr ""
+
+#: core/settings/views/email-notification-settings.php:80
+msgid "Template Tags"
+msgstr ""
+
+#: core/settings/views/email-notification-settings.php:82
+msgid ""
+"Use the following tags to automatically add event information to the emails"
+msgstr ""
+
+#: core/settings/views/email-notification-settings.php:87
+msgid "The name of this website"
+msgstr ""
+
+#: core/settings/views/email-notification-settings.php:91
+msgid "A link to this website"
+msgstr ""
+
+#: core/settings/views/email-notification-settings.php:95
+msgid "Logo of the website"
+msgstr ""
+
+#: core/settings/views/email-notification-settings.php:99
+msgid "Purchased event title."
+msgstr ""
+
+#: core/settings/views/email-notification-settings.php:115
+msgid "Ticket Purchase Email Body"
+msgstr ""
+
+#: core/settings/views/email-notification-settings.php:116
+msgid "Body of email that will be sent to user when a they purchase an event."
+msgstr ""
+
+#: core/settings/views/email-notification-settings.php:135
+msgid "Include Event Details in Cart, Checkout & Invoice E-mail"
+msgstr ""
+
+#: core/settings/views/email-notification-settings.php:136
+msgid ""
+"Include event details page link, starting and ending date-time details in "
+"cart, checkout & invoice e-mail."
+msgstr ""
+
+#: core/shortcodes/hooks.php:1023 core/shortcodes/hooks.php:1085
+msgid "View Details"
+msgstr ""
+
+#: core/shortcodes/hooks.php:1024 core/shortcodes/hooks.php:1086
+msgid "All Categories"
+msgstr ""
+
+#: core/shortcodes/hooks.php:1129
+msgid "Opps! You do not have any permission to manage events."
+msgstr ""
+
+#: core/shortcodes/hooks.php:1136
+msgid "In order to create a new event, please "
+msgstr ""
+
+#: core/shortcodes/hooks.php:1137
+msgid "Login"
+msgstr ""
+
+#: core/shortcodes/hooks.php:1138
+msgid "login"
+msgstr ""
+
+#: core/shortcodes/views/event-attendees-view.php:24
+msgid "attendee avatar"
+msgstr ""
+
+#: core/shortcodes/views/event-attendees-view.php:34
+#: widgets/event-locations/actions/location-markup.php:23
+#: widgets/event-locations/style/style-1.php:65
+msgid "Email: "
+msgstr ""
+
+#: core/shortcodes/views/event-attendees-view.php:48
+msgid "No attendee found"
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:12
+#: core/shortcodes/views/shortcode-settings.php:107
+msgid "Select Calendar Event"
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:15
+#: core/shortcodes/views/shortcode-settings.php:110
+msgid "Event With Calendar"
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:33
+msgid "All Day Slot Enable"
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:45
+#: core/shortcodes/views/shortcode-settings.php:129
+msgid "Display Calendar"
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:48
+msgid "Monthly View"
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:49
+msgid "Weekly View"
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:50
+msgid "Daily View"
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:61
+#: core/shortcodes/views/shortcode-settings.php:144
+#: core/shortcodes/views/shortcode-settings.php:665
+#: core/shortcodes/views/shortcode-settings.php:822
+#: core/shortcodes/views/shortcode-settings.php:1016
+#: core/shortcodes/views/shortcode-settings.php:1239
+msgid "Show Recurring Child Eventss"
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:67
+#: core/shortcodes/views/shortcode-settings.php:150
+#: core/shortcodes/views/shortcode-settings.php:671
+#: core/shortcodes/views/shortcode-settings.php:828
+#: core/shortcodes/views/shortcode-settings.php:1022
+#: core/shortcodes/views/shortcode-settings.php:1245
+#: widgets/event-calendar-list/event-calendar-list.php:88
+#: widgets/event-calendar/event-calendar.php:100
+#: widgets/event-tab/event-tab.php:256
+#: widgets/events-one-line/events-one-line.php:235
+#: widgets/events-pro/events-pro.php:272
+#: widgets/events-slider/events-slider.php:271
+msgid "Show Recurring Parent Events"
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:75
+#: core/shortcodes/views/shortcode-settings.php:157
+#: core/shortcodes/views/shortcode-settings.php:266
+#: core/shortcodes/views/shortcode-settings.php:353
+#: core/shortcodes/views/shortcode-settings.php:491
+#: core/shortcodes/views/shortcode-settings.php:687
+#: core/shortcodes/views/shortcode-settings.php:844
+#: core/shortcodes/views/shortcode-settings.php:1038
+#: core/shortcodes/views/shortcode-settings.php:1262
+#: core/shortcodes/views/shortcode-settings.php:1314
+#: core/shortcodes/views/shortcode-settings.php:1381
+#: core/shortcodes/views/shortcode-settings.php:1441
+#: core/shortcodes/views/shortcode-settings.php:1493
+#: core/shortcodes/views/shortcode-settings.php:1545
+#: core/shortcodes/views/shortcode-settings.php:1612
+#: core/shortcodes/views/shortcode-settings.php:1671
+#: core/shortcodes/views/shortcode-settings.php:1731
+#: core/shortcodes/views/shortcode-settings.php:1775
+#: core/shortcodes/views/shortcode-settings.php:1822
+msgid "Generate"
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:82
+#: core/shortcodes/views/shortcode-settings.php:164
+#: core/shortcodes/views/shortcode-settings.php:274
+#: core/shortcodes/views/shortcode-settings.php:362
+#: core/shortcodes/views/shortcode-settings.php:499
+#: core/shortcodes/views/shortcode-settings.php:694
+#: core/shortcodes/views/shortcode-settings.php:851
+#: core/shortcodes/views/shortcode-settings.php:1045
+#: core/shortcodes/views/shortcode-settings.php:1269
+#: core/shortcodes/views/shortcode-settings.php:1322
+#: core/shortcodes/views/shortcode-settings.php:1389
+#: core/shortcodes/views/shortcode-settings.php:1449
+#: core/shortcodes/views/shortcode-settings.php:1501
+#: core/shortcodes/views/shortcode-settings.php:1553
+#: core/shortcodes/views/shortcode-settings.php:1620
+#: core/shortcodes/views/shortcode-settings.php:1679
+#: core/shortcodes/views/shortcode-settings.php:1739
+#: core/shortcodes/views/shortcode-settings.php:1783
+#: core/shortcodes/views/shortcode-settings.php:1830
+msgid "Label Text"
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:90
+msgid "Events With Calendar (Pro)"
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:91
+msgid "Display \"events in calendar premium view\" in any specific location."
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:94
+#: core/shortcodes/views/shortcode-settings.php:176
+#: core/shortcodes/views/shortcode-settings.php:286
+#: core/shortcodes/views/shortcode-settings.php:374
+#: core/shortcodes/views/shortcode-settings.php:511
+#: core/shortcodes/views/shortcode-settings.php:706
+#: core/shortcodes/views/shortcode-settings.php:863
+#: core/shortcodes/views/shortcode-settings.php:1057
+#: core/shortcodes/views/shortcode-settings.php:1281
+#: core/shortcodes/views/shortcode-settings.php:1334
+#: core/shortcodes/views/shortcode-settings.php:1401
+#: core/shortcodes/views/shortcode-settings.php:1461
+#: core/shortcodes/views/shortcode-settings.php:1513
+#: core/shortcodes/views/shortcode-settings.php:1565
+#: core/shortcodes/views/shortcode-settings.php:1632
+#: core/shortcodes/views/shortcode-settings.php:1691
+#: core/shortcodes/views/shortcode-settings.php:1751
+#: core/shortcodes/views/shortcode-settings.php:1796
+#: core/shortcodes/views/shortcode-settings.php:1842
+msgid "Generate Shortcode"
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:132
+msgid "Monthly List View"
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:133
+msgid "Weekly List View"
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:134
+msgid "Daily List View"
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:172
+msgid "Events With Calendar List (Pro)"
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:173
+msgid ""
+"Add \"events in calendar premium list style view\" to show it in any "
+"specific location."
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:189
+#: core/shortcodes/views/shortcode-settings.php:387
+#: core/shortcodes/views/shortcode-settings.php:1295
+#: core/shortcodes/views/shortcode-settings.php:1705
+#: core/shortcodes/views/shortcode-settings.php:1764
+#: core/shortcodes/views/shortcode-settings.php:1810
+msgid "Select Template"
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:192
+msgid "Speaker Classic"
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:193
+msgid "Speaker Standard"
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:201
+#: core/shortcodes/views/shortcode-settings.php:395
+#: core/shortcodes/views/shortcode-settings.php:533
+#: core/shortcodes/views/shortcode-settings.php:884
+#: core/shortcodes/views/shortcode-settings.php:1078
+#: core/shortcodes/views/shortcode-settings.php:1713
+msgid "Select Style"
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:217
+#: core/shortcodes/views/shortcode-settings.php:308
+msgid "Column"
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:226
+#: core/shortcodes/views/shortcode-settings.php:328
+#: core/shortcodes/views/shortcode-settings.php:426
+#: core/shortcodes/views/shortcode-settings.php:560
+#: core/shortcodes/views/shortcode-settings.php:748
+#: core/shortcodes/views/shortcode-settings.php:911
+#: core/shortcodes/views/shortcode-settings.php:1105
+msgid "Select Order By"
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:229
+#: core/shortcodes/views/shortcode-settings.php:331
+#: core/shortcodes/views/shortcode-settings.php:429
+#: core/shortcodes/views/shortcode-settings.php:563
+#: core/shortcodes/views/shortcode-settings.php:751
+#: core/shortcodes/views/shortcode-settings.php:914
+#: core/shortcodes/views/shortcode-settings.php:1108
+#: widgets/event-tab/event-tab.php:144
+#: widgets/events-one-line/events-one-line.php:112
+#: widgets/events-pro/events-pro.php:148
+#: widgets/events-slider/events-slider.php:142
+#: widgets/organizers/organizers.php:124
+#: widgets/speakers-slider/speakers-slider.php:124
+#: widgets/speakers/speakers.php:127
+msgid "Title"
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:230
+#: core/shortcodes/views/shortcode-settings.php:332
+#: core/shortcodes/views/shortcode-settings.php:430
+#: core/shortcodes/views/shortcode-settings.php:564
+#: core/shortcodes/views/shortcode-settings.php:752
+#: core/shortcodes/views/shortcode-settings.php:915
+#: core/shortcodes/views/shortcode-settings.php:1109
+msgid "ID"
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:231
+#: core/shortcodes/views/shortcode-settings.php:333
+#: core/shortcodes/views/shortcode-settings.php:431
+#: core/shortcodes/views/shortcode-settings.php:565
+#: core/shortcodes/views/shortcode-settings.php:753
+#: core/shortcodes/views/shortcode-settings.php:916
+#: core/shortcodes/views/shortcode-settings.php:1110
+#: widgets/event-tab/event-tab.php:145
+#: widgets/events-one-line/events-one-line.php:113
+#: widgets/events-pro/events-pro.php:149
+#: widgets/events-slider/events-slider.php:143
+#: widgets/organizers/organizers.php:125
+#: widgets/speakers-slider/speakers-slider.php:125
+#: widgets/speakers/speakers.php:128
+msgid "Post Date"
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:232
+#: core/shortcodes/views/shortcode-settings.php:334
+#: core/shortcodes/views/shortcode-settings.php:432
+#: core/shortcodes/views/shortcode-settings.php:566
+#: core/shortcodes/views/shortcode-settings.php:754
+msgid "name"
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:240
+#: core/shortcodes/views/shortcode-settings.php:342
+#: core/shortcodes/views/shortcode-settings.php:441
+#: core/shortcodes/views/shortcode-settings.php:576
+#: core/shortcodes/views/shortcode-settings.php:764
+#: core/shortcodes/views/shortcode-settings.php:926
+#: core/shortcodes/views/shortcode-settings.php:1120
+#: core/shortcodes/views/shortcode-settings.php:1358
+msgid "Select Order"
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:249
+#: core/shortcodes/views/shortcode-settings.php:449
+#: widgets/speakers-slider/speakers-slider.php:155
+#: widgets/speakers/speakers.php:161
+msgid "Show Designation"
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:255
+#: core/shortcodes/views/shortcode-settings.php:455
+#: widgets/speakers-slider/speakers-slider.php:145
+#: widgets/speakers/speakers.php:151
+msgid "Show Social"
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:261
+#: core/shortcodes/views/shortcode-settings.php:477
+#: core/shortcodes/views/shortcode-settings.php:1723
+msgid "Limit"
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:282
+msgid "Speakers (Pro)"
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:283
+msgid "Show \"premium style speakers profile\" in any specific location."
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:300
+msgid "Select Organizer"
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:348
+msgid "Post Limit"
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:370
+msgid "Organizer List (Pro)"
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:371
+msgid ""
+"A \"premium style organizers profile\" to show it in any specific location."
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:389
+msgid " Speaker Slider"
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:411
+#: core/shortcodes/views/shortcode-settings.php:1212
+#: widgets/events-slider/events-slider.php:316
+#: widgets/speakers-slider/speakers-slider.php:203
+msgid "Auto Play"
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:463
+#: core/shortcodes/views/shortcode-settings.php:1198
+msgid "Show Slider Nav"
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:469
+#: core/shortcodes/views/shortcode-settings.php:1204
+msgid "Show Slider Dot"
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:483
+msgid "Slider Count"
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:507
+msgid "Speakers Slider (Pro)"
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:508
+msgid ""
+"A \"premium style speakers profile as a slider\" to show it in any specific "
+"location."
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:526
+msgid "Event Classic"
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:527
+msgid "Event Standard"
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:549
+#: core/shortcodes/views/shortcode-settings.php:737
+#: core/shortcodes/views/shortcode-settings.php:900
+#: core/shortcodes/views/shortcode-settings.php:1094
+msgid "Select Tags"
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:567
+#: core/shortcodes/views/shortcode-settings.php:755
+#: core/shortcodes/views/shortcode-settings.php:917
+#: core/shortcodes/views/shortcode-settings.php:1111
+#: widgets/event-tab/event-tab.php:146
+#: widgets/events-one-line/events-one-line.php:114
+#: widgets/events-pro/events-pro.php:150
+#: widgets/events-slider/events-slider.php:144
+msgid "Event Start Date"
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:568
+#: core/shortcodes/views/shortcode-settings.php:756
+#: core/shortcodes/views/shortcode-settings.php:918
+#: core/shortcodes/views/shortcode-settings.php:1112
+#: widgets/event-tab/event-tab.php:147
+#: widgets/events-one-line/events-one-line.php:115
+#: widgets/events-pro/events-pro.php:151
+#: widgets/events-slider/events-slider.php:145
+msgid "Event End Date"
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:585
+#: core/shortcodes/views/shortcode-settings.php:773
+#: core/shortcodes/views/shortcode-settings.php:935
+#: core/shortcodes/views/shortcode-settings.php:1129
+msgid "Filter By Status"
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:591
+#: core/shortcodes/views/shortcode-settings.php:942
+#: widgets/related-events/related-events.php:49
+msgid "Event Column"
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:600
+#: core/shortcodes/views/shortcode-settings.php:951
+#: core/shortcodes/views/shortcode-settings.php:1153
+#: widgets/event-tab/event-tab.php:104 widgets/events-pro/events-pro.php:108
+#: widgets/events-slider/events-slider.php:118
+#: widgets/schedule-list/schedule-list.php:84
+msgid "Show Description"
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:606
+#: core/shortcodes/views/shortcode-settings.php:957
+#: core/shortcodes/views/shortcode-settings.php:1159
+#: widgets/event-tab/event-tab.php:114 widgets/events-pro/events-pro.php:118
+#: widgets/events-slider/events-slider.php:128
+msgid "Description Limit"
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:616
+#: core/shortcodes/views/shortcode-settings.php:967
+#: core/shortcodes/views/shortcode-settings.php:1169
+#: widgets/event-tab/event-tab.php:220
+#: widgets/events-one-line/events-one-line.php:188
+#: widgets/events-pro/events-pro.php:224
+#: widgets/events-slider/events-slider.php:221
+msgid "Show Attendee Count"
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:622
+#: core/shortcodes/views/shortcode-settings.php:973
+#: core/shortcodes/views/shortcode-settings.php:1175
+#: widgets/event-tab/event-tab.php:201 widgets/events-pro/events-pro.php:205
+#: widgets/events-slider/events-slider.php:201
+msgid "Show Attend Button"
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:631
+#: core/shortcodes/views/shortcode-settings.php:788
+#: core/shortcodes/views/shortcode-settings.php:982
+#: core/shortcodes/views/shortcode-settings.php:1184
+#: widgets/attendee-list/attendee-list.php:45
+#: widgets/event-tab/event-tab.php:232
+#: widgets/events-one-line/events-one-line.php:200
+#: widgets/events-pro/events-pro.php:236
+msgid "Show Thumbnail"
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:637
+#: core/shortcodes/views/shortcode-settings.php:794
+#: core/shortcodes/views/shortcode-settings.php:988
+#: core/shortcodes/views/shortcode-settings.php:1190
+#: widgets/event-tab/event-tab.php:191
+#: widgets/events-one-line/events-one-line.php:148
+#: widgets/events-pro/events-pro.php:184
+#: widgets/events-slider/events-slider.php:180
+msgid "Show Category"
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:645
+#: core/shortcodes/views/shortcode-settings.php:802
+#: core/shortcodes/views/shortcode-settings.php:996
+#: core/shortcodes/views/shortcode-settings.php:1136
+msgid "Event Limit"
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:651
+#: core/shortcodes/views/shortcode-settings.php:808
+#: core/shortcodes/views/shortcode-settings.php:1002
+#: core/shortcodes/views/shortcode-settings.php:1224
+#: widgets/event-tab/event-tab.php:245
+#: widgets/events-one-line/events-one-line.php:212
+#: widgets/events-pro/events-pro.php:249
+#: widgets/events-slider/events-slider.php:260
+msgid "Show End Date"
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:679
+#: core/shortcodes/views/shortcode-settings.php:836
+#: core/shortcodes/views/shortcode-settings.php:1030
+#: core/shortcodes/views/shortcode-settings.php:1254
+#: widgets/event-tab/event-tab.php:180
+#: widgets/events-one-line/events-one-line.php:158
+#: widgets/events-pro/events-pro.php:194
+#: widgets/events-slider/events-slider.php:190
+msgid "Show Event Location"
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:702
+msgid "Events (Pro)"
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:703
+#: core/shortcodes/views/shortcode-settings.php:860
+msgid "Show \"premium style event details\" in any specific location."
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:721
+msgid "Event One line"
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:779
+#: widgets/events-one-line/events-one-line.php:169
+msgid "Show Button"
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:859
+msgid "Events One Line (Pro)"
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:878
+#: widgets/event-tab/event-tab.php:54
+msgid "Event Tab"
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:1053
+msgid "Events Tab (Pro)"
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:1054
+msgid "Show \"premium style event details as a tab\" in any specific location."
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:1072
+msgid "Event Slider"
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:1144
+msgid "Event Slider Count"
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:1277
+msgid "Events Slider (Pro)"
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:1278
+msgid ""
+"Add \"premium style event details as a slider\" to show it in any specific "
+"location."
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:1297
+msgid "Countdown Timer"
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:1330
+msgid "Event Countdown (Pro)"
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:1331
+msgid ""
+"Add \"event starting time as countdown\" to display it in any specific "
+"location."
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:1349
+msgid "Select Schedule View"
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:1351
+msgid "Schedules List View"
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:1352
+msgid "Schedule Tab View"
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:1366
+msgid "Select Schedule(s)"
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:1374
+msgid "Select Schedule Style"
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:1397
+msgid "Schedules Pro"
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:1398
+msgid "Show \"premium style schedules\" in any specific location."
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:1415
+msgid "Select ticket form"
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:1417
+msgid "Event Ticket Form"
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:1433
+#: widgets/event-ticket/event-ticket.php:45
+msgid "Show Title"
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:1457
+msgid "Event Ticket Form (Pro)"
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:1458
+msgid ""
+"The \"events ticketing form\" is for the ticketing selling option at a "
+"specific location."
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:1475
+#: core/shortcodes/views/shortcode-settings.php:1527
+#: core/shortcodes/views/shortcode-settings.php:1579
+#: core/shortcodes/views/shortcode-settings.php:1646
+msgid "Select template"
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:1477
+msgid "Related Event"
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:1509
+msgid "Related Event widget (Pro)"
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:1510
+msgid "Display \"related events\" in any specific location."
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:1529
+#: widgets/add-to-calendar/add-to-calendar.php:15
+msgid "Add to Calendar"
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:1561
+msgid "Add to Calendar (Pro)"
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:1562
+msgid "Display \"Event Add to Calendar Options\""
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:1598
+msgid "Show Avater"
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:1604
+#: widgets/attendee-list/attendee-list.php:56
+msgid "Show Email"
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:1628
+msgid "Attendee List (Pro)"
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:1629
+msgid "Show \"all of the attendees of the event\" in any specific location."
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:1687
+msgid "Recurring Event (Pro)"
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:1688
+msgid "Display \"recurring events\" in any specific location."
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:1747
+msgid "Event Location (Pro)"
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:1748
+msgid "Show \"events locations\" in any specific location."
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:1766
+msgid "Event Frontend Dashboard"
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:1792
+msgid "Event Frontend Dashboard (Pro)"
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:1793
+msgid "Add the \"front-end event management option\" in any specific location."
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:1812
+msgid "Event Title"
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:1814
+msgid "Attendee Name"
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:1838
+msgid "Event Certificate (Pro)"
+msgstr ""
+
+#: core/shortcodes/views/shortcode-settings.php:1839
+msgid "You can use generate shortcode"
+msgstr ""
+
+#: core/webhook/webhook-admin.php:50
+msgid "Please enter webhook name"
+msgstr ""
+
+#: core/webhook/webhook-admin.php:54
+msgid "Please enter webhook status"
+msgstr ""
+
+#: core/webhook/webhook-admin.php:58
+msgid "Please enter delivery url"
+msgstr ""
+
+#: core/webhook/webhook-admin.php:112
+msgid "Something went wrong, couldn't delete webhook"
+msgstr ""
+
+#: core/webhook/webhook-admin.php:118
+msgid "Successfully deleted webhook"
+msgstr ""
+
+#: core/woocommerce/hooks.php:106
+msgid "Starts At: "
+msgstr ""
+
+#: core/woocommerce/hooks.php:107
+msgid "Ends At: "
+msgstr ""
+
+#: core/woocommerce/hooks.php:108
+msgid "Timezone: "
+msgstr ""
+
+#: core/woocommerce/hooks.php:126
+msgid "Order Received"
+msgstr ""
+
+#: core/woocommerce/woocommerce-deposit/woocommerce-deposit.php:23
+msgid "Deposit Settings"
+msgstr ""
+
+#: lib/license-manager/etn-license-manager.php:95
+msgid "Theme License"
+msgstr ""
+
+#: lib/license-manager/etn-license-manager.php:96
+msgid "Enter your theme license key."
+msgstr ""
+
+#: lib/license-manager/etn-license-manager.php:97
+msgid "License Key"
+msgstr ""
+
+#: lib/license-manager/etn-license-manager.php:98
+msgid "License Action"
+msgstr ""
+
+#: lib/license-manager/etn-license-manager.php:99
+#: lib/license-manager/includes/admin.php:104
+msgid "Deactivate License"
+msgstr ""
+
+#: lib/license-manager/etn-license-manager.php:100
+#: lib/license-manager/includes/admin.php:142
+msgid "Activate License"
+msgstr ""
+
+#: lib/license-manager/etn-license-manager.php:101
+#: lib/license-manager/etn-license-manager.php:113
+msgid "License status is unknown."
+msgstr ""
+
+#: lib/license-manager/etn-license-manager.php:102
+msgid "Renew?"
+msgstr ""
+
+#: lib/license-manager/etn-license-manager.php:103
+msgid "unlimited"
+msgstr ""
+
+#: lib/license-manager/etn-license-manager.php:104
+msgid "License key is active."
+msgstr ""
+
+#: lib/license-manager/etn-license-manager.php:105
+#, php-format
+msgid "Expires %s."
+msgstr ""
+
+#: lib/license-manager/etn-license-manager.php:106
+#, php-format
+msgid "You have %1$s / %2$s sites activated."
+msgstr ""
+
+#: lib/license-manager/etn-license-manager.php:107
+#, php-format
+msgid "License key expired %s."
+msgstr ""
+
+#: lib/license-manager/etn-license-manager.php:108
+msgid "License key has expired."
+msgstr ""
+
+#: lib/license-manager/etn-license-manager.php:109
+msgid "License keys do not match."
+msgstr ""
+
+#: lib/license-manager/etn-license-manager.php:110
+msgid "License is inactive."
+msgstr ""
+
+#: lib/license-manager/etn-license-manager.php:111
+msgid "License key is disabled."
+msgstr ""
+
+#: lib/license-manager/etn-license-manager.php:112
+msgid "Site is inactive."
+msgstr ""
+
+#: lib/license-manager/etn-license-manager.php:114
+msgid ""
+"Updating this theme will lose any customizations you have made. 'Cancel' to "
+"stop, 'OK' to update."
+msgstr ""
+
+#: lib/license-manager/etn-license-manager.php:115
+#, php-format
+msgid ""
+"<strong>%1$s %2$s</strong> is available. <a href=\"%3$s\" class=\"thickbox\" "
+"title=\"%4s\">Check out what's new</a> or <a href=\"%5$s\"%6$s>update now</"
+"a>."
+msgstr ""
+
+#: lib/license-manager/includes/admin.php:70
+#: lib/license-manager/includes/admin.php:71
+msgid "License"
+msgstr ""
+
+#: lib/license-manager/includes/admin.php:94
+msgid "Your license is activated"
+msgstr ""
+
+#: lib/license-manager/includes/admin.php:96
+msgid ""
+"Congratulations! Your license is now activated, enjoy full access to the "
+"Eventin's features and services."
+msgstr ""
+
+#: lib/license-manager/includes/admin.php:99
+#: lib/license-manager/includes/admin.php:132
+msgid "Enter your name"
+msgstr ""
+
+#: lib/license-manager/includes/admin.php:100
+#: lib/license-manager/includes/admin.php:135
+msgid "Enter your email"
+msgstr ""
+
+#: lib/license-manager/includes/admin.php:101
+#: lib/license-manager/includes/admin.php:138
+msgid "Enter your license key"
+msgstr ""
+
+#: lib/license-manager/includes/admin.php:111
+msgid "License Activation"
+msgstr ""
+
+#: lib/license-manager/includes/admin.php:115
+msgid "If you don"
+msgstr ""
+
+#: lib/license-manager/includes/admin.php:115
+msgid "t yet have a license key, get "
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: lib/license-manager/includes/admin.php:115
+msgid "Eventin Pro"
+msgstr ""
+
+#: lib/license-manager/includes/admin.php:115
+msgid " now."
+msgstr ""
+
+#: lib/license-manager/includes/admin.php:116
+msgid "Log in to your "
+msgstr ""
+
+#: lib/license-manager/includes/admin.php:116
+msgid "Themewinter account"
+msgstr ""
+
+#: lib/license-manager/includes/admin.php:116
+msgid " to get your license key."
+msgstr ""
+
+#: lib/license-manager/includes/admin.php:117
+msgid "Copy the Eventin license key from your account and paste it below."
+msgstr ""
+
+#: lib/license-manager/includes/admin.php:118
+msgid "Follow the "
+msgstr ""
+
+#: lib/license-manager/includes/admin.php:119
+msgid "Official Documentation"
+msgstr ""
+
+#: lib/license-manager/includes/admin.php:120
+msgid "for details "
+msgstr ""
+
+#: lib/license-manager/includes/admin.php:125
+msgid "Your License Key"
+msgstr ""
+
+#: lib/license-manager/includes/admin.php:127
+msgid "Enter your license key here, to get auto updates."
+msgstr ""
+
+#: lib/license-manager/includes/admin.php:145
+msgid "Still can"
+msgstr ""
+
+#: lib/license-manager/includes/admin.php:145
+msgid "t find your license key? "
+msgstr ""
+
+#: lib/license-manager/includes/admin.php:146
+msgid "Knock us here!"
+msgstr ""
+
+#: lib/license-manager/includes/admin.php:211
+msgid "Your license is "
+msgstr ""
+
+#: multivendor/build/index.js:1
+msgid ",\"eventin-pro\")),r(\"success_msg\",__("
+msgstr ""
+
+#: multivendor/src/components/common/SelectWithAddNewButton.js:60
+msgid "Category Created"
+msgstr ""
+
+#: multivendor/src/components/common/SelectWithAddNewButton.js:61
+msgid "Event category created successfully"
+msgstr ""
+
+#: multivendor/src/components/common/SelectWithAddNewButton.js:89
+msgid "Tag Created"
+msgstr ""
+
+#: multivendor/src/components/common/SelectWithAddNewButton.js:90
+msgid "Event tag created successfully"
+msgstr ""
+
+#: templates/event/event-pro-meta-details.php:11
+msgid "Time : "
+msgstr ""
+
+#: templates/event/event-pro-meta-details.php:31
+msgid "Registration Deadline : "
+msgstr ""
+
+#: templates/event/event-pro-meta-external-link.php:9
+msgid "More Info"
+msgstr ""
+
+#: templates/event/event-pro-organizers.php:15
+msgid "Organizer:"
+msgstr ""
+
+#: templates/event/event-pro-organizers.php:46
+msgid "Email :"
+msgstr ""
+
+#: templates/event/event-pro-organizers.php:57
+msgid "Social :"
+msgstr ""
+
+#: templates/event/event-pro-related-events.php:25
+#: widgets/related-events/related-events.php:32
+#: widgets/related-events/related-events.php:66
+#: widgets/related-events/related-events.php:77
+msgid "Related Events"
+msgstr ""
+
+#: templates/event/event-pro-sidebar-location-map.php:14
+#: templates/event/event-two-location-map.php:14
+#: widgets/event-locations/style/style-1.php:11
+msgid "No event location is added yet."
+msgstr ""
+
+#: templates/event/event-pro-sidebar-location-map.php:27
+#: templates/event/event-two-location-map.php:23
+msgid "Venue Info"
+msgstr ""
+
+#: templates/event/event-pro-sidebar-location-map.php:81
+#: templates/event/event-two-location-map.php:73
+msgid "No store found in this location"
+msgstr ""
+
+#: templates/event/event-two-tag-list.php:14
+msgid "Tags"
+msgstr ""
+
+#: templates/event/parts/event-details-parts-pro.php:27
+msgid "frequently asked questions"
+msgstr ""
+
+#: templates/event/parts/event-details-parts-pro.php:48 widgets/faq/faq.php:204
+msgid "No FAQ found!"
+msgstr ""
+
+#: templates/event/parts/event-details-parts-pro.php:164
+msgid "Schedule:"
+msgstr ""
+
+#: templates/external-script/purchase-ticket.php:19
+msgid "Avaiable Tickets: "
+msgstr ""
+
+#: templates/external-script/purchase-ticket.php:24
+msgid "Ticket Price :"
+msgstr ""
+
+#: templates/external-script/purchase-ticket.php:40
+msgid "Get your ticket"
+msgstr ""
+
+#: templates/speaker/schedule-header.php:6
+msgid "All Sessions by"
+msgstr ""
+
+#: utils/helper.php:188 widgets/countdown-timer/countdown-timer.php:483
+msgid "day"
+msgstr ""
+
+#: utils/helper.php:189 widgets/countdown-timer/countdown-timer.php:172
+#: widgets/countdown-timer/countdown-timer.php:485
+msgid "hr"
+msgstr ""
+
+#: utils/helper.php:190 widgets/countdown-timer/countdown-timer.php:487
+msgid "min"
+msgstr ""
+
+#: utils/helper.php:191 widgets/countdown-timer/countdown-timer.php:489
+msgid "sec"
+msgstr ""
+
+#: utils/helper.php:198 widgets/countdown-timer/countdown-timer.php:484
+msgid "days"
+msgstr ""
+
+#: utils/helper.php:200 widgets/countdown-timer/countdown-timer.php:180
+#: widgets/countdown-timer/countdown-timer.php:486
+msgid "hrs"
+msgstr ""
+
+#: utils/helper.php:202 widgets/countdown-timer/countdown-timer.php:488
+msgid "mins"
+msgstr ""
+
+#: utils/helper.php:204 widgets/countdown-timer/countdown-timer.php:490
+msgid "secs"
+msgstr ""
+
+#: utils/helper.php:269
+msgid " Today "
+msgstr ""
+
+#: utils/helper.php:270
+msgid " Tomorrow "
+msgstr ""
+
+#: utils/helper.php:271
+msgid " Yesterday "
+msgstr ""
+
+#: utils/helper.php:272
+msgid " This Weekend "
+msgstr ""
+
+#: utils/helper.php:273
+msgid " This Week "
+msgstr ""
+
+#: utils/helper.php:274
+msgid " This Month "
+msgstr ""
+
+#: utils/helper.php:275
+msgid " Upcoming "
+msgstr ""
+
+#: utils/helper.php:276
+msgid " Expired "
+msgstr ""
+
+#: utils/helper.php:279
+msgid "Online Event"
+msgstr ""
+
+#: utils/helper.php:280
+msgid "Offline Event"
+msgstr ""
+
+#: utils/helper.php:284
+msgid "Advanced Search"
+msgstr ""
+
+#: utils/helper.php:287
+msgid "Sort by:"
+msgstr ""
+
+#: utils/helper.php:319
+msgid "Event Type:"
+msgstr ""
+
+#: utils/helper.php:321
+msgid "Event Type"
+msgstr ""
+
+#: utils/helper.php:357
+msgid "Select event location"
+msgstr ""
+
+#: utils/helper.php:448
+msgid "Attendee Certificate for "
+msgstr ""
+
+#: utils/helper.php:517
+msgid "No attendees found"
+msgstr ""
+
+#: utils/helper.php:534 utils/helper.php:543
+msgid " has no email. Certificate has not been sent."
+msgstr ""
+
+#: utils/helper.php:539
+msgid "Mail Sent Successfully"
+msgstr ""
+
+#: utils/helper.php:561
+#, php-format
+msgid ""
+"<p>Congratulations for successfully attending/completing the event '%1$s'. "
+"Your certificate is ready! Click on the link provided below to get the PDF "
+"certificate. </p>"
+msgstr ""
+
+#: utils/helper.php:569
+#, php-format
+msgid "<p><a href=\"%1$s\">Download Certificate</a></p>"
+msgstr ""
+
+#: utils/updater/edd-warper.php:230
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+
+#: utils/updater/edd-warper.php:238
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+
+#: utils/updater/edd-warper.php:478
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: utils/updater/edd-warper.php:478
+msgid "Error"
+msgstr ""
+
+#: widgets/add-to-calendar/add-to-calendar.php:30
+msgid "Add To calendar"
+msgstr ""
+
+#: widgets/attendee-list/attendee-list.php:71
+#: widgets/event-tab/event-tab.php:542
+#: widgets/events-one-line/events-one-line.php:285
+#: widgets/events-pro/events-pro.php:356
+#: widgets/events-slider/events-slider.php:420 widgets/faq/faq.php:52
+msgid "Title Style"
+msgstr ""
+
+#: widgets/attendee-list/attendee-list.php:80
+#: widgets/attendee-list/attendee-list.php:123
+#: widgets/countdown-timer/countdown-timer.php:233
+#: widgets/countdown-timer/countdown-timer.php:276
+#: widgets/countdown-timer/countdown-timer.php:309
+#: widgets/countdown-timer/countdown-timer.php:341
+#: widgets/event-tab/event-tab.php:676 widgets/event-tab/event-tab.php:770
+#: widgets/events-one-line/events-one-line.php:437
+#: widgets/events-pro/events-pro.php:490 widgets/events-pro/events-pro.php:584
+#: widgets/events-slider/events-slider.php:585
+#: widgets/events-slider/events-slider.php:649
+#: widgets/organizers/organizers.php:172 widgets/organizers/organizers.php:217
+#: widgets/speakers-slider/speakers-slider.php:574
+#: widgets/speakers/speakers.php:524
+msgid "Typography"
+msgstr ""
+
+#: widgets/attendee-list/attendee-list.php:88
+#: widgets/attendee-list/attendee-list.php:131
+#: widgets/countdown-timer/countdown-timer.php:241
+#: widgets/countdown-timer/countdown-timer.php:317
+#: widgets/event-tab/event-tab.php:684 widgets/event-tab/event-tab.php:778
+#: widgets/events-one-line/events-one-line.php:445
+#: widgets/events-pro/events-pro.php:498 widgets/events-pro/events-pro.php:592
+#: widgets/events-slider/events-slider.php:593
+#: widgets/events-slider/events-slider.php:657
+#: widgets/schedule-list/schedule-list.php:147
+msgid "color"
+msgstr ""
+
+#: widgets/attendee-list/attendee-list.php:99
+#: widgets/speakers-slider/speakers-slider.php:261
+#: widgets/speakers/speakers.php:211
+msgid "margin"
+msgstr ""
+
+#: widgets/attendee-list/attendee-list.php:114
+#: widgets/recurring-event/recurring-event.php:213
+msgid "Meta Style"
+msgstr ""
+
+#: widgets/countdown-timer/countdown-timer.php:27
+msgid "Eventin Countdown Pro"
+msgstr ""
+
+#: widgets/countdown-timer/countdown-timer.php:51
+msgid "Eventin Countdowns Pro"
+msgstr ""
+
+#: widgets/countdown-timer/countdown-timer.php:57
+msgid "countdown Style"
+msgstr ""
+
+#: widgets/countdown-timer/countdown-timer.php:61
+msgid "countdown 1"
+msgstr ""
+
+#: widgets/countdown-timer/countdown-timer.php:79
+msgid "Show Seperate Dot"
+msgstr ""
+
+#: widgets/countdown-timer/countdown-timer.php:90
+msgid "Show event Title"
+msgstr ""
+
+#: widgets/countdown-timer/countdown-timer.php:101
+msgid "Justify Content"
+msgstr ""
+
+#: widgets/countdown-timer/countdown-timer.php:104
+msgid "Space Around"
+msgstr ""
+
+#: widgets/countdown-timer/countdown-timer.php:105
+#: widgets/countdown-timer/countdown-timer.php:131
+#: widgets/event-tab/event-tab.php:301
+#: widgets/events-slider/events-slider.php:241
+#: widgets/schedule-tab/schedule-tab.php:145
+#: widgets/speakers-slider/speakers-slider.php:173
+#: widgets/speakers/speakers.php:179
+msgid "Center"
+msgstr ""
+
+#: widgets/countdown-timer/countdown-timer.php:106
+msgid "End"
+msgstr ""
+
+#: widgets/countdown-timer/countdown-timer.php:108
+msgid "Flex Start"
+msgstr ""
+
+#: widgets/countdown-timer/countdown-timer.php:109
+msgid "Flex End"
+msgstr ""
+
+#: widgets/countdown-timer/countdown-timer.php:110
+msgid "Epace Between"
+msgstr ""
+
+#: widgets/countdown-timer/countdown-timer.php:111
+msgid "Space Evenly"
+msgstr ""
+
+#: widgets/countdown-timer/countdown-timer.php:123
+#: widgets/event-tab/event-tab.php:292
+#: widgets/events-slider/events-slider.php:233
+#: widgets/schedule-tab/schedule-tab.php:136
+#: widgets/speakers-slider/speakers-slider.php:165
+#: widgets/speakers/speakers.php:171
+msgid "Alignment"
+msgstr ""
+
+#: widgets/countdown-timer/countdown-timer.php:127
+#: widgets/event-tab/event-tab.php:297
+#: widgets/events-slider/events-slider.php:237
+#: widgets/schedule-tab/schedule-tab.php:141
+#: widgets/speakers-slider/speakers-slider.php:169
+#: widgets/speakers/speakers.php:175
+msgid "Left"
+msgstr ""
+
+#: widgets/countdown-timer/countdown-timer.php:135
+#: widgets/event-tab/event-tab.php:305
+#: widgets/events-slider/events-slider.php:245
+#: widgets/schedule-tab/schedule-tab.php:149
+#: widgets/speakers-slider/speakers-slider.php:177
+#: widgets/speakers/speakers.php:183
+msgid "Right"
+msgstr ""
+
+#: widgets/countdown-timer/countdown-timer.php:152
+msgid "Day Singular Text"
+msgstr ""
+
+#: widgets/countdown-timer/countdown-timer.php:154
+msgid "Day"
+msgstr ""
+
+#: widgets/countdown-timer/countdown-timer.php:160
+msgid "Day Plural Text"
+msgstr ""
+
+#: widgets/countdown-timer/countdown-timer.php:162
+msgid "Days"
+msgstr ""
+
+#: widgets/countdown-timer/countdown-timer.php:170
+msgid "Hour Singular Text"
+msgstr ""
+
+#: widgets/countdown-timer/countdown-timer.php:178
+msgid "Hour Plural Text"
+msgstr ""
+
+#: widgets/countdown-timer/countdown-timer.php:187
+msgid "Minut Singular Text"
+msgstr ""
+
+#: widgets/countdown-timer/countdown-timer.php:189
+msgid "Min"
+msgstr ""
+
+#: widgets/countdown-timer/countdown-timer.php:195
+msgid "Minut Plural Text"
+msgstr ""
+
+#: widgets/countdown-timer/countdown-timer.php:197
+msgid "Mins"
+msgstr ""
+
+#: widgets/countdown-timer/countdown-timer.php:204
+msgid "Second Singular Text"
+msgstr ""
+
+#: widgets/countdown-timer/countdown-timer.php:206
+msgid "Sec"
+msgstr ""
+
+#: widgets/countdown-timer/countdown-timer.php:212
+msgid "Second Plural Text"
+msgstr ""
+
+#: widgets/countdown-timer/countdown-timer.php:214
+msgid "Secs"
+msgstr ""
+
+#: widgets/countdown-timer/countdown-timer.php:223
+msgid " Event Title Style"
+msgstr ""
+
+#: widgets/countdown-timer/countdown-timer.php:251
+#: widgets/countdown-timer/countdown-timer.php:439
+#: widgets/event-locations/event-locations.php:204
+#: widgets/event-tab/event-tab.php:445 widgets/event-tab/event-tab.php:527
+#: widgets/events-one-line/events-one-line.php:270
+#: widgets/events-pro/events-pro.php:341
+#: widgets/events-slider/events-slider.php:405
+#: widgets/schedule-list/schedule-list.php:187
+#: widgets/schedule-list/schedule-list.php:230
+#: widgets/schedule-list/schedule-list.php:275
+#: widgets/schedule-list/schedule-list.php:373
+#: widgets/schedule-tab/schedule-tab.php:326
+#: widgets/schedule-tab/schedule-tab.php:380
+#: widgets/schedule-tab/schedule-tab.php:423
+#: widgets/schedule-tab/schedule-tab.php:627
+msgid "Margin"
+msgstr ""
+
+#: widgets/countdown-timer/countdown-timer.php:267
+msgid " Count Style"
+msgstr ""
+
+#: widgets/countdown-timer/countdown-timer.php:284
+msgid "Count color"
+msgstr ""
+
+#: widgets/countdown-timer/countdown-timer.php:299
+msgid " Seperate Dot Style"
+msgstr ""
+
+#: widgets/countdown-timer/countdown-timer.php:332
+msgid " Count Text Style"
+msgstr ""
+
+#: widgets/countdown-timer/countdown-timer.php:349
+msgid "Count Text color"
+msgstr ""
+
+#: widgets/countdown-timer/countdown-timer.php:364
+msgid " Advance Style"
+msgstr ""
+
+#: widgets/countdown-timer/countdown-timer.php:372
+msgid "Box Min width"
+msgstr ""
+
+#: widgets/countdown-timer/countdown-timer.php:395
+msgid "Box Min height"
+msgstr ""
+
+#: widgets/countdown-timer/countdown-timer.php:419
+#: widgets/event-tab/event-tab.php:862
+#: widgets/events-one-line/events-one-line.php:529
+#: widgets/events-pro/events-pro.php:676
+#: widgets/events-slider/events-slider.php:741
+#: widgets/recurring-event/recurring-event.php:319
+#: widgets/recurring-event/recurring-event.php:455
+#: widgets/recurring-event/recurring-event.php:563
+msgid "Background Color"
+msgstr ""
+
+#: widgets/countdown-timer/countdown-timer.php:428
+#: widgets/event-tab/event-tab.php:377 widgets/event-tab/event-tab.php:428
+#: widgets/event-tab/event-tab.php:798
+#: widgets/events-one-line/events-one-line.php:465
+#: widgets/events-pro/events-pro.php:612
+#: widgets/events-slider/events-slider.php:677
+#: widgets/schedule-list/schedule-list.php:176
+#: widgets/schedule-list/schedule-list.php:329
+#: widgets/schedule-tab/schedule-tab.php:239
+#: widgets/schedule-tab/schedule-tab.php:309
+#: widgets/schedule-tab/schedule-tab.php:638
+#: widgets/speakers-slider/speakers-slider.php:581
+#: widgets/speakers-slider/speakers-slider.php:636
+#: widgets/speakers/speakers.php:531 widgets/speakers/speakers.php:586
+msgid "Padding"
+msgstr ""
+
+#: widgets/countdown-timer/countdown-timer.php:452
+#: widgets/event-tab/event-tab.php:370 widgets/event-tab/event-tab.php:872
+#: widgets/event-tab/event-tab.php:991
+#: widgets/events-one-line/events-one-line.php:539
+#: widgets/events-one-line/events-one-line.php:658
+#: widgets/events-pro/events-pro.php:686 widgets/events-pro/events-pro.php:805
+#: widgets/events-slider/events-slider.php:751
+#: widgets/events-slider/events-slider.php:870
+#: widgets/organizers/organizers.php:286
+#: widgets/recurring-event/recurring-event.php:202
+#: widgets/recurring-event/recurring-event.php:329
+#: widgets/recurring-event/recurring-event.php:465
+#: widgets/schedule-list/schedule-list.php:525
+#: widgets/schedule-tab/schedule-tab.php:232
+#: widgets/schedule-tab/schedule-tab.php:650
+#: widgets/speakers-slider/speakers-slider.php:699
+#: widgets/speakers/speakers.php:649
+msgid "Border"
+msgstr ""
+
+#: widgets/countdown-timer/countdown-timer.php:459
+#: widgets/event-tab/event-tab.php:456 widgets/event-tab/event-tab.php:516
+#: widgets/event-tab/event-tab.php:809 widgets/event-tab/event-tab.php:879
+#: widgets/event-tab/event-tab.php:929
+#: widgets/events-one-line/events-one-line.php:259
+#: widgets/events-one-line/events-one-line.php:476
+#: widgets/events-one-line/events-one-line.php:546
+#: widgets/events-one-line/events-one-line.php:596
+#: widgets/events-pro/events-pro.php:330 widgets/events-pro/events-pro.php:623
+#: widgets/events-pro/events-pro.php:693 widgets/events-pro/events-pro.php:743
+#: widgets/events-slider/events-slider.php:394
+#: widgets/events-slider/events-slider.php:688
+#: widgets/events-slider/events-slider.php:758
+#: widgets/events-slider/events-slider.php:808
+#: widgets/recurring-event/recurring-event.php:336
+#: widgets/recurring-event/recurring-event.php:386
+#: widgets/recurring-event/recurring-event.php:472
+#: widgets/recurring-event/recurring-event.php:522
+#: widgets/schedule-list/schedule-list.php:532
+#: widgets/schedule-tab/schedule-tab.php:337
+#: widgets/schedule-tab/schedule-tab.php:657
+#: widgets/speakers-slider/speakers-slider.php:272
+#: widgets/speakers-slider/speakers-slider.php:593
+#: widgets/speakers-slider/speakers-slider.php:648
+#: widgets/speakers/speakers.php:222 widgets/speakers/speakers.php:543
+#: widgets/speakers/speakers.php:598
+msgid "Border Radius"
+msgstr ""
+
+#: widgets/event-calendar-list/event-calendar-list.php:27
+msgid "Event Calendar List Pro"
+msgstr ""
+
+#: widgets/event-calendar-list/event-calendar-list.php:57
+#: widgets/event-calendar/event-calendar.php:57
+msgid "Event With Calendar Pro"
+msgstr ""
+
+#: widgets/event-calendar-list/event-calendar-list.php:63
+#: widgets/event-calendar/event-calendar.php:63
+#: widgets/event-tab/event-tab.php:77
+#: widgets/events-one-line/events-one-line.php:79
+#: widgets/events-pro/events-pro.php:82
+#: widgets/events-slider/events-slider.php:84
+msgid "Event Category"
+msgstr ""
+
+#: widgets/event-calendar-list/event-calendar-list.php:75
+#: widgets/event-calendar/event-calendar.php:87
+msgid "Calendar View"
+msgstr ""
+
+#: widgets/event-calendar-list/event-calendar-list.php:100
+#: widgets/event-calendar/event-calendar.php:112
+msgid "Show Recurring Child Event"
+msgstr ""
+
+#: widgets/event-calendar/event-calendar.php:27
+msgid "Event Calendar Pro"
+msgstr ""
+
+#: widgets/event-calendar/event-calendar.php:75
+msgid "All Day Slot?"
+msgstr ""
+
+#: widgets/event-locations/actions/ajax-action.php:71
+msgid "Get Directions"
+msgstr ""
+
+#: widgets/event-locations/actions/ajax-action.php:102
+msgid "No event found in this location. Please try another location"
+msgstr ""
+
+#: widgets/event-locations/actions/ajax-action.php:108
+msgid "Nearby Events:"
+msgstr ""
+
+#: widgets/event-locations/event-locations.php:31
+msgid "Eventin Location List Pro"
+msgstr ""
+
+#: widgets/event-locations/event-locations.php:56
+msgid "Location Search Style"
+msgstr ""
+
+#: widgets/event-locations/event-locations.php:62
+msgid "Pick Search Style"
+msgstr ""
+
+#: widgets/event-locations/event-locations.php:66
+msgid "Location 1"
+msgstr ""
+
+#: widgets/event-locations/event-locations.php:77
+msgid "Form Style"
+msgstr ""
+
+#: widgets/event-locations/event-locations.php:85
+#: widgets/event-locations/event-locations.php:158
+msgid "Search Button Border"
+msgstr ""
+
+#: widgets/event-locations/event-locations.php:92
+msgid "Input Padding"
+msgstr ""
+
+#: widgets/event-locations/event-locations.php:104
+msgid "Placeholder Typography"
+msgstr ""
+
+#: widgets/event-locations/event-locations.php:111
+msgid "Placeholder Color"
+msgstr ""
+
+#: widgets/event-locations/event-locations.php:122
+msgid "Location Picker Typography"
+msgstr ""
+
+#: widgets/event-locations/event-locations.php:129
+msgid "Search Button Style"
+msgstr ""
+
+#: widgets/event-locations/event-locations.php:137
+msgid "Search Button Background"
+msgstr ""
+
+#: widgets/event-locations/event-locations.php:147
+msgid "Search Button Hover Background"
+msgstr ""
+
+#: widgets/event-locations/event-locations.php:167
+msgid "Content Style"
+msgstr ""
+
+#: widgets/event-locations/event-locations.php:176
+#: widgets/event-tab/event-tab.php:551
+#: widgets/events-one-line/events-one-line.php:294
+#: widgets/events-pro/events-pro.php:365
+#: widgets/events-slider/events-slider.php:429 widgets/faq/faq.php:61
+#: widgets/recurring-event/recurring-event.php:70
+#: widgets/recurring-event/recurring-event.php:100
+#: widgets/schedule-list/schedule-list.php:139
+#: widgets/schedule-list/schedule-list.php:212
+#: widgets/schedule-list/schedule-list.php:409
+#: widgets/schedule-tab/schedule-tab.php:362
+#: widgets/schedule-tab/schedule-tab.php:534
+#: widgets/speakers-slider/speakers-slider.php:341
+#: widgets/speakers/speakers.php:291
+msgid "Title Typography"
+msgstr ""
+
+#: widgets/event-locations/event-locations.php:184
+#: widgets/event-tab/event-tab.php:570
+#: widgets/events-one-line/events-one-line.php:313
+#: widgets/events-pro/events-pro.php:384
+#: widgets/events-slider/events-slider.php:448 widgets/faq/faq.php:80
+#: widgets/recurring-event/recurring-event.php:59
+#: widgets/recurring-event/recurring-event.php:89
+#: widgets/schedule-list/schedule-list.php:220
+#: widgets/schedule-tab/schedule-tab.php:370
+#: widgets/speakers-slider/speakers-slider.php:361
+#: widgets/speakers/speakers.php:311
+msgid "Title color"
+msgstr ""
+
+#: widgets/event-locations/event-locations.php:194
+msgid "Title Hover Color"
+msgstr ""
+
+#: widgets/event-locations/event-locations.php:215
+#: widgets/event-locations/event-locations.php:224
+msgid "Location Area Title"
+msgstr ""
+
+#: widgets/event-locations/event-locations.php:231
+msgid "Location Area Color"
+msgstr ""
+
+#: widgets/event-locations/style/style-1.php:82
+msgid "No events found in this location"
+msgstr ""
+
+#: widgets/event-locations/style/style-1.php:86
+msgid "Available Event Nearby:"
+msgstr ""
+
+#: widgets/event-locations/style/style-1.php:94
+msgid "Enter address here"
+msgstr ""
+
+#: widgets/event-locations/style/style-1.php:107
+msgid "Find me"
+msgstr ""
+
+#: widgets/event-locations/style/style-1.php:110
+msgid "Search location button"
+msgstr ""
+
+#: widgets/event-tab/event-tab.php:29
+msgid "Eventin Event Tabs Pro"
+msgstr ""
+
+#: widgets/event-tab/event-tab.php:61
+msgid " Style"
+msgstr ""
+
+#: widgets/event-tab/event-tab.php:65
+msgid "style 1"
+msgstr ""
+
+#: widgets/event-tab/event-tab.php:66
+msgid "style 2"
+msgstr ""
+
+#: widgets/event-tab/event-tab.php:67
+msgid "style 3"
+msgstr ""
+
+#: widgets/event-tab/event-tab.php:68
+msgid "style 4"
+msgstr ""
+
+#: widgets/event-tab/event-tab.php:86
+#: widgets/events-one-line/events-one-line.php:88
+#: widgets/events-pro/events-pro.php:91
+#: widgets/events-slider/events-slider.php:93
+msgid "Event Tag"
+msgstr ""
+
+#: widgets/event-tab/event-tab.php:96
+#: widgets/events-one-line/events-one-line.php:97
+#: widgets/events-pro/events-pro.php:100
+#: widgets/events-slider/events-slider.php:102
+msgid "Event count"
+msgstr ""
+
+#: widgets/event-tab/event-tab.php:124 widgets/events-pro/events-pro.php:128
+msgid "Event column"
+msgstr ""
+
+#: widgets/event-tab/event-tab.php:128 widgets/events-pro/events-pro.php:132
+#: widgets/organizers/organizers.php:107
+#: widgets/related-events/related-events.php:54
+#: widgets/speakers/speakers.php:110
+msgid "4 Column "
+msgstr ""
+
+#: widgets/event-tab/event-tab.php:129 widgets/events-pro/events-pro.php:133
+#: widgets/organizers/organizers.php:108
+#: widgets/related-events/related-events.php:55
+#: widgets/speakers/speakers.php:111
+msgid "3 Column"
+msgstr ""
+
+#: widgets/event-tab/event-tab.php:130 widgets/events-pro/events-pro.php:134
+#: widgets/organizers/organizers.php:109
+#: widgets/related-events/related-events.php:56
+#: widgets/speakers/speakers.php:112
+msgid "2 Column"
+msgstr ""
+
+#: widgets/event-tab/event-tab.php:131 widgets/events-pro/events-pro.php:135
+#: widgets/related-events/related-events.php:57
+msgid "1 Column"
+msgstr ""
+
+#: widgets/event-tab/event-tab.php:139
+#: widgets/events-one-line/events-one-line.php:107
+#: widgets/events-pro/events-pro.php:143
+#: widgets/events-slider/events-slider.php:137
+msgid "Order Event By"
+msgstr ""
+
+#: widgets/event-tab/event-tab.php:154
+#: widgets/events-one-line/events-one-line.php:122
+#: widgets/events-pro/events-pro.php:158
+#: widgets/events-slider/events-slider.php:152
+msgid "Event status filter By"
+msgstr ""
+
+#: widgets/event-tab/event-tab.php:158
+#: widgets/events-one-line/events-one-line.php:126
+#: widgets/events-pro/events-pro.php:162
+#: widgets/events-slider/events-slider.php:156
+msgid "All"
+msgstr ""
+
+#: widgets/event-tab/event-tab.php:159
+#: widgets/events-one-line/events-one-line.php:127
+#: widgets/events-pro/events-pro.php:163
+#: widgets/events-slider/events-slider.php:157
+msgid "upcoming Event"
+msgstr ""
+
+#: widgets/event-tab/event-tab.php:160
+#: widgets/events-one-line/events-one-line.php:128
+#: widgets/events-pro/events-pro.php:164
+#: widgets/events-slider/events-slider.php:158
+msgid "Expire Event"
+msgstr ""
+
+#: widgets/event-tab/event-tab.php:168
+#: widgets/events-one-line/events-one-line.php:136
+#: widgets/events-pro/events-pro.php:172
+#: widgets/events-slider/events-slider.php:167
+msgid "Order"
+msgstr ""
+
+#: widgets/event-tab/event-tab.php:172
+#: widgets/events-one-line/events-one-line.php:140
+#: widgets/events-pro/events-pro.php:176
+#: widgets/events-slider/events-slider.php:171
+#: widgets/organizers/organizers.php:139
+#: widgets/schedule-tab/schedule-tab.php:87
+#: widgets/speakers-slider/speakers-slider.php:137
+#: widgets/speakers/speakers.php:142
+msgid "Ascending"
+msgstr ""
+
+#: widgets/event-tab/event-tab.php:173
+#: widgets/events-one-line/events-one-line.php:141
+#: widgets/events-pro/events-pro.php:177
+#: widgets/events-slider/events-slider.php:172
+#: widgets/organizers/organizers.php:138
+#: widgets/schedule-tab/schedule-tab.php:86
+#: widgets/speakers-slider/speakers-slider.php:136
+#: widgets/speakers/speakers.php:141
+msgid "Descending"
+msgstr ""
+
+#: widgets/event-tab/event-tab.php:211
+#: widgets/events-one-line/events-one-line.php:179
+#: widgets/events-pro/events-pro.php:215
+#: widgets/events-slider/events-slider.php:211
+msgid "Button Text"
+msgstr ""
+
+#: widgets/event-tab/event-tab.php:213 widgets/events-pro/events-pro.php:217
+#: widgets/events-slider/events-slider.php:213
+msgid "attend "
+msgstr ""
+
+#: widgets/event-tab/event-tab.php:268
+#: widgets/events-one-line/events-one-line.php:223
+#: widgets/events-pro/events-pro.php:260
+#: widgets/events-slider/events-slider.php:283
+msgid "Show Recurring Child Events"
+msgstr ""
+
+#: widgets/event-tab/event-tab.php:285
+#: widgets/schedule-tab/schedule-tab.php:129
+msgid "Nav style"
+msgstr ""
+
+#: widgets/event-tab/event-tab.php:309
+#: widgets/schedule-tab/schedule-tab.php:153
+msgid "Justified"
+msgstr ""
+
+#: widgets/event-tab/event-tab.php:326
+#: widgets/schedule-tab/schedule-tab.php:170
+msgid "Nav Title Typography"
+msgstr ""
+
+#: widgets/event-tab/event-tab.php:342 widgets/event-tab/event-tab.php:564
+#: widgets/event-tab/event-tab.php:844 widgets/event-tab/event-tab.php:973
+#: widgets/events-one-line/events-one-line.php:307
+#: widgets/events-one-line/events-one-line.php:511
+#: widgets/events-one-line/events-one-line.php:640
+#: widgets/events-pro/events-pro.php:378 widgets/events-pro/events-pro.php:658
+#: widgets/events-pro/events-pro.php:787
+#: widgets/events-slider/events-slider.php:442
+#: widgets/events-slider/events-slider.php:723
+#: widgets/events-slider/events-slider.php:852 widgets/faq/faq.php:74
+#: widgets/organizers/organizers.php:231
+#: widgets/recurring-event/recurring-event.php:301
+#: widgets/recurring-event/recurring-event.php:437
+#: widgets/schedule-tab/schedule-tab.php:194
+#: widgets/speakers-slider/speakers-slider.php:355
+#: widgets/speakers-slider/speakers-slider.php:456
+#: widgets/speakers-slider/speakers-slider.php:545
+#: widgets/speakers-slider/speakers-slider.php:682
+#: widgets/speakers/speakers.php:305 widgets/speakers/speakers.php:406
+#: widgets/speakers/speakers.php:495 widgets/speakers/speakers.php:632
+msgid "Normal"
+msgstr ""
+
+#: widgets/event-tab/event-tab.php:349
+#: widgets/schedule-tab/schedule-tab.php:201
+msgid "Nav Title Color"
+msgstr ""
+
+#: widgets/event-tab/event-tab.php:360
+#: widgets/schedule-list/schedule-list.php:493
+#: widgets/schedule-tab/schedule-tab.php:222
+#: widgets/schedule-tab/schedule-tab.php:618
+msgid "Background"
+msgstr ""
+
+#: widgets/event-tab/event-tab.php:393
+#: widgets/schedule-tab/schedule-tab.php:255
+msgid "Active"
+msgstr ""
+
+#: widgets/event-tab/event-tab.php:399
+#: widgets/schedule-tab/schedule-tab.php:261
+msgid "Nav active color"
+msgstr ""
+
+#: widgets/event-tab/event-tab.php:412
+#: widgets/schedule-tab/schedule-tab.php:293
+msgid "Active Background"
+msgstr ""
+
+#: widgets/event-tab/event-tab.php:421
+#: widgets/schedule-tab/schedule-tab.php:302
+msgid "Border active"
+msgstr ""
+
+#: widgets/event-tab/event-tab.php:473
+#: widgets/events-one-line/events-one-line.php:250
+#: widgets/events-pro/events-pro.php:287
+#: widgets/events-slider/events-slider.php:351
+msgid "Thumbnail Style"
+msgstr ""
+
+#: widgets/event-tab/event-tab.php:481 widgets/events-pro/events-pro.php:295
+#: widgets/events-slider/events-slider.php:359
+msgid "image height"
+msgstr ""
+
+#: widgets/event-tab/event-tab.php:584 widgets/event-tab/event-tab.php:893
+#: widgets/event-tab/event-tab.php:1009
+#: widgets/events-one-line/events-one-line.php:327
+#: widgets/events-one-line/events-one-line.php:560
+#: widgets/events-one-line/events-one-line.php:676
+#: widgets/events-pro/events-pro.php:398 widgets/events-pro/events-pro.php:707
+#: widgets/events-pro/events-pro.php:823
+#: widgets/events-slider/events-slider.php:462
+#: widgets/events-slider/events-slider.php:772
+#: widgets/events-slider/events-slider.php:888 widgets/faq/faq.php:93
+#: widgets/organizers/organizers.php:251
+#: widgets/recurring-event/recurring-event.php:350
+#: widgets/recurring-event/recurring-event.php:486
+#: widgets/speakers-slider/speakers-slider.php:389
+#: widgets/speakers-slider/speakers-slider.php:489
+#: widgets/speakers-slider/speakers-slider.php:610
+#: widgets/speakers-slider/speakers-slider.php:716
+#: widgets/speakers/speakers.php:339 widgets/speakers/speakers.php:439
+#: widgets/speakers/speakers.php:560 widgets/speakers/speakers.php:666
+msgid "Hover"
+msgstr ""
+
+#: widgets/event-tab/event-tab.php:590
+#: widgets/events-one-line/events-one-line.php:333
+#: widgets/events-pro/events-pro.php:404
+#: widgets/events-slider/events-slider.php:468 widgets/faq/faq.php:99
+#: widgets/speakers-slider/speakers-slider.php:395
+#: widgets/speakers/speakers.php:345
+msgid "Title Hover color"
+msgstr ""
+
+#: widgets/event-tab/event-tab.php:607
+#: widgets/events-one-line/events-one-line.php:350
+#: widgets/events-pro/events-pro.php:421
+#: widgets/events-slider/events-slider.php:485 widgets/faq/faq.php:116
+#: widgets/recurring-event/recurring-event.php:108
+#: widgets/speakers-slider/speakers-slider.php:414
+#: widgets/speakers/speakers.php:364
+msgid "Title margin"
+msgstr ""
+
+#: widgets/event-tab/event-tab.php:622 widgets/events-pro/events-pro.php:436
+#: widgets/events-slider/events-slider.php:500 widgets/faq/faq.php:131
+#: widgets/recurring-event/recurring-event.php:122
+msgid "Description Style"
+msgstr ""
+
+#: widgets/event-tab/event-tab.php:632 widgets/events-pro/events-pro.php:446
+#: widgets/events-slider/events-slider.php:510 widgets/faq/faq.php:140
+msgid "Description Typography"
+msgstr ""
+
+#: widgets/event-tab/event-tab.php:640 widgets/events-pro/events-pro.php:454
+#: widgets/events-slider/events-slider.php:518 widgets/faq/faq.php:148
+msgid "Description color"
+msgstr ""
+
+#: widgets/event-tab/event-tab.php:651 widgets/events-pro/events-pro.php:465
+#: widgets/events-slider/events-slider.php:529 widgets/faq/faq.php:159
+#: widgets/speakers-slider/speakers-slider.php:513
+#: widgets/speakers/speakers.php:463
+msgid "Description margin"
+msgstr ""
+
+#: widgets/event-tab/event-tab.php:666 widgets/events-pro/events-pro.php:480
+#: widgets/events-slider/events-slider.php:575
+msgid "Attendee Count Style"
+msgstr ""
+
+#: widgets/event-tab/event-tab.php:698
+#: widgets/events-one-line/events-one-line.php:365
+#: widgets/events-pro/events-pro.php:512
+#: widgets/events-slider/events-slider.php:544
+msgid "Location Style"
+msgstr ""
+
+#: widgets/event-tab/event-tab.php:707
+#: widgets/events-one-line/events-one-line.php:374
+#: widgets/events-pro/events-pro.php:521
+#: widgets/events-slider/events-slider.php:553
+msgid "Location Typography"
+msgstr ""
+
+#: widgets/event-tab/event-tab.php:715
+#: widgets/events-one-line/events-one-line.php:382
+#: widgets/events-pro/events-pro.php:529
+#: widgets/events-slider/events-slider.php:561
+msgid "Location color"
+msgstr ""
+
+#: widgets/event-tab/event-tab.php:729
+#: widgets/events-one-line/events-one-line.php:396
+#: widgets/events-pro/events-pro.php:543
+#: widgets/events-slider/events-slider.php:607
+#: widgets/recurring-event/recurring-event.php:163
+msgid "Date Style"
+msgstr ""
+
+#: widgets/event-tab/event-tab.php:738
+#: widgets/events-one-line/events-one-line.php:405
+#: widgets/events-pro/events-pro.php:552
+#: widgets/events-slider/events-slider.php:616
+#: widgets/recurring-event/recurring-event.php:193
+#: widgets/schedule-list/schedule-list.php:169
+msgid "Date Typography"
+msgstr ""
+
+#: widgets/event-tab/event-tab.php:746
+#: widgets/events-one-line/events-one-line.php:413
+#: widgets/events-pro/events-pro.php:560
+#: widgets/events-slider/events-slider.php:625
+#: widgets/recurring-event/recurring-event.php:171
+msgid "Date color"
+msgstr ""
+
+#: widgets/event-tab/event-tab.php:760
+#: widgets/events-one-line/events-one-line.php:427
+#: widgets/events-pro/events-pro.php:574
+#: widgets/events-slider/events-slider.php:639
+msgid "Category Style"
+msgstr ""
+
+#: widgets/event-tab/event-tab.php:823
+#: widgets/events-one-line/events-one-line.php:490
+#: widgets/events-pro/events-pro.php:637
+#: widgets/events-slider/events-slider.php:702
+#: widgets/recurring-event/recurring-event.php:281
+msgid "Button Style"
+msgstr ""
+
+#: widgets/event-tab/event-tab.php:832
+#: widgets/events-one-line/events-one-line.php:499
+#: widgets/events-pro/events-pro.php:646
+#: widgets/events-slider/events-slider.php:711
+#: widgets/recurring-event/recurring-event.php:289
+#: widgets/recurring-event/recurring-event.php:425
+msgid "Button Typography"
+msgstr ""
+
+#: widgets/event-tab/event-tab.php:850
+#: widgets/events-one-line/events-one-line.php:517
+#: widgets/events-pro/events-pro.php:664
+#: widgets/events-slider/events-slider.php:729
+#: widgets/recurring-event/recurring-event.php:307
+#: widgets/recurring-event/recurring-event.php:443
+msgid "Button color"
+msgstr ""
+
+#: widgets/event-tab/event-tab.php:899
+#: widgets/events-one-line/events-one-line.php:566
+#: widgets/events-pro/events-pro.php:713
+#: widgets/events-slider/events-slider.php:778
+#: widgets/recurring-event/recurring-event.php:356
+#: widgets/recurring-event/recurring-event.php:492
+msgid "Button Hover color"
+msgstr ""
+
+#: widgets/event-tab/event-tab.php:911
+#: widgets/events-one-line/events-one-line.php:578
+#: widgets/events-pro/events-pro.php:725
+#: widgets/events-slider/events-slider.php:790
+#: widgets/recurring-event/recurring-event.php:368
+#: widgets/recurring-event/recurring-event.php:504
+msgid "Background Hover Color"
+msgstr ""
+
+#: widgets/event-tab/event-tab.php:921
+#: widgets/events-one-line/events-one-line.php:588
+#: widgets/events-pro/events-pro.php:735
+#: widgets/events-slider/events-slider.php:800
+#: widgets/recurring-event/recurring-event.php:378
+#: widgets/recurring-event/recurring-event.php:514
+#: widgets/speakers-slider/speakers-slider.php:733
+#: widgets/speakers/speakers.php:683
+msgid "Border Hover"
+msgstr ""
+
+#: widgets/event-tab/event-tab.php:946
+#: widgets/events-one-line/events-one-line.php:613
+#: widgets/events-pro/events-pro.php:760
+#: widgets/events-slider/events-slider.php:825
+#: widgets/recurring-event/recurring-event.php:403
+#: widgets/recurring-event/recurring-event.php:539
+msgid "Button Padding"
+msgstr ""
+
+#: widgets/event-tab/event-tab.php:961
+#: widgets/events-one-line/events-one-line.php:628
+#: widgets/events-pro/events-pro.php:775
+#: widgets/events-slider/events-slider.php:840
+#: widgets/recurring-event/recurring-event.php:554
+msgid "Advance Style"
+msgstr ""
+
+#: widgets/event-tab/event-tab.php:979
+#: widgets/events-one-line/events-one-line.php:646
+#: widgets/events-pro/events-pro.php:793
+#: widgets/events-slider/events-slider.php:858
+#: widgets/speakers-slider/speakers-slider.php:688
+#: widgets/speakers/speakers.php:638
+msgid "Content box BG color"
+msgstr ""
+
+#: widgets/event-tab/event-tab.php:999
+#: widgets/events-one-line/events-one-line.php:666
+#: widgets/events-pro/events-pro.php:813
+#: widgets/events-slider/events-slider.php:878
+#: widgets/recurring-event/recurring-event.php:572
+#: widgets/schedule-list/schedule-list.php:556
+#: widgets/speakers-slider/speakers-slider.php:322
+#: widgets/speakers-slider/speakers-slider.php:707
+#: widgets/speakers-slider/speakers-slider.php:741
+#: widgets/speakers/speakers.php:272 widgets/speakers/speakers.php:657
+#: widgets/speakers/speakers.php:691
+msgid "Box Shadow"
+msgstr ""
+
+#: widgets/event-tab/event-tab.php:1015
+#: widgets/events-one-line/events-one-line.php:682
+#: widgets/events-pro/events-pro.php:829
+#: widgets/events-slider/events-slider.php:894
+#: widgets/speakers-slider/speakers-slider.php:722
+#: widgets/speakers/speakers.php:672
+msgid "Box Hover BG color"
+msgstr ""
+
+#: widgets/event-tab/event-tab.php:1027
+#: widgets/events-one-line/events-one-line.php:694
+#: widgets/events-pro/events-pro.php:841
+#: widgets/events-slider/events-slider.php:906
+msgid "BorderHover"
+msgstr ""
+
+#: widgets/event-tab/event-tab.php:1035
+#: widgets/events-one-line/events-one-line.php:702
+#: widgets/events-pro/events-pro.php:849
+#: widgets/events-slider/events-slider.php:914
+msgid "Box Hover Shadow"
+msgstr ""
+
+#: widgets/event-tab/event-tab.php:1048
+#: widgets/events-one-line/events-one-line.php:715
+#: widgets/events-pro/events-pro.php:862
+#: widgets/events-slider/events-slider.php:927
+msgid "Box Border Radius"
+msgstr ""
+
+#: widgets/event-tab/event-tab.php:1060
+#: widgets/events-one-line/events-one-line.php:727
+#: widgets/events-pro/events-pro.php:874
+#: widgets/events-slider/events-slider.php:939
+#: widgets/organizers/organizers.php:294
+#: widgets/speakers-slider/speakers-slider.php:753
+#: widgets/speakers/speakers.php:703
+msgid "Content Box Padding"
+msgstr ""
+
+#: widgets/event-tab/event-tab.php:1071
+#: widgets/events-one-line/events-one-line.php:738
+#: widgets/events-pro/events-pro.php:885
+#: widgets/events-slider/events-slider.php:950
+#: widgets/organizers/organizers.php:305
+msgid "Content Box Margin"
+msgstr ""
+
+#: widgets/event-ticket/event-ticket.php:15
+#: widgets/event-ticket/event-ticket.php:30
+msgid "Single Event Ticket"
+msgstr ""
+
+#: widgets/event-ticket/event-ticket.php:47
+#: widgets/events-slider/events-slider.php:307
+#: widgets/events-slider/events-slider.php:318
+#: widgets/events-slider/events-slider.php:329
+#: widgets/speakers-slider/speakers-slider.php:205
+#: widgets/speakers-slider/speakers-slider.php:218
+#: widgets/speakers-slider/speakers-slider.php:229
+msgid "Show"
+msgstr ""
+
+#: widgets/event-ticket/event-ticket.php:48
+#: widgets/events-slider/events-slider.php:308
+#: widgets/events-slider/events-slider.php:319
+#: widgets/events-slider/events-slider.php:330
+#: widgets/speakers-slider/speakers-slider.php:206
+#: widgets/speakers-slider/speakers-slider.php:219
+#: widgets/speakers-slider/speakers-slider.php:230
+msgid "Hide"
+msgstr ""
+
+#: widgets/events-one-line/events-one-line.php:29
+msgid "Eventin One Line Events Pro"
+msgstr ""
+
+#: widgets/events-one-line/events-one-line.php:62
+#: widgets/events-pro/events-pro.php:62
+msgid "Eventin Event Pro"
+msgstr ""
+
+#: widgets/events-one-line/events-one-line.php:68
+#: widgets/events-pro/events-pro.php:68
+#: widgets/events-slider/events-slider.php:71
+msgid "Event Style"
+msgstr ""
+
+#: widgets/events-one-line/events-one-line.php:72
+#: widgets/events-pro/events-pro.php:72
+#: widgets/events-slider/events-slider.php:75
+msgid "Event 1"
+msgstr ""
+
+#: widgets/events-one-line/events-one-line.php:181
+msgid "See Details "
+msgstr ""
+
+#: widgets/events-one-line/style/event-1.php:72
+#: widgets/events-pro/style/event-1.php:74
+#: widgets/events-pro/style/event-2.php:73
+#: widgets/events-pro/style/event-3.php:73
+#: widgets/events-pro/style/event-4.php:76
+msgid "No Event Found"
+msgstr ""
+
+#: widgets/events-pro/events-pro.php:29
+msgid "Eventin Events Pro"
+msgstr ""
+
+#: widgets/events-pro/events-pro.php:73
+#: widgets/events-slider/events-slider.php:76
+msgid "Event 2"
+msgstr ""
+
+#: widgets/events-pro/events-pro.php:74
+#: widgets/events-slider/events-slider.php:77
+msgid "Event 3"
+msgstr ""
+
+#: widgets/events-pro/events-pro.php:75
+msgid "Event 4"
+msgstr ""
+
+#: widgets/events-slider/events-slider.php:32
+msgid "Eventin Events Slider Pro"
+msgstr ""
+
+#: widgets/events-slider/events-slider.php:65
+msgid "Eventin Event Slider Pro"
+msgstr ""
+
+#: widgets/events-slider/events-slider.php:110
+msgid "Slider count"
+msgstr ""
+
+#: widgets/events-slider/events-slider.php:298
+#: widgets/speakers-slider/speakers-slider.php:196
+msgid "Slider Style"
+msgstr ""
+
+#: widgets/events-slider/events-slider.php:305
+#: widgets/speakers-slider/speakers-slider.php:216
+msgid "Slider Nav Show"
+msgstr ""
+
+#: widgets/events-slider/events-slider.php:327
+#: widgets/speakers-slider/speakers-slider.php:227
+msgid "Slider dot Show"
+msgstr ""
+
+#: widgets/events-slider/events-slider.php:338
+#: widgets/speakers-slider/speakers-slider.php:238
+msgid "Slider Nav BG Color"
+msgstr ""
+
+#: widgets/faq/faq.php:21 widgets/faq/faq.php:32
+msgid "Event FAQ Pro"
+msgstr ""
+
+#: widgets/faq/faq.php:39 widgets/related-events/related-events.php:39
+msgid "Select Event Id"
+msgstr ""
+
+#: widgets/organizers/organizers.php:26
+msgid "Eventin Organizer Pro"
+msgstr ""
+
+#: widgets/organizers/organizers.php:55
+msgid "Eventin Organizers"
+msgstr ""
+
+#: widgets/organizers/organizers.php:62
+msgid "Organizer Style"
+msgstr ""
+
+#: widgets/organizers/organizers.php:66
+msgid "Organizer 1"
+msgstr ""
+
+#: widgets/organizers/organizers.php:67
+msgid "Organizer 2"
+msgstr ""
+
+#: widgets/organizers/organizers.php:84
+msgid "Organizer Category"
+msgstr ""
+
+#: widgets/organizers/organizers.php:94
+msgid "Organizer count"
+msgstr ""
+
+#: widgets/organizers/organizers.php:103
+msgid "Organizer column"
+msgstr ""
+
+#: widgets/organizers/organizers.php:119
+msgid "Order Organizer By"
+msgstr ""
+
+#: widgets/organizers/organizers.php:134
+msgid "Organizer Order"
+msgstr ""
+
+#: widgets/organizers/organizers.php:147
+msgid "Company Logo"
+msgstr ""
+
+#: widgets/organizers/organizers.php:163
+msgid "Organaizer Info"
+msgstr ""
+
+#: widgets/organizers/organizers.php:180
+msgid "Organaizer Info color"
+msgstr ""
+
+#: widgets/organizers/organizers.php:192
+msgid "Info Padding"
+msgstr ""
+
+#: widgets/organizers/organizers.php:208
+#: widgets/speakers-slider/speakers-slider.php:530
+#: widgets/speakers/speakers.php:480
+msgid "Social Section"
+msgstr ""
+
+#: widgets/organizers/organizers.php:237
+#: widgets/speakers-slider/speakers-slider.php:551
+#: widgets/speakers-slider/speakers-slider.php:616
+#: widgets/speakers/speakers.php:501 widgets/speakers/speakers.php:566
+msgid "Social color"
+msgstr ""
+
+#: widgets/organizers/organizers.php:257
+msgid "Social Hover color"
+msgstr ""
+
+#: widgets/organizers/organizers.php:277
+#: widgets/speakers-slider/speakers-slider.php:670
+#: widgets/speakers/speakers.php:620
+msgid "Advance Section"
+msgstr ""
+
+#: widgets/organizers/style/organizer-1.php:40
+#: widgets/organizers/style/organizer-2.php:44
+msgid "Social : "
+msgstr ""
+
+#: widgets/recurring-event/recurring-event.php:16
+#: widgets/recurring-event/recurring-event.php:31
+msgid "Recurring Event Ticket"
+msgstr ""
+
+#: widgets/recurring-event/recurring-event.php:51
+msgid "Main Title Style"
+msgstr ""
+
+#: widgets/recurring-event/recurring-event.php:81
+msgid "Post Title Style"
+msgstr ""
+
+#: widgets/recurring-event/recurring-event.php:130
+#: widgets/schedule-list/schedule-list.php:265
+#: widgets/schedule-tab/schedule-tab.php:413
+msgid "Desc color"
+msgstr ""
+
+#: widgets/recurring-event/recurring-event.php:141
+#: widgets/schedule-list/schedule-list.php:257
+#: widgets/schedule-tab/schedule-tab.php:405
+msgid "Desc Typography"
+msgstr ""
+
+#: widgets/recurring-event/recurring-event.php:149
+msgid "Desc margin"
+msgstr ""
+
+#: widgets/recurring-event/recurring-event.php:181
+msgid "Sub Date color"
+msgstr ""
+
+#: widgets/recurring-event/recurring-event.php:221
+msgid "Meta color"
+msgstr ""
+
+#: widgets/recurring-event/recurring-event.php:232
+msgid "Meta Typography"
+msgstr ""
+
+#: widgets/recurring-event/recurring-event.php:242
+msgid "Price Style"
+msgstr ""
+
+#: widgets/recurring-event/recurring-event.php:250
+msgid "Price Label Color"
+msgstr ""
+
+#: widgets/recurring-event/recurring-event.php:260
+msgid "Price Color"
+msgstr ""
+
+#: widgets/recurring-event/recurring-event.php:271
+msgid "Price Typography"
+msgstr ""
+
+#: widgets/recurring-event/recurring-event.php:417
+msgid "Lodmore Button Style"
+msgstr ""
+
+#: widgets/recurring-event/recurring-event.php:579
+msgid "box padding"
+msgstr ""
+
+#: widgets/related-events/related-events.php:21
+msgid "Related Events Pro"
+msgstr ""
+
+#: widgets/related-events/related-events.php:65
+msgid "Set label"
+msgstr ""
+
+#: widgets/schedule-list/schedule-list.php:31
+msgid "Eventin Schedule List Pro"
+msgstr ""
+
+#: widgets/schedule-list/schedule-list.php:56
+msgid "Schedule List pro"
+msgstr ""
+
+#: widgets/schedule-list/schedule-list.php:62
+#: widgets/schedule-tab/schedule-tab.php:60
+msgid "Schedule Style"
+msgstr ""
+
+#: widgets/schedule-list/schedule-list.php:66
+#: widgets/schedule-tab/schedule-tab.php:64
+msgid "Schedule 1"
+msgstr ""
+
+#: widgets/schedule-list/schedule-list.php:67
+#: widgets/schedule-tab/schedule-tab.php:65
+msgid "Schedule 2"
+msgstr ""
+
+#: widgets/schedule-list/schedule-list.php:68
+#: widgets/schedule-tab/schedule-tab.php:66
+msgid "Schedule 3"
+msgstr ""
+
+#: widgets/schedule-list/schedule-list.php:94
+#: widgets/schedule-tab/schedule-tab.php:94
+msgid "Show Speaker"
+msgstr ""
+
+#: widgets/schedule-list/schedule-list.php:105
+#: widgets/schedule-tab/schedule-tab.php:105
+msgid "Show Location"
+msgstr ""
+
+#: widgets/schedule-list/schedule-list.php:115
+#: widgets/schedule-tab/schedule-tab.php:115
+msgid "Show Time Duration"
+msgstr ""
+
+#: widgets/schedule-list/schedule-list.php:129
+msgid "Head style"
+msgstr ""
+
+#: widgets/schedule-list/schedule-list.php:157
+msgid "background color"
+msgstr ""
+
+#: widgets/schedule-list/schedule-list.php:203
+#: widgets/schedule-tab/schedule-tab.php:353
+msgid "Title style"
+msgstr ""
+
+#: widgets/schedule-list/schedule-list.php:246
+#: widgets/schedule-tab/schedule-tab.php:396
+msgid "Description style"
+msgstr ""
+
+#: widgets/schedule-list/schedule-list.php:291
+#: widgets/schedule-tab/schedule-tab.php:439
+msgid "Schedule Time style"
+msgstr ""
+
+#: widgets/schedule-list/schedule-list.php:301
+#: widgets/schedule-tab/schedule-tab.php:449
+msgid "Schedule Time Typography"
+msgstr ""
+
+#: widgets/schedule-list/schedule-list.php:309
+#: widgets/schedule-tab/schedule-tab.php:457
+msgid "Schedule Time Color"
+msgstr ""
+
+#: widgets/schedule-list/schedule-list.php:319
+#: widgets/schedule-tab/schedule-tab.php:467
+msgid "Schedule Time BG Color"
+msgstr ""
+
+#: widgets/schedule-list/schedule-list.php:345
+#: widgets/schedule-tab/schedule-tab.php:482
+msgid "Location style"
+msgstr ""
+
+#: widgets/schedule-list/schedule-list.php:355
+#: widgets/schedule-tab/schedule-tab.php:492
+msgid "location Typography"
+msgstr ""
+
+#: widgets/schedule-list/schedule-list.php:363
+#: widgets/schedule-tab/schedule-tab.php:500
+msgid "Location Color"
+msgstr ""
+
+#: widgets/schedule-list/schedule-list.php:389
+#: widgets/schedule-tab/schedule-tab.php:514
+msgid "Speaker style"
+msgstr ""
+
+#: widgets/schedule-list/schedule-list.php:398
+#: widgets/schedule-tab/schedule-tab.php:523
+msgid "Title Color"
+msgstr ""
+
+#: widgets/schedule-list/schedule-list.php:417
+#: widgets/schedule-tab/schedule-tab.php:542
+msgid "Designation Color"
+msgstr ""
+
+#: widgets/schedule-list/schedule-list.php:428
+#: widgets/schedule-tab/schedule-tab.php:553
+#: widgets/speakers-slider/speakers-slider.php:442
+#: widgets/speakers/speakers.php:392
+msgid "Designation Typography"
+msgstr ""
+
+#: widgets/schedule-list/schedule-list.php:436
+#: widgets/schedule-tab/schedule-tab.php:561
+msgid "Image Border Radius"
+msgstr ""
+
+#: widgets/schedule-list/schedule-list.php:451
+#: widgets/schedule-tab/schedule-tab.php:576
+msgid "Accordion Icon style"
+msgstr ""
+
+#: widgets/schedule-list/schedule-list.php:459
+#: widgets/schedule-tab/schedule-tab.php:584
+msgid "Icon Color"
+msgstr ""
+
+#: widgets/schedule-list/schedule-list.php:469
+#: widgets/schedule-tab/schedule-tab.php:594
+msgid "Icon Background Color"
+msgstr ""
+
+#: widgets/schedule-list/schedule-list.php:484
+#: widgets/schedule-tab/schedule-tab.php:609
+msgid "Advance style"
+msgstr ""
+
+#: widgets/schedule-list/schedule-list.php:502
+msgid "Content Margin"
+msgstr ""
+
+#: widgets/schedule-list/schedule-list.php:513
+msgid "Content Padding"
+msgstr ""
+
+#: widgets/schedule-list/schedule-list.php:543
+msgid "Box Padding"
+msgstr ""
+
+#: widgets/schedule-tab/schedule-tab.php:29
+msgid "Eventin Schedule Tab Pro"
+msgstr ""
+
+#: widgets/schedule-tab/schedule-tab.php:54
+msgid "Schedule Tab pro"
+msgstr ""
+
+#: widgets/schedule-tab/schedule-tab.php:82
+msgid "Schedule order"
+msgstr ""
+
+#: widgets/schedule-tab/schedule-tab.php:180
+msgid "Nav Sub Title Typography"
+msgstr ""
+
+#: widgets/schedule-tab/schedule-tab.php:211
+msgid "Nav Subtitle color"
+msgstr ""
+
+#: widgets/schedule-tab/schedule-tab.php:272
+msgid "Nav Subtitle Active color"
+msgstr ""
+
+#: widgets/schedule-tab/schedule-tab.php:282
+msgid "Nav Angle Active color"
+msgstr ""
+
+#: widgets/speakers-slider/speakers-slider.php:32
+#: widgets/speakers-slider/speakers-slider.php:59
+msgid "Speaker Slider Pro"
+msgstr ""
+
+#: widgets/speakers-slider/speakers-slider.php:66
+#: widgets/speakers/speakers.php:62
+msgid "Speaker Style"
+msgstr ""
+
+#: widgets/speakers-slider/speakers-slider.php:70
+#: widgets/speakers/speakers.php:66
+msgid "Speaker 1"
+msgstr ""
+
+#: widgets/speakers-slider/speakers-slider.php:71
+#: widgets/speakers/speakers.php:67
+msgid "Speaker 2"
+msgstr ""
+
+#: widgets/speakers-slider/speakers-slider.php:72
+#: widgets/speakers/speakers.php:68
+msgid "Speaker 3"
+msgstr ""
+
+#: widgets/speakers-slider/speakers-slider.php:73
+#: widgets/speakers/speakers.php:69
+msgid "Speaker 4"
+msgstr ""
+
+#: widgets/speakers-slider/speakers-slider.php:74
+#: widgets/speakers/speakers.php:70
+msgid "Speaker 5"
+msgstr ""
+
+#: widgets/speakers-slider/speakers-slider.php:82
+#: widgets/speakers/speakers.php:87
+msgid "Speaker Category"
+msgstr ""
+
+#: widgets/speakers-slider/speakers-slider.php:91
+#: widgets/speakers/speakers.php:97
+msgid "Speaker count"
+msgstr ""
+
+#: widgets/speakers-slider/speakers-slider.php:100
+msgid "slider count"
+msgstr ""
+
+#: widgets/speakers-slider/speakers-slider.php:109
+msgid "Space Between"
+msgstr ""
+
+#: widgets/speakers-slider/speakers-slider.php:119
+#: widgets/speakers/speakers.php:122
+msgid "Order Speaker By"
+msgstr ""
+
+#: widgets/speakers-slider/speakers-slider.php:132
+#: widgets/speakers/speakers.php:137
+msgid "Speaker order"
+msgstr ""
+
+#: widgets/speakers-slider/speakers-slider.php:253
+#: widgets/speakers/speakers.php:203
+msgid "Thumbanil Section"
+msgstr ""
+
+#: widgets/speakers-slider/speakers-slider.php:283
+#: widgets/speakers/speakers.php:233
+msgid "Width"
+msgstr ""
+
+#: widgets/speakers-slider/speakers-slider.php:302
+#: widgets/speakers/speakers.php:252
+msgid "Height"
+msgstr ""
+
+#: widgets/speakers-slider/speakers-slider.php:331
+#: widgets/speakers/speakers.php:281
+msgid "Title Section"
+msgstr ""
+
+#: widgets/speakers-slider/speakers-slider.php:372
+#: widgets/speakers/speakers.php:322
+msgid "Title BG color"
+msgstr ""
+
+#: widgets/speakers-slider/speakers-slider.php:432
+#: widgets/speakers/speakers.php:382
+msgid "Designation Section"
+msgstr ""
+
+#: widgets/speakers-slider/speakers-slider.php:462
+#: widgets/speakers/speakers.php:412
+msgid "Designation color"
+msgstr ""
+
+#: widgets/speakers-slider/speakers-slider.php:472
+#: widgets/speakers/speakers.php:422
+msgid "Designation BG color"
+msgstr ""
+
+#: widgets/speakers-slider/speakers-slider.php:495
+#: widgets/speakers/speakers.php:445
+msgid "Designation Hover color"
+msgstr ""
+
+#: widgets/speakers-slider/speakers-slider.php:561
+#: widgets/speakers/speakers.php:511
+msgid "Social BG color"
+msgstr ""
+
+#: widgets/speakers-slider/speakers-slider.php:626
+#: widgets/speakers/speakers.php:576
+msgid "Social Hover BG color"
+msgstr ""
+
+#: widgets/speakers-slider/speakers-slider.php:765
+#: widgets/speakers/speakers.php:715
+msgid "Item Padding"
+msgstr ""
+
+#: widgets/speakers-slider/speakers-slider.php:776
+#: widgets/speakers/speakers.php:726
+msgid "Item Margin"
+msgstr ""
+
+#: widgets/speakers/speakers.php:29
+msgid "Eventin Speaker Pro"
+msgstr ""
+
+#: widgets/speakers/speakers.php:56
+msgid "Eventin Speakers Pro"
+msgstr ""
+
+#: widgets/speakers/speakers.php:106
+msgid "Speaker column"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://themewinter.com/eventin/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Simple and Easy to use Event Management Solution"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Themewinter"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://themewinter.com/"
+msgstr ""

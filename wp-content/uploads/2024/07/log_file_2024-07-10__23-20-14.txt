@@ -1,0 +1,75 @@
+
+---Downloaded files---
+The import files for: Main Demo (01-11) were successfully downloaded!
+Initial max execution time = 360
+Files info:
+Site URL = https://codeclausetask3.dcfoods.in
+Data file = /home/u116616108/domains/dcfoods.in/public_html/codeclausetask3/wp-content/uploads/2024/07/demo-content-import-file_2024-07-10__23-20-14.xml
+Widget file = /home/u116616108/domains/dcfoods.in/public_html/codeclausetask3/wp-content/uploads/2024/07/demo-widgets-import-file_2024-07-10__23-20-14.json
+Customizer file = /home/u116616108/domains/dcfoods.in/public_html/codeclausetask3/wp-content/uploads/2024/07/demo-customizer-import-file_2024-07-10__23-20-14.dat
+Redux files:
+not defined!
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+Blog widget area : 
+
+Search - No Title - Imported
+Archives - No Title - Imported
+Categories - Categories - Imported
+Tag Cloud - Tags - Imported
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---ocdi/after_import---
+

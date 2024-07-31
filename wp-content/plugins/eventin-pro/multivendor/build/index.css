@@ -1,0 +1,2491 @@
+/*!**************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./node_modules/react-quill/dist/quill.snow.css ***!
+  \**************************************************************************************************************************************************************************************************/
+/*!
+ * Quill Editor v1.3.7
+ * https://quilljs.com/
+ * Copyright (c) 2014, Jason Chen
+ * Copyright (c) 2013, salesforce.com
+ */
+.ql-container {
+  box-sizing: border-box;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  height: 100%;
+  margin: 0px;
+  position: relative;
+}
+.ql-container.ql-disabled .ql-tooltip {
+  visibility: hidden;
+}
+.ql-container.ql-disabled .ql-editor ul[data-checked] > li::before {
+  pointer-events: none;
+}
+.ql-clipboard {
+  left: -100000px;
+  height: 1px;
+  overflow-y: hidden;
+  position: absolute;
+  top: 50%;
+}
+.ql-clipboard p {
+  margin: 0;
+  padding: 0;
+}
+.ql-editor {
+  box-sizing: border-box;
+  line-height: 1.42;
+  height: 100%;
+  outline: none;
+  overflow-y: auto;
+  padding: 12px 15px;
+  -o-tab-size: 4;
+     tab-size: 4;
+  -moz-tab-size: 4;
+  text-align: left;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+.ql-editor > * {
+  cursor: text;
+}
+.ql-editor p,
+.ql-editor ol,
+.ql-editor ul,
+.ql-editor pre,
+.ql-editor blockquote,
+.ql-editor h1,
+.ql-editor h2,
+.ql-editor h3,
+.ql-editor h4,
+.ql-editor h5,
+.ql-editor h6 {
+  margin: 0;
+  padding: 0;
+  counter-reset: list-1 list-2 list-3 list-4 list-5 list-6 list-7 list-8 list-9;
+}
+.ql-editor ol,
+.ql-editor ul {
+  padding-left: 1.5em;
+}
+.ql-editor ol > li,
+.ql-editor ul > li {
+  list-style-type: none;
+}
+.ql-editor ul > li::before {
+  content: '\2022';
+}
+.ql-editor ul[data-checked=true],
+.ql-editor ul[data-checked=false] {
+  pointer-events: none;
+}
+.ql-editor ul[data-checked=true] > li *,
+.ql-editor ul[data-checked=false] > li * {
+  pointer-events: all;
+}
+.ql-editor ul[data-checked=true] > li::before,
+.ql-editor ul[data-checked=false] > li::before {
+  color: #777;
+  cursor: pointer;
+  pointer-events: all;
+}
+.ql-editor ul[data-checked=true] > li::before {
+  content: '\2611';
+}
+.ql-editor ul[data-checked=false] > li::before {
+  content: '\2610';
+}
+.ql-editor li::before {
+  display: inline-block;
+  white-space: nowrap;
+  width: 1.2em;
+}
+.ql-editor li:not(.ql-direction-rtl)::before {
+  margin-left: -1.5em;
+  margin-right: 0.3em;
+  text-align: right;
+}
+.ql-editor li.ql-direction-rtl::before {
+  margin-left: 0.3em;
+  margin-right: -1.5em;
+}
+.ql-editor ol li:not(.ql-direction-rtl),
+.ql-editor ul li:not(.ql-direction-rtl) {
+  padding-left: 1.5em;
+}
+.ql-editor ol li.ql-direction-rtl,
+.ql-editor ul li.ql-direction-rtl {
+  padding-right: 1.5em;
+}
+.ql-editor ol li {
+  counter-reset: list-1 list-2 list-3 list-4 list-5 list-6 list-7 list-8 list-9;
+  counter-increment: list-0;
+}
+.ql-editor ol li:before {
+  content: counter(list-0, decimal) '. ';
+}
+.ql-editor ol li.ql-indent-1 {
+  counter-increment: list-1;
+}
+.ql-editor ol li.ql-indent-1:before {
+  content: counter(list-1, lower-alpha) '. ';
+}
+.ql-editor ol li.ql-indent-1 {
+  counter-reset: list-2 list-3 list-4 list-5 list-6 list-7 list-8 list-9;
+}
+.ql-editor ol li.ql-indent-2 {
+  counter-increment: list-2;
+}
+.ql-editor ol li.ql-indent-2:before {
+  content: counter(list-2, lower-roman) '. ';
+}
+.ql-editor ol li.ql-indent-2 {
+  counter-reset: list-3 list-4 list-5 list-6 list-7 list-8 list-9;
+}
+.ql-editor ol li.ql-indent-3 {
+  counter-increment: list-3;
+}
+.ql-editor ol li.ql-indent-3:before {
+  content: counter(list-3, decimal) '. ';
+}
+.ql-editor ol li.ql-indent-3 {
+  counter-reset: list-4 list-5 list-6 list-7 list-8 list-9;
+}
+.ql-editor ol li.ql-indent-4 {
+  counter-increment: list-4;
+}
+.ql-editor ol li.ql-indent-4:before {
+  content: counter(list-4, lower-alpha) '. ';
+}
+.ql-editor ol li.ql-indent-4 {
+  counter-reset: list-5 list-6 list-7 list-8 list-9;
+}
+.ql-editor ol li.ql-indent-5 {
+  counter-increment: list-5;
+}
+.ql-editor ol li.ql-indent-5:before {
+  content: counter(list-5, lower-roman) '. ';
+}
+.ql-editor ol li.ql-indent-5 {
+  counter-reset: list-6 list-7 list-8 list-9;
+}
+.ql-editor ol li.ql-indent-6 {
+  counter-increment: list-6;
+}
+.ql-editor ol li.ql-indent-6:before {
+  content: counter(list-6, decimal) '. ';
+}
+.ql-editor ol li.ql-indent-6 {
+  counter-reset: list-7 list-8 list-9;
+}
+.ql-editor ol li.ql-indent-7 {
+  counter-increment: list-7;
+}
+.ql-editor ol li.ql-indent-7:before {
+  content: counter(list-7, lower-alpha) '. ';
+}
+.ql-editor ol li.ql-indent-7 {
+  counter-reset: list-8 list-9;
+}
+.ql-editor ol li.ql-indent-8 {
+  counter-increment: list-8;
+}
+.ql-editor ol li.ql-indent-8:before {
+  content: counter(list-8, lower-roman) '. ';
+}
+.ql-editor ol li.ql-indent-8 {
+  counter-reset: list-9;
+}
+.ql-editor ol li.ql-indent-9 {
+  counter-increment: list-9;
+}
+.ql-editor ol li.ql-indent-9:before {
+  content: counter(list-9, decimal) '. ';
+}
+.ql-editor .ql-indent-1:not(.ql-direction-rtl) {
+  padding-left: 3em;
+}
+.ql-editor li.ql-indent-1:not(.ql-direction-rtl) {
+  padding-left: 4.5em;
+}
+.ql-editor .ql-indent-1.ql-direction-rtl.ql-align-right {
+  padding-right: 3em;
+}
+.ql-editor li.ql-indent-1.ql-direction-rtl.ql-align-right {
+  padding-right: 4.5em;
+}
+.ql-editor .ql-indent-2:not(.ql-direction-rtl) {
+  padding-left: 6em;
+}
+.ql-editor li.ql-indent-2:not(.ql-direction-rtl) {
+  padding-left: 7.5em;
+}
+.ql-editor .ql-indent-2.ql-direction-rtl.ql-align-right {
+  padding-right: 6em;
+}
+.ql-editor li.ql-indent-2.ql-direction-rtl.ql-align-right {
+  padding-right: 7.5em;
+}
+.ql-editor .ql-indent-3:not(.ql-direction-rtl) {
+  padding-left: 9em;
+}
+.ql-editor li.ql-indent-3:not(.ql-direction-rtl) {
+  padding-left: 10.5em;
+}
+.ql-editor .ql-indent-3.ql-direction-rtl.ql-align-right {
+  padding-right: 9em;
+}
+.ql-editor li.ql-indent-3.ql-direction-rtl.ql-align-right {
+  padding-right: 10.5em;
+}
+.ql-editor .ql-indent-4:not(.ql-direction-rtl) {
+  padding-left: 12em;
+}
+.ql-editor li.ql-indent-4:not(.ql-direction-rtl) {
+  padding-left: 13.5em;
+}
+.ql-editor .ql-indent-4.ql-direction-rtl.ql-align-right {
+  padding-right: 12em;
+}
+.ql-editor li.ql-indent-4.ql-direction-rtl.ql-align-right {
+  padding-right: 13.5em;
+}
+.ql-editor .ql-indent-5:not(.ql-direction-rtl) {
+  padding-left: 15em;
+}
+.ql-editor li.ql-indent-5:not(.ql-direction-rtl) {
+  padding-left: 16.5em;
+}
+.ql-editor .ql-indent-5.ql-direction-rtl.ql-align-right {
+  padding-right: 15em;
+}
+.ql-editor li.ql-indent-5.ql-direction-rtl.ql-align-right {
+  padding-right: 16.5em;
+}
+.ql-editor .ql-indent-6:not(.ql-direction-rtl) {
+  padding-left: 18em;
+}
+.ql-editor li.ql-indent-6:not(.ql-direction-rtl) {
+  padding-left: 19.5em;
+}
+.ql-editor .ql-indent-6.ql-direction-rtl.ql-align-right {
+  padding-right: 18em;
+}
+.ql-editor li.ql-indent-6.ql-direction-rtl.ql-align-right {
+  padding-right: 19.5em;
+}
+.ql-editor .ql-indent-7:not(.ql-direction-rtl) {
+  padding-left: 21em;
+}
+.ql-editor li.ql-indent-7:not(.ql-direction-rtl) {
+  padding-left: 22.5em;
+}
+.ql-editor .ql-indent-7.ql-direction-rtl.ql-align-right {
+  padding-right: 21em;
+}
+.ql-editor li.ql-indent-7.ql-direction-rtl.ql-align-right {
+  padding-right: 22.5em;
+}
+.ql-editor .ql-indent-8:not(.ql-direction-rtl) {
+  padding-left: 24em;
+}
+.ql-editor li.ql-indent-8:not(.ql-direction-rtl) {
+  padding-left: 25.5em;
+}
+.ql-editor .ql-indent-8.ql-direction-rtl.ql-align-right {
+  padding-right: 24em;
+}
+.ql-editor li.ql-indent-8.ql-direction-rtl.ql-align-right {
+  padding-right: 25.5em;
+}
+.ql-editor .ql-indent-9:not(.ql-direction-rtl) {
+  padding-left: 27em;
+}
+.ql-editor li.ql-indent-9:not(.ql-direction-rtl) {
+  padding-left: 28.5em;
+}
+.ql-editor .ql-indent-9.ql-direction-rtl.ql-align-right {
+  padding-right: 27em;
+}
+.ql-editor li.ql-indent-9.ql-direction-rtl.ql-align-right {
+  padding-right: 28.5em;
+}
+.ql-editor .ql-video {
+  display: block;
+  max-width: 100%;
+}
+.ql-editor .ql-video.ql-align-center {
+  margin: 0 auto;
+}
+.ql-editor .ql-video.ql-align-right {
+  margin: 0 0 0 auto;
+}
+.ql-editor .ql-bg-black {
+  background-color: #000;
+}
+.ql-editor .ql-bg-red {
+  background-color: #e60000;
+}
+.ql-editor .ql-bg-orange {
+  background-color: #f90;
+}
+.ql-editor .ql-bg-yellow {
+  background-color: #ff0;
+}
+.ql-editor .ql-bg-green {
+  background-color: #008a00;
+}
+.ql-editor .ql-bg-blue {
+  background-color: #06c;
+}
+.ql-editor .ql-bg-purple {
+  background-color: #93f;
+}
+.ql-editor .ql-color-white {
+  color: #fff;
+}
+.ql-editor .ql-color-red {
+  color: #e60000;
+}
+.ql-editor .ql-color-orange {
+  color: #f90;
+}
+.ql-editor .ql-color-yellow {
+  color: #ff0;
+}
+.ql-editor .ql-color-green {
+  color: #008a00;
+}
+.ql-editor .ql-color-blue {
+  color: #06c;
+}
+.ql-editor .ql-color-purple {
+  color: #93f;
+}
+.ql-editor .ql-font-serif {
+  font-family: Georgia, Times New Roman, serif;
+}
+.ql-editor .ql-font-monospace {
+  font-family: Monaco, Courier New, monospace;
+}
+.ql-editor .ql-size-small {
+  font-size: 0.75em;
+}
+.ql-editor .ql-size-large {
+  font-size: 1.5em;
+}
+.ql-editor .ql-size-huge {
+  font-size: 2.5em;
+}
+.ql-editor .ql-direction-rtl {
+  direction: rtl;
+  text-align: inherit;
+}
+.ql-editor .ql-align-center {
+  text-align: center;
+}
+.ql-editor .ql-align-justify {
+  text-align: justify;
+}
+.ql-editor .ql-align-right {
+  text-align: right;
+}
+.ql-editor.ql-blank::before {
+  color: rgba(0,0,0,0.6);
+  content: attr(data-placeholder);
+  font-style: italic;
+  left: 15px;
+  pointer-events: none;
+  position: absolute;
+  right: 15px;
+}
+.ql-snow.ql-toolbar:after,
+.ql-snow .ql-toolbar:after {
+  clear: both;
+  content: '';
+  display: table;
+}
+.ql-snow.ql-toolbar button,
+.ql-snow .ql-toolbar button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  float: left;
+  height: 24px;
+  padding: 3px 5px;
+  width: 28px;
+}
+.ql-snow.ql-toolbar button svg,
+.ql-snow .ql-toolbar button svg {
+  float: left;
+  height: 100%;
+}
+.ql-snow.ql-toolbar button:active:hover,
+.ql-snow .ql-toolbar button:active:hover {
+  outline: none;
+}
+.ql-snow.ql-toolbar input.ql-image[type=file],
+.ql-snow .ql-toolbar input.ql-image[type=file] {
+  display: none;
+}
+.ql-snow.ql-toolbar button:hover,
+.ql-snow .ql-toolbar button:hover,
+.ql-snow.ql-toolbar button:focus,
+.ql-snow .ql-toolbar button:focus,
+.ql-snow.ql-toolbar button.ql-active,
+.ql-snow .ql-toolbar button.ql-active,
+.ql-snow.ql-toolbar .ql-picker-label:hover,
+.ql-snow .ql-toolbar .ql-picker-label:hover,
+.ql-snow.ql-toolbar .ql-picker-label.ql-active,
+.ql-snow .ql-toolbar .ql-picker-label.ql-active,
+.ql-snow.ql-toolbar .ql-picker-item:hover,
+.ql-snow .ql-toolbar .ql-picker-item:hover,
+.ql-snow.ql-toolbar .ql-picker-item.ql-selected,
+.ql-snow .ql-toolbar .ql-picker-item.ql-selected {
+  color: #06c;
+}
+.ql-snow.ql-toolbar button:hover .ql-fill,
+.ql-snow .ql-toolbar button:hover .ql-fill,
+.ql-snow.ql-toolbar button:focus .ql-fill,
+.ql-snow .ql-toolbar button:focus .ql-fill,
+.ql-snow.ql-toolbar button.ql-active .ql-fill,
+.ql-snow .ql-toolbar button.ql-active .ql-fill,
+.ql-snow.ql-toolbar .ql-picker-label:hover .ql-fill,
+.ql-snow .ql-toolbar .ql-picker-label:hover .ql-fill,
+.ql-snow.ql-toolbar .ql-picker-label.ql-active .ql-fill,
+.ql-snow .ql-toolbar .ql-picker-label.ql-active .ql-fill,
+.ql-snow.ql-toolbar .ql-picker-item:hover .ql-fill,
+.ql-snow .ql-toolbar .ql-picker-item:hover .ql-fill,
+.ql-snow.ql-toolbar .ql-picker-item.ql-selected .ql-fill,
+.ql-snow .ql-toolbar .ql-picker-item.ql-selected .ql-fill,
+.ql-snow.ql-toolbar button:hover .ql-stroke.ql-fill,
+.ql-snow .ql-toolbar button:hover .ql-stroke.ql-fill,
+.ql-snow.ql-toolbar button:focus .ql-stroke.ql-fill,
+.ql-snow .ql-toolbar button:focus .ql-stroke.ql-fill,
+.ql-snow.ql-toolbar button.ql-active .ql-stroke.ql-fill,
+.ql-snow .ql-toolbar button.ql-active .ql-stroke.ql-fill,
+.ql-snow.ql-toolbar .ql-picker-label:hover .ql-stroke.ql-fill,
+.ql-snow .ql-toolbar .ql-picker-label:hover .ql-stroke.ql-fill,
+.ql-snow.ql-toolbar .ql-picker-label.ql-active .ql-stroke.ql-fill,
+.ql-snow .ql-toolbar .ql-picker-label.ql-active .ql-stroke.ql-fill,
+.ql-snow.ql-toolbar .ql-picker-item:hover .ql-stroke.ql-fill,
+.ql-snow .ql-toolbar .ql-picker-item:hover .ql-stroke.ql-fill,
+.ql-snow.ql-toolbar .ql-picker-item.ql-selected .ql-stroke.ql-fill,
+.ql-snow .ql-toolbar .ql-picker-item.ql-selected .ql-stroke.ql-fill {
+  fill: #06c;
+}
+.ql-snow.ql-toolbar button:hover .ql-stroke,
+.ql-snow .ql-toolbar button:hover .ql-stroke,
+.ql-snow.ql-toolbar button:focus .ql-stroke,
+.ql-snow .ql-toolbar button:focus .ql-stroke,
+.ql-snow.ql-toolbar button.ql-active .ql-stroke,
+.ql-snow .ql-toolbar button.ql-active .ql-stroke,
+.ql-snow.ql-toolbar .ql-picker-label:hover .ql-stroke,
+.ql-snow .ql-toolbar .ql-picker-label:hover .ql-stroke,
+.ql-snow.ql-toolbar .ql-picker-label.ql-active .ql-stroke,
+.ql-snow .ql-toolbar .ql-picker-label.ql-active .ql-stroke,
+.ql-snow.ql-toolbar .ql-picker-item:hover .ql-stroke,
+.ql-snow .ql-toolbar .ql-picker-item:hover .ql-stroke,
+.ql-snow.ql-toolbar .ql-picker-item.ql-selected .ql-stroke,
+.ql-snow .ql-toolbar .ql-picker-item.ql-selected .ql-stroke,
+.ql-snow.ql-toolbar button:hover .ql-stroke-miter,
+.ql-snow .ql-toolbar button:hover .ql-stroke-miter,
+.ql-snow.ql-toolbar button:focus .ql-stroke-miter,
+.ql-snow .ql-toolbar button:focus .ql-stroke-miter,
+.ql-snow.ql-toolbar button.ql-active .ql-stroke-miter,
+.ql-snow .ql-toolbar button.ql-active .ql-stroke-miter,
+.ql-snow.ql-toolbar .ql-picker-label:hover .ql-stroke-miter,
+.ql-snow .ql-toolbar .ql-picker-label:hover .ql-stroke-miter,
+.ql-snow.ql-toolbar .ql-picker-label.ql-active .ql-stroke-miter,
+.ql-snow .ql-toolbar .ql-picker-label.ql-active .ql-stroke-miter,
+.ql-snow.ql-toolbar .ql-picker-item:hover .ql-stroke-miter,
+.ql-snow .ql-toolbar .ql-picker-item:hover .ql-stroke-miter,
+.ql-snow.ql-toolbar .ql-picker-item.ql-selected .ql-stroke-miter,
+.ql-snow .ql-toolbar .ql-picker-item.ql-selected .ql-stroke-miter {
+  stroke: #06c;
+}
+@media (pointer: coarse) {
+  .ql-snow.ql-toolbar button:hover:not(.ql-active),
+  .ql-snow .ql-toolbar button:hover:not(.ql-active) {
+    color: #444;
+  }
+  .ql-snow.ql-toolbar button:hover:not(.ql-active) .ql-fill,
+  .ql-snow .ql-toolbar button:hover:not(.ql-active) .ql-fill,
+  .ql-snow.ql-toolbar button:hover:not(.ql-active) .ql-stroke.ql-fill,
+  .ql-snow .ql-toolbar button:hover:not(.ql-active) .ql-stroke.ql-fill {
+    fill: #444;
+  }
+  .ql-snow.ql-toolbar button:hover:not(.ql-active) .ql-stroke,
+  .ql-snow .ql-toolbar button:hover:not(.ql-active) .ql-stroke,
+  .ql-snow.ql-toolbar button:hover:not(.ql-active) .ql-stroke-miter,
+  .ql-snow .ql-toolbar button:hover:not(.ql-active) .ql-stroke-miter {
+    stroke: #444;
+  }
+}
+.ql-snow {
+  box-sizing: border-box;
+}
+.ql-snow * {
+  box-sizing: border-box;
+}
+.ql-snow .ql-hidden {
+  display: none;
+}
+.ql-snow .ql-out-bottom,
+.ql-snow .ql-out-top {
+  visibility: hidden;
+}
+.ql-snow .ql-tooltip {
+  position: absolute;
+  transform: translateY(10px);
+}
+.ql-snow .ql-tooltip a {
+  cursor: pointer;
+  text-decoration: none;
+}
+.ql-snow .ql-tooltip.ql-flip {
+  transform: translateY(-10px);
+}
+.ql-snow .ql-formats {
+  display: inline-block;
+  vertical-align: middle;
+}
+.ql-snow .ql-formats:after {
+  clear: both;
+  content: '';
+  display: table;
+}
+.ql-snow .ql-stroke {
+  fill: none;
+  stroke: #444;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 2;
+}
+.ql-snow .ql-stroke-miter {
+  fill: none;
+  stroke: #444;
+  stroke-miterlimit: 10;
+  stroke-width: 2;
+}
+.ql-snow .ql-fill,
+.ql-snow .ql-stroke.ql-fill {
+  fill: #444;
+}
+.ql-snow .ql-empty {
+  fill: none;
+}
+.ql-snow .ql-even {
+  fill-rule: evenodd;
+}
+.ql-snow .ql-thin,
+.ql-snow .ql-stroke.ql-thin {
+  stroke-width: 1;
+}
+.ql-snow .ql-transparent {
+  opacity: 0.4;
+}
+.ql-snow .ql-direction svg:last-child {
+  display: none;
+}
+.ql-snow .ql-direction.ql-active svg:last-child {
+  display: inline;
+}
+.ql-snow .ql-direction.ql-active svg:first-child {
+  display: none;
+}
+.ql-snow .ql-editor h1 {
+  font-size: 2em;
+}
+.ql-snow .ql-editor h2 {
+  font-size: 1.5em;
+}
+.ql-snow .ql-editor h3 {
+  font-size: 1.17em;
+}
+.ql-snow .ql-editor h4 {
+  font-size: 1em;
+}
+.ql-snow .ql-editor h5 {
+  font-size: 0.83em;
+}
+.ql-snow .ql-editor h6 {
+  font-size: 0.67em;
+}
+.ql-snow .ql-editor a {
+  text-decoration: underline;
+}
+.ql-snow .ql-editor blockquote {
+  border-left: 4px solid #ccc;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  padding-left: 16px;
+}
+.ql-snow .ql-editor code,
+.ql-snow .ql-editor pre {
+  background-color: #f0f0f0;
+  border-radius: 3px;
+}
+.ql-snow .ql-editor pre {
+  white-space: pre-wrap;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  padding: 5px 10px;
+}
+.ql-snow .ql-editor code {
+  font-size: 85%;
+  padding: 2px 4px;
+}
+.ql-snow .ql-editor pre.ql-syntax {
+  background-color: #23241f;
+  color: #f8f8f2;
+  overflow: visible;
+}
+.ql-snow .ql-editor img {
+  max-width: 100%;
+}
+.ql-snow .ql-picker {
+  color: #444;
+  display: inline-block;
+  float: left;
+  font-size: 14px;
+  font-weight: 500;
+  height: 24px;
+  position: relative;
+  vertical-align: middle;
+}
+.ql-snow .ql-picker-label {
+  cursor: pointer;
+  display: inline-block;
+  height: 100%;
+  padding-left: 8px;
+  padding-right: 2px;
+  position: relative;
+  width: 100%;
+}
+.ql-snow .ql-picker-label::before {
+  display: inline-block;
+  line-height: 22px;
+}
+.ql-snow .ql-picker-options {
+  background-color: #fff;
+  display: none;
+  min-width: 100%;
+  padding: 4px 8px;
+  position: absolute;
+  white-space: nowrap;
+}
+.ql-snow .ql-picker-options .ql-picker-item {
+  cursor: pointer;
+  display: block;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+.ql-snow .ql-picker.ql-expanded .ql-picker-label {
+  color: #ccc;
+  z-index: 2;
+}
+.ql-snow .ql-picker.ql-expanded .ql-picker-label .ql-fill {
+  fill: #ccc;
+}
+.ql-snow .ql-picker.ql-expanded .ql-picker-label .ql-stroke {
+  stroke: #ccc;
+}
+.ql-snow .ql-picker.ql-expanded .ql-picker-options {
+  display: block;
+  margin-top: -1px;
+  top: 100%;
+  z-index: 1;
+}
+.ql-snow .ql-color-picker,
+.ql-snow .ql-icon-picker {
+  width: 28px;
+}
+.ql-snow .ql-color-picker .ql-picker-label,
+.ql-snow .ql-icon-picker .ql-picker-label {
+  padding: 2px 4px;
+}
+.ql-snow .ql-color-picker .ql-picker-label svg,
+.ql-snow .ql-icon-picker .ql-picker-label svg {
+  right: 4px;
+}
+.ql-snow .ql-icon-picker .ql-picker-options {
+  padding: 4px 0px;
+}
+.ql-snow .ql-icon-picker .ql-picker-item {
+  height: 24px;
+  width: 24px;
+  padding: 2px 4px;
+}
+.ql-snow .ql-color-picker .ql-picker-options {
+  padding: 3px 5px;
+  width: 152px;
+}
+.ql-snow .ql-color-picker .ql-picker-item {
+  border: 1px solid transparent;
+  float: left;
+  height: 16px;
+  margin: 2px;
+  padding: 0px;
+  width: 16px;
+}
+.ql-snow .ql-picker:not(.ql-color-picker):not(.ql-icon-picker) svg {
+  position: absolute;
+  margin-top: -9px;
+  right: 0;
+  top: 50%;
+  width: 18px;
+}
+.ql-snow .ql-picker.ql-header .ql-picker-label[data-label]:not([data-label=''])::before,
+.ql-snow .ql-picker.ql-font .ql-picker-label[data-label]:not([data-label=''])::before,
+.ql-snow .ql-picker.ql-size .ql-picker-label[data-label]:not([data-label=''])::before,
+.ql-snow .ql-picker.ql-header .ql-picker-item[data-label]:not([data-label=''])::before,
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-label]:not([data-label=''])::before,
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-label]:not([data-label=''])::before {
+  content: attr(data-label);
+}
+.ql-snow .ql-picker.ql-header {
+  width: 98px;
+}
+.ql-snow .ql-picker.ql-header .ql-picker-label::before,
+.ql-snow .ql-picker.ql-header .ql-picker-item::before {
+  content: 'Normal';
+}
+.ql-snow .ql-picker.ql-header .ql-picker-label[data-value="1"]::before,
+.ql-snow .ql-picker.ql-header .ql-picker-item[data-value="1"]::before {
+  content: 'Heading 1';
+}
+.ql-snow .ql-picker.ql-header .ql-picker-label[data-value="2"]::before,
+.ql-snow .ql-picker.ql-header .ql-picker-item[data-value="2"]::before {
+  content: 'Heading 2';
+}
+.ql-snow .ql-picker.ql-header .ql-picker-label[data-value="3"]::before,
+.ql-snow .ql-picker.ql-header .ql-picker-item[data-value="3"]::before {
+  content: 'Heading 3';
+}
+.ql-snow .ql-picker.ql-header .ql-picker-label[data-value="4"]::before,
+.ql-snow .ql-picker.ql-header .ql-picker-item[data-value="4"]::before {
+  content: 'Heading 4';
+}
+.ql-snow .ql-picker.ql-header .ql-picker-label[data-value="5"]::before,
+.ql-snow .ql-picker.ql-header .ql-picker-item[data-value="5"]::before {
+  content: 'Heading 5';
+}
+.ql-snow .ql-picker.ql-header .ql-picker-label[data-value="6"]::before,
+.ql-snow .ql-picker.ql-header .ql-picker-item[data-value="6"]::before {
+  content: 'Heading 6';
+}
+.ql-snow .ql-picker.ql-header .ql-picker-item[data-value="1"]::before {
+  font-size: 2em;
+}
+.ql-snow .ql-picker.ql-header .ql-picker-item[data-value="2"]::before {
+  font-size: 1.5em;
+}
+.ql-snow .ql-picker.ql-header .ql-picker-item[data-value="3"]::before {
+  font-size: 1.17em;
+}
+.ql-snow .ql-picker.ql-header .ql-picker-item[data-value="4"]::before {
+  font-size: 1em;
+}
+.ql-snow .ql-picker.ql-header .ql-picker-item[data-value="5"]::before {
+  font-size: 0.83em;
+}
+.ql-snow .ql-picker.ql-header .ql-picker-item[data-value="6"]::before {
+  font-size: 0.67em;
+}
+.ql-snow .ql-picker.ql-font {
+  width: 108px;
+}
+.ql-snow .ql-picker.ql-font .ql-picker-label::before,
+.ql-snow .ql-picker.ql-font .ql-picker-item::before {
+  content: 'Sans Serif';
+}
+.ql-snow .ql-picker.ql-font .ql-picker-label[data-value=serif]::before,
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value=serif]::before {
+  content: 'Serif';
+}
+.ql-snow .ql-picker.ql-font .ql-picker-label[data-value=monospace]::before,
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value=monospace]::before {
+  content: 'Monospace';
+}
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value=serif]::before {
+  font-family: Georgia, Times New Roman, serif;
+}
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value=monospace]::before {
+  font-family: Monaco, Courier New, monospace;
+}
+.ql-snow .ql-picker.ql-size {
+  width: 98px;
+}
+.ql-snow .ql-picker.ql-size .ql-picker-label::before,
+.ql-snow .ql-picker.ql-size .ql-picker-item::before {
+  content: 'Normal';
+}
+.ql-snow .ql-picker.ql-size .ql-picker-label[data-value=small]::before,
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value=small]::before {
+  content: 'Small';
+}
+.ql-snow .ql-picker.ql-size .ql-picker-label[data-value=large]::before,
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value=large]::before {
+  content: 'Large';
+}
+.ql-snow .ql-picker.ql-size .ql-picker-label[data-value=huge]::before,
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value=huge]::before {
+  content: 'Huge';
+}
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value=small]::before {
+  font-size: 10px;
+}
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value=large]::before {
+  font-size: 18px;
+}
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value=huge]::before {
+  font-size: 32px;
+}
+.ql-snow .ql-color-picker.ql-background .ql-picker-item {
+  background-color: #fff;
+}
+.ql-snow .ql-color-picker.ql-color .ql-picker-item {
+  background-color: #000;
+}
+.ql-toolbar.ql-snow {
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  padding: 8px;
+}
+.ql-toolbar.ql-snow .ql-formats {
+  margin-right: 15px;
+}
+.ql-toolbar.ql-snow .ql-picker-label {
+  border: 1px solid transparent;
+}
+.ql-toolbar.ql-snow .ql-picker-options {
+  border: 1px solid transparent;
+  box-shadow: rgba(0,0,0,0.2) 0 2px 8px;
+}
+.ql-toolbar.ql-snow .ql-picker.ql-expanded .ql-picker-label {
+  border-color: #ccc;
+}
+.ql-toolbar.ql-snow .ql-picker.ql-expanded .ql-picker-options {
+  border-color: #ccc;
+}
+.ql-toolbar.ql-snow .ql-color-picker .ql-picker-item.ql-selected,
+.ql-toolbar.ql-snow .ql-color-picker .ql-picker-item:hover {
+  border-color: #000;
+}
+.ql-toolbar.ql-snow + .ql-container.ql-snow {
+  border-top: 0px;
+}
+.ql-snow .ql-tooltip {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0px 0px 5px #ddd;
+  color: #444;
+  padding: 5px 12px;
+  white-space: nowrap;
+}
+.ql-snow .ql-tooltip::before {
+  content: "Visit URL:";
+  line-height: 26px;
+  margin-right: 8px;
+}
+.ql-snow .ql-tooltip input[type=text] {
+  display: none;
+  border: 1px solid #ccc;
+  font-size: 13px;
+  height: 26px;
+  margin: 0px;
+  padding: 3px 5px;
+  width: 170px;
+}
+.ql-snow .ql-tooltip a.ql-preview {
+  display: inline-block;
+  max-width: 200px;
+  overflow-x: hidden;
+  text-overflow: ellipsis;
+  vertical-align: top;
+}
+.ql-snow .ql-tooltip a.ql-action::after {
+  border-right: 1px solid #ccc;
+  content: 'Edit';
+  margin-left: 16px;
+  padding-right: 8px;
+}
+.ql-snow .ql-tooltip a.ql-remove::before {
+  content: 'Remove';
+  margin-left: 8px;
+}
+.ql-snow .ql-tooltip a {
+  line-height: 26px;
+}
+.ql-snow .ql-tooltip.ql-editing a.ql-preview,
+.ql-snow .ql-tooltip.ql-editing a.ql-remove {
+  display: none;
+}
+.ql-snow .ql-tooltip.ql-editing input[type=text] {
+  display: inline-block;
+}
+.ql-snow .ql-tooltip.ql-editing a.ql-action::after {
+  border-right: 0px;
+  content: 'Save';
+  padding-right: 0px;
+}
+.ql-snow .ql-tooltip[data-mode=link]::before {
+  content: "Enter link:";
+}
+.ql-snow .ql-tooltip[data-mode=formula]::before {
+  content: "Enter formula:";
+}
+.ql-snow .ql-tooltip[data-mode=video]::before {
+  content: "Enter video:";
+}
+.ql-snow a {
+  color: #06c;
+}
+.ql-container.ql-snow {
+  border: 1px solid #ccc;
+}
+
+/*!***************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/index.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************/
+@charset "UTF-8";
+.dokan-dashboard .dokan-dashboard-menu li.eventin a {
+  display: flex !important;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 56px !important;
+}
+.dokan-dashboard .dokan-dashboard-menu li.eventin a:before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 25px;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyBzdHlsZT0iZmlsbDojZmZmIiB3aWR0aD0iMjAiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAyNiA0MCIgZmlsbD0iI2ZmZiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTI1LjExMyAxOS4yNjA0TDE3LjU2OTcgMjYuODAyMkwxMi43MDY3IDMxLjY2NTJMMTAuMzI0IDI5LjI4MjVMNy44ODU3MyAyNi44NDVDNi43NTkyNyAyNS43MTgzIDYuMDYyNzkgMjQuMjMyNyA1LjkxNzEyIDIyLjY0NjFDNS43NzE0NSAyMS4wNTk1IDYuMTg1NzcgMTkuNDcyIDcuMDg4MjEgMTguMTU5QzcuOTkwNjUgMTYuODQ1OSA5LjMyNDI3IDE1Ljg5MDIgMTAuODU3NyAxNS40NTc3QzEyLjM5MTEgMTUuMDI1MSAxNC4wMjc2IDE1LjE0MyAxNS40ODMyIDE1Ljc5MDlMMTIuNjgzNCAxOC41OTA3QzEyLjEzNjEgMTkuMTM3OSAxMS43MDIgMTkuNzg3NSAxMS40MDU4IDIwLjUwMjVDMTEuMTA5NiAyMS4yMTc1IDEwLjk1NzIgMjEuOTgzOCAxMC45NTcyIDIyLjc1NzdDMTAuOTU3MiAyMy41MzE2IDExLjEwOTYgMjQuMjk3OSAxMS40MDU4IDI1LjAxMjlDMTEuNzAyIDI1LjcyNzggMTIuMTM2MSAyNi4zNzc1IDEyLjY4MzQgMjYuOTI0N0wxOS4zMDY3IDIwLjMwMTRMMjMuODAwNiAxNS44MDY2QzIzLjIzMiAxNC43ODk0IDIyLjUyNSAxMy44NTYxIDIxLjY5OTkgMTMuMDMzMUMyMS4xMTk3IDEyLjQ1MjMgMjAuNDg0OSAxMS45Mjg4IDE5LjgwNDMgMTEuNDY5OEMxOC45Mzk0IDEwLjg4NTggMTguMDA1MiAxMC40MTE5IDE3LjAyMzIgMTAuMDU5QzE1LjgxMjIgMTEuMDY3MiAxNC4yODYyIDExLjYxOTMgMTIuNzEwNCAxMS42MTkzQzExLjEzNDYgMTEuNjE5MyA5LjYwODYxIDExLjA2NzIgOC4zOTc1OSAxMC4wNTlDNi42MzcyOCAxMC42OTMyIDUuMDM5IDExLjcwODggMy43MTcyMSAxMy4wMzMxQy0wLjY0ODIyNyAxNy4zOTg2IC0xLjE2ODM1IDI0LjE3NDUgMi4xNTUzNCAyOS4xMTc5QzIuNjEzNjMgMjkuNzk4MiAzLjEzNjcgMzAuNDMyNSAzLjcxNzIxIDMxLjAxMkw2LjE1NTQ5IDMzLjQ0NzNMMTIuNzA2NyA0MEwyMS42OTY4IDMxLjAxMkMyMy4yMDkgMjkuNDk4OCAyNC4zMTQ4IDI3LjYyODUgMjQuOTExOSAyNS41NzQzQzI1LjUwOTEgMjMuNTIwMSAyNS41NzgyIDIxLjM0ODQgMjUuMTEzIDE5LjI2MDRaIiBmaWxsPSIjZmZmIi8+CjxwYXRoIGQ9Ik0xMi43MDYgOS43MjQ1M0MxNS4zOTE0IDkuNzI0NTMgMTcuNTY4MyA3LjU0NzYyIDE3LjU2ODMgNC44NjIyN0MxNy41NjgzIDIuMTc2OTEgMTUuMzkxNCAwIDEyLjcwNiAwQzEwLjAyMDcgMCA3Ljg0Mzc1IDIuMTc2OTEgNy44NDM3NSA0Ljg2MjI3QzcuODQzNzUgNy41NDc2MiAxMC4wMjA3IDkuNzI0NTMgMTIuNzA2IDkuNzI0NTNaIiBmaWxsPSIjZmZmIi8+Cjwvc3ZnPgo=) !important;
+  background-repeat: no-repeat;
+  background-position: left center;
+  left: 17px;
+}
+.dokan-dashboard .dokan-dashboard-content ul.ant-menu li {
+  padding: 0 1rem;
+}
+
+#etn_multivendor_form [type=button]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled),
+#etn_multivendor_form [type=submit]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled),
+#etn_multivendor_form button:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled),
+.etn-mltv-event-attendee-list [type=button]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled),
+.etn-mltv-event-attendee-list [type=submit]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled),
+.etn-mltv-event-attendee-list button:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled),
+.etn-mltv-modal-wrapper .ant-modal-content [type=button]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled),
+.etn-mltv-modal-wrapper .ant-modal-content [type=submit]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled),
+.etn-mltv-modal-wrapper .ant-modal-content button:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled),
+.etn-frontend-dashboard [type=button]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled),
+.etn-frontend-dashboard [type=submit]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled),
+.etn-frontend-dashboard button:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled) {
+  color: #5d5dff;
+  background-color: transparent;
+  border-color: #5d5dff;
+}
+#etn_multivendor_form [type=button]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).ant-btn,
+#etn_multivendor_form [type=submit]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).ant-btn,
+#etn_multivendor_form button:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).ant-btn,
+.etn-mltv-event-attendee-list [type=button]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).ant-btn,
+.etn-mltv-event-attendee-list [type=submit]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).ant-btn,
+.etn-mltv-event-attendee-list button:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).ant-btn,
+.etn-mltv-modal-wrapper .ant-modal-content [type=button]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).ant-btn,
+.etn-mltv-modal-wrapper .ant-modal-content [type=submit]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).ant-btn,
+.etn-mltv-modal-wrapper .ant-modal-content button:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).ant-btn,
+.etn-frontend-dashboard [type=button]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).ant-btn,
+.etn-frontend-dashboard [type=submit]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).ant-btn,
+.etn-frontend-dashboard button:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).ant-btn {
+  line-height: 1;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: capitalize;
+  padding: 8px 12px;
+  border-radius: 6px;
+}
+#etn_multivendor_form [type=button]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).ant-btn:not(:disabled),
+#etn_multivendor_form [type=submit]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).ant-btn:not(:disabled),
+#etn_multivendor_form button:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).ant-btn:not(:disabled),
+.etn-mltv-event-attendee-list [type=button]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).ant-btn:not(:disabled),
+.etn-mltv-event-attendee-list [type=submit]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).ant-btn:not(:disabled),
+.etn-mltv-event-attendee-list button:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).ant-btn:not(:disabled),
+.etn-mltv-modal-wrapper .ant-modal-content [type=button]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).ant-btn:not(:disabled),
+.etn-mltv-modal-wrapper .ant-modal-content [type=submit]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).ant-btn:not(:disabled),
+.etn-mltv-modal-wrapper .ant-modal-content button:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).ant-btn:not(:disabled),
+.etn-frontend-dashboard [type=button]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).ant-btn:not(:disabled),
+.etn-frontend-dashboard [type=submit]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).ant-btn:not(:disabled),
+.etn-frontend-dashboard button:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).ant-btn:not(:disabled) {
+  border-color: #5d5dff;
+  color: #5d5dff;
+}
+#etn_multivendor_form [type=button]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).ant-btn:not(:disabled):hover,
+#etn_multivendor_form [type=submit]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).ant-btn:not(:disabled):hover,
+#etn_multivendor_form button:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).ant-btn:not(:disabled):hover,
+.etn-mltv-event-attendee-list [type=button]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).ant-btn:not(:disabled):hover,
+.etn-mltv-event-attendee-list [type=submit]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).ant-btn:not(:disabled):hover,
+.etn-mltv-event-attendee-list button:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).ant-btn:not(:disabled):hover,
+.etn-mltv-modal-wrapper .ant-modal-content [type=button]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).ant-btn:not(:disabled):hover,
+.etn-mltv-modal-wrapper .ant-modal-content [type=submit]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).ant-btn:not(:disabled):hover,
+.etn-mltv-modal-wrapper .ant-modal-content button:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).ant-btn:not(:disabled):hover,
+.etn-frontend-dashboard [type=button]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).ant-btn:not(:disabled):hover,
+.etn-frontend-dashboard [type=submit]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).ant-btn:not(:disabled):hover,
+.etn-frontend-dashboard button:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).ant-btn:not(:disabled):hover {
+  background-color: #5d5dff !important;
+  color: #ffffff;
+  border-color: transparent;
+}
+#etn_multivendor_form [type=button]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).ant-btn:not(:disabled):focus,
+#etn_multivendor_form [type=submit]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).ant-btn:not(:disabled):focus,
+#etn_multivendor_form button:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).ant-btn:not(:disabled):focus,
+.etn-mltv-event-attendee-list [type=button]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).ant-btn:not(:disabled):focus,
+.etn-mltv-event-attendee-list [type=submit]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).ant-btn:not(:disabled):focus,
+.etn-mltv-event-attendee-list button:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).ant-btn:not(:disabled):focus,
+.etn-mltv-modal-wrapper .ant-modal-content [type=button]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).ant-btn:not(:disabled):focus,
+.etn-mltv-modal-wrapper .ant-modal-content [type=submit]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).ant-btn:not(:disabled):focus,
+.etn-mltv-modal-wrapper .ant-modal-content button:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).ant-btn:not(:disabled):focus,
+.etn-frontend-dashboard [type=button]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).ant-btn:not(:disabled):focus,
+.etn-frontend-dashboard [type=submit]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).ant-btn:not(:disabled):focus,
+.etn-frontend-dashboard button:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).ant-btn:not(:disabled):focus {
+  outline: 1px solid #5d5dff;
+  background-color: #5d5dff;
+  border-color: transparent;
+  color: #fff;
+}
+#etn_multivendor_form [type=button]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).ant-btn-primary:not(:disabled),
+#etn_multivendor_form [type=submit]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).ant-btn-primary:not(:disabled),
+#etn_multivendor_form button:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).ant-btn-primary:not(:disabled),
+.etn-mltv-event-attendee-list [type=button]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).ant-btn-primary:not(:disabled),
+.etn-mltv-event-attendee-list [type=submit]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).ant-btn-primary:not(:disabled),
+.etn-mltv-event-attendee-list button:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).ant-btn-primary:not(:disabled),
+.etn-mltv-modal-wrapper .ant-modal-content [type=button]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).ant-btn-primary:not(:disabled),
+.etn-mltv-modal-wrapper .ant-modal-content [type=submit]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).ant-btn-primary:not(:disabled),
+.etn-mltv-modal-wrapper .ant-modal-content button:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).ant-btn-primary:not(:disabled),
+.etn-frontend-dashboard [type=button]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).ant-btn-primary:not(:disabled),
+.etn-frontend-dashboard [type=submit]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).ant-btn-primary:not(:disabled),
+.etn-frontend-dashboard button:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).ant-btn-primary:not(:disabled) {
+  background-color: #5d5dff;
+  color: #ffffff;
+}
+#etn_multivendor_form [type=button]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).ant-btn-primary:not(:disabled):hover,
+#etn_multivendor_form [type=submit]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).ant-btn-primary:not(:disabled):hover,
+#etn_multivendor_form button:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).ant-btn-primary:not(:disabled):hover,
+.etn-mltv-event-attendee-list [type=button]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).ant-btn-primary:not(:disabled):hover,
+.etn-mltv-event-attendee-list [type=submit]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).ant-btn-primary:not(:disabled):hover,
+.etn-mltv-event-attendee-list button:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).ant-btn-primary:not(:disabled):hover,
+.etn-mltv-modal-wrapper .ant-modal-content [type=button]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).ant-btn-primary:not(:disabled):hover,
+.etn-mltv-modal-wrapper .ant-modal-content [type=submit]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).ant-btn-primary:not(:disabled):hover,
+.etn-mltv-modal-wrapper .ant-modal-content button:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).ant-btn-primary:not(:disabled):hover,
+.etn-frontend-dashboard [type=button]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).ant-btn-primary:not(:disabled):hover,
+.etn-frontend-dashboard [type=submit]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).ant-btn-primary:not(:disabled):hover,
+.etn-frontend-dashboard button:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).ant-btn-primary:not(:disabled):hover {
+  color: #5d5dff;
+  border-color: #5d5dff;
+  background: transparent !important;
+}
+#etn_multivendor_form [type=button]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).ant-btn-lg,
+#etn_multivendor_form [type=submit]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).ant-btn-lg,
+#etn_multivendor_form button:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).ant-btn-lg,
+.etn-mltv-event-attendee-list [type=button]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).ant-btn-lg,
+.etn-mltv-event-attendee-list [type=submit]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).ant-btn-lg,
+.etn-mltv-event-attendee-list button:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).ant-btn-lg,
+.etn-mltv-modal-wrapper .ant-modal-content [type=button]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).ant-btn-lg,
+.etn-mltv-modal-wrapper .ant-modal-content [type=submit]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).ant-btn-lg,
+.etn-mltv-modal-wrapper .ant-modal-content button:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).ant-btn-lg,
+.etn-frontend-dashboard [type=button]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).ant-btn-lg,
+.etn-frontend-dashboard [type=submit]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).ant-btn-lg,
+.etn-frontend-dashboard button:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).ant-btn-lg {
+  height: 40px;
+  padding: 14px 30px;
+}
+#etn_multivendor_form [type=button]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).etn-mltv-variation-add,
+#etn_multivendor_form [type=submit]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).etn-mltv-variation-add,
+#etn_multivendor_form button:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).etn-mltv-variation-add,
+.etn-mltv-event-attendee-list [type=button]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).etn-mltv-variation-add,
+.etn-mltv-event-attendee-list [type=submit]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).etn-mltv-variation-add,
+.etn-mltv-event-attendee-list button:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).etn-mltv-variation-add,
+.etn-mltv-modal-wrapper .ant-modal-content [type=button]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).etn-mltv-variation-add,
+.etn-mltv-modal-wrapper .ant-modal-content [type=submit]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).etn-mltv-variation-add,
+.etn-mltv-modal-wrapper .ant-modal-content button:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).etn-mltv-variation-add,
+.etn-frontend-dashboard [type=button]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).etn-mltv-variation-add,
+.etn-frontend-dashboard [type=submit]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).etn-mltv-variation-add,
+.etn-frontend-dashboard button:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).etn-mltv-variation-add {
+  margin-top: 20px;
+}
+#etn_multivendor_form [type=button]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).etn-btn-primary + .etn-btn-primary,
+#etn_multivendor_form [type=submit]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).etn-btn-primary + .etn-btn-primary,
+#etn_multivendor_form button:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).etn-btn-primary + .etn-btn-primary,
+.etn-mltv-event-attendee-list [type=button]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).etn-btn-primary + .etn-btn-primary,
+.etn-mltv-event-attendee-list [type=submit]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).etn-btn-primary + .etn-btn-primary,
+.etn-mltv-event-attendee-list button:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).etn-btn-primary + .etn-btn-primary,
+.etn-mltv-modal-wrapper .ant-modal-content [type=button]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).etn-btn-primary + .etn-btn-primary,
+.etn-mltv-modal-wrapper .ant-modal-content [type=submit]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).etn-btn-primary + .etn-btn-primary,
+.etn-mltv-modal-wrapper .ant-modal-content button:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).etn-btn-primary + .etn-btn-primary,
+.etn-frontend-dashboard [type=button]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).etn-btn-primary + .etn-btn-primary,
+.etn-frontend-dashboard [type=submit]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).etn-btn-primary + .etn-btn-primary,
+.etn-frontend-dashboard button:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled).etn-btn-primary + .etn-btn-primary {
+  margin-left: 15px;
+}
+#etn_multivendor_form [type=button]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled):focus, #etn_multivendor_form [type=button]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled):hover, #etn_multivendor_form [type=button]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled):focus, #etn_multivendor_form [type=button]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled):hover, #etn_multivendor_form [type=button]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled):focus, #etn_multivendor_form [type=button]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled):hover,
+#etn_multivendor_form [type=submit]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled):focus,
+#etn_multivendor_form [type=submit]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled):hover,
+#etn_multivendor_form [type=submit]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled):focus,
+#etn_multivendor_form [type=submit]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled):hover,
+#etn_multivendor_form [type=submit]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled):focus,
+#etn_multivendor_form [type=submit]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled):hover,
+#etn_multivendor_form button:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled):focus,
+#etn_multivendor_form button:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled):hover,
+#etn_multivendor_form button:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled):focus,
+#etn_multivendor_form button:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled):hover,
+#etn_multivendor_form button:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled):focus,
+#etn_multivendor_form button:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled):hover,
+.etn-mltv-event-attendee-list [type=button]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled):focus,
+.etn-mltv-event-attendee-list [type=button]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled):hover,
+.etn-mltv-event-attendee-list [type=button]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled):focus,
+.etn-mltv-event-attendee-list [type=button]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled):hover,
+.etn-mltv-event-attendee-list [type=button]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled):focus,
+.etn-mltv-event-attendee-list [type=button]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled):hover,
+.etn-mltv-event-attendee-list [type=submit]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled):focus,
+.etn-mltv-event-attendee-list [type=submit]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled):hover,
+.etn-mltv-event-attendee-list [type=submit]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled):focus,
+.etn-mltv-event-attendee-list [type=submit]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled):hover,
+.etn-mltv-event-attendee-list [type=submit]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled):focus,
+.etn-mltv-event-attendee-list [type=submit]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled):hover,
+.etn-mltv-event-attendee-list button:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled):focus,
+.etn-mltv-event-attendee-list button:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled):hover,
+.etn-mltv-event-attendee-list button:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled):focus,
+.etn-mltv-event-attendee-list button:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled):hover,
+.etn-mltv-event-attendee-list button:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled):focus,
+.etn-mltv-event-attendee-list button:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled):hover,
+.etn-mltv-modal-wrapper .ant-modal-content [type=button]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled):focus,
+.etn-mltv-modal-wrapper .ant-modal-content [type=button]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled):hover,
+.etn-mltv-modal-wrapper .ant-modal-content [type=button]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled):focus,
+.etn-mltv-modal-wrapper .ant-modal-content [type=button]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled):hover,
+.etn-mltv-modal-wrapper .ant-modal-content [type=button]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled):focus,
+.etn-mltv-modal-wrapper .ant-modal-content [type=button]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled):hover,
+.etn-mltv-modal-wrapper .ant-modal-content [type=submit]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled):focus,
+.etn-mltv-modal-wrapper .ant-modal-content [type=submit]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled):hover,
+.etn-mltv-modal-wrapper .ant-modal-content [type=submit]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled):focus,
+.etn-mltv-modal-wrapper .ant-modal-content [type=submit]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled):hover,
+.etn-mltv-modal-wrapper .ant-modal-content [type=submit]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled):focus,
+.etn-mltv-modal-wrapper .ant-modal-content [type=submit]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled):hover,
+.etn-mltv-modal-wrapper .ant-modal-content button:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled):focus,
+.etn-mltv-modal-wrapper .ant-modal-content button:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled):hover,
+.etn-mltv-modal-wrapper .ant-modal-content button:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled):focus,
+.etn-mltv-modal-wrapper .ant-modal-content button:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled):hover,
+.etn-mltv-modal-wrapper .ant-modal-content button:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled):focus,
+.etn-mltv-modal-wrapper .ant-modal-content button:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled):hover,
+.etn-frontend-dashboard [type=button]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled):focus,
+.etn-frontend-dashboard [type=button]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled):hover,
+.etn-frontend-dashboard [type=button]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled):focus,
+.etn-frontend-dashboard [type=button]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled):hover,
+.etn-frontend-dashboard [type=button]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled):focus,
+.etn-frontend-dashboard [type=button]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled):hover,
+.etn-frontend-dashboard [type=submit]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled):focus,
+.etn-frontend-dashboard [type=submit]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled):hover,
+.etn-frontend-dashboard [type=submit]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled):focus,
+.etn-frontend-dashboard [type=submit]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled):hover,
+.etn-frontend-dashboard [type=submit]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled):focus,
+.etn-frontend-dashboard [type=submit]:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled):hover,
+.etn-frontend-dashboard button:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled):focus,
+.etn-frontend-dashboard button:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled):hover,
+.etn-frontend-dashboard button:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled):focus,
+.etn-frontend-dashboard button:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled):hover,
+.etn-frontend-dashboard button:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled):focus,
+.etn-frontend-dashboard button:not(.ql-toolbar button, .etn-close-button, .ant-switch, .ant-picker-header button, .ant-btn-dangerous, :disabled):hover {
+  color: #ffffff;
+  background-color: #5d5dff;
+  text-decoration: none;
+  border-color: transparent;
+}
+#etn_multivendor_form .ant-btn-dangerous,
+.etn-mltv-event-attendee-list .ant-btn-dangerous,
+.etn-mltv-modal-wrapper .ant-modal-content .ant-btn-dangerous,
+.etn-frontend-dashboard .ant-btn-dangerous {
+  background-color: transparent;
+  padding-top: 0;
+  padding-bottom: 0;
+  border-radius: 6px;
+  font-weight: 500;
+}
+#etn_multivendor_form .etn-close-button,
+.etn-mltv-event-attendee-list .etn-close-button,
+.etn-mltv-modal-wrapper .ant-modal-content .etn-close-button,
+.etn-frontend-dashboard .etn-close-button {
+  padding: 0;
+  height: 20px;
+  width: 20px;
+  line-height: 18px;
+  text-align: center;
+  font-size: 10px;
+  color: #ffffff;
+  background-color: #5d5dff;
+  box-shadow: none;
+  border: none;
+}
+#etn_multivendor_form .etn-close-button span,
+.etn-mltv-event-attendee-list .etn-close-button span,
+.etn-mltv-modal-wrapper .ant-modal-content .etn-close-button span,
+.etn-frontend-dashboard .etn-close-button span {
+  line-height: 1;
+}
+#etn_multivendor_form .etn-close-button:hover,
+.etn-mltv-event-attendee-list .etn-close-button:hover,
+.etn-mltv-modal-wrapper .ant-modal-content .etn-close-button:hover,
+.etn-frontend-dashboard .etn-close-button:hover {
+  background-color: #ff4a97;
+}
+#etn_multivendor_form .ant-modal-close,
+.etn-mltv-event-attendee-list .ant-modal-close,
+.etn-mltv-modal-wrapper .ant-modal-content .ant-modal-close,
+.etn-frontend-dashboard .ant-modal-close {
+  padding: 0;
+}
+#etn_multivendor_form .ant-btn-sm:not(.etn-close-button),
+.etn-mltv-event-attendee-list .ant-btn-sm:not(.etn-close-button),
+.etn-mltv-modal-wrapper .ant-modal-content .ant-btn-sm:not(.etn-close-button),
+.etn-frontend-dashboard .ant-btn-sm:not(.etn-close-button) {
+  padding: 0px 7px !important;
+}
+#etn_multivendor_form .etn-btn-muted,
+.etn-mltv-event-attendee-list .etn-btn-muted,
+.etn-mltv-modal-wrapper .ant-modal-content .etn-btn-muted,
+.etn-frontend-dashboard .etn-btn-muted {
+  color: #a7aab4;
+  border-color: #a7aab4;
+  background-color: transparent;
+}
+#etn_multivendor_form .ant-picker,
+.etn-mltv-event-attendee-list .ant-picker,
+.etn-mltv-modal-wrapper .ant-modal-content .ant-picker,
+.etn-frontend-dashboard .ant-picker {
+  padding: 9px 12px;
+  border-radius: 4px;
+}
+#etn_multivendor_form .ant-select-single:not(.ant-select-customize-inputm) .ant-select-selector,
+.etn-mltv-event-attendee-list .ant-select-single:not(.ant-select-customize-inputm) .ant-select-selector,
+.etn-mltv-modal-wrapper .ant-modal-content .ant-select-single:not(.ant-select-customize-inputm) .ant-select-selector,
+.etn-frontend-dashboard .ant-select-single:not(.ant-select-customize-inputm) .ant-select-selector {
+  height: auto;
+  padding: 0 12px;
+}
+#etn_multivendor_form .etn-frontend-speaker-select .ant-select-selector,
+.etn-mltv-event-attendee-list .etn-frontend-speaker-select .ant-select-selector,
+.etn-mltv-modal-wrapper .ant-modal-content .etn-frontend-speaker-select .ant-select-selector,
+.etn-frontend-dashboard .etn-frontend-speaker-select .ant-select-selector {
+  min-height: 42px;
+}
+#etn_multivendor_form .etn-frontend-speaker-select .ant-select-selector .ant-select-selection-item,
+.etn-mltv-event-attendee-list .etn-frontend-speaker-select .ant-select-selector .ant-select-selection-item,
+.etn-mltv-modal-wrapper .ant-modal-content .etn-frontend-speaker-select .ant-select-selector .ant-select-selection-item,
+.etn-frontend-dashboard .etn-frontend-speaker-select .ant-select-selector .ant-select-selection-item {
+  line-height: 40px;
+}
+#etn_multivendor_form .etn-frontend-speaker-select .ant-select-selector .ant-select-selection-placeholder,
+.etn-mltv-event-attendee-list .etn-frontend-speaker-select .ant-select-selector .ant-select-selection-placeholder,
+.etn-mltv-modal-wrapper .ant-modal-content .etn-frontend-speaker-select .ant-select-selector .ant-select-selection-placeholder,
+.etn-frontend-dashboard .etn-frontend-speaker-select .ant-select-selector .ant-select-selection-placeholder {
+  display: flex;
+  align-items: center;
+}
+#etn_multivendor_form .etn-frontend-speaker-select .ant-select-selector .ant-select-selection-search-input,
+.etn-mltv-event-attendee-list .etn-frontend-speaker-select .ant-select-selector .ant-select-selection-search-input,
+.etn-mltv-modal-wrapper .ant-modal-content .etn-frontend-speaker-select .ant-select-selector .ant-select-selection-search-input,
+.etn-frontend-dashboard .etn-frontend-speaker-select .ant-select-selector .ant-select-selection-search-input {
+  height: 40px;
+}
+#etn_multivendor_form .ant-switch,
+.etn-mltv-event-attendee-list .ant-switch,
+.etn-mltv-modal-wrapper .ant-modal-content .ant-switch,
+.etn-frontend-dashboard .ant-switch {
+  background: #dddddd;
+  width: 43px;
+  height: 24px;
+  border-radius: 28px;
+  border-color: transparent;
+}
+#etn_multivendor_form .ant-switch:focus, #etn_multivendor_form .ant-switch:hover,
+.etn-mltv-event-attendee-list .ant-switch:focus,
+.etn-mltv-event-attendee-list .ant-switch:hover,
+.etn-mltv-modal-wrapper .ant-modal-content .ant-switch:focus,
+.etn-mltv-modal-wrapper .ant-modal-content .ant-switch:hover,
+.etn-frontend-dashboard .ant-switch:focus,
+.etn-frontend-dashboard .ant-switch:hover {
+  background-color: #838790;
+  outline-color: transparent;
+}
+#etn_multivendor_form .ant-switch-handle,
+.etn-mltv-event-attendee-list .ant-switch-handle,
+.etn-mltv-modal-wrapper .ant-modal-content .ant-switch-handle,
+.etn-frontend-dashboard .ant-switch-handle {
+  top: 3px;
+  left: 3px;
+}
+#etn_multivendor_form .ant-switch-checked,
+.etn-mltv-event-attendee-list .ant-switch-checked,
+.etn-mltv-modal-wrapper .ant-modal-content .ant-switch-checked,
+.etn-frontend-dashboard .ant-switch-checked {
+  background: #5d5dff;
+}
+#etn_multivendor_form .ant-switch-checked:focus,
+.etn-mltv-event-attendee-list .ant-switch-checked:focus,
+.etn-mltv-modal-wrapper .ant-modal-content .ant-switch-checked:focus,
+.etn-frontend-dashboard .ant-switch-checked:focus {
+  background: #5d5dff;
+}
+#etn_multivendor_form .ant-switch-checked .ant-switch-handle,
+.etn-mltv-event-attendee-list .ant-switch-checked .ant-switch-handle,
+.etn-mltv-modal-wrapper .ant-modal-content .ant-switch-checked .ant-switch-handle,
+.etn-frontend-dashboard .ant-switch-checked .ant-switch-handle {
+  left: calc(100% - 18px - 3px);
+}
+#etn_multivendor_form .ant-input-number,
+#etn_multivendor_form .ant-input,
+.etn-mltv-event-attendee-list .ant-input-number,
+.etn-mltv-event-attendee-list .ant-input,
+.etn-mltv-modal-wrapper .ant-modal-content .ant-input-number,
+.etn-mltv-modal-wrapper .ant-modal-content .ant-input,
+.etn-frontend-dashboard .ant-input-number,
+.etn-frontend-dashboard .ant-input {
+  width: 100%;
+  border-color: #e4e6eb;
+  border-radius: 6px;
+  background-color: transparent;
+}
+#etn_multivendor_form .ant-input-number .ant-input-number-input,
+#etn_multivendor_form .ant-input .ant-input-number-input,
+.etn-mltv-event-attendee-list .ant-input-number .ant-input-number-input,
+.etn-mltv-event-attendee-list .ant-input .ant-input-number-input,
+.etn-mltv-modal-wrapper .ant-modal-content .ant-input-number .ant-input-number-input,
+.etn-mltv-modal-wrapper .ant-modal-content .ant-input .ant-input-number-input,
+.etn-frontend-dashboard .ant-input-number .ant-input-number-input,
+.etn-frontend-dashboard .ant-input .ant-input-number-input {
+  height: 42px;
+}
+#etn_multivendor_form .etn-mltv-button-wrapper,
+.etn-mltv-event-attendee-list .etn-mltv-button-wrapper,
+.etn-mltv-modal-wrapper .ant-modal-content .etn-mltv-button-wrapper,
+.etn-frontend-dashboard .etn-mltv-button-wrapper {
+  margin-bottom: 20px;
+}
+#etn_multivendor_form .etn-mltv-social-icon-list,
+.etn-mltv-event-attendee-list .etn-mltv-social-icon-list,
+.etn-mltv-modal-wrapper .ant-modal-content .etn-mltv-social-icon-list,
+.etn-frontend-dashboard .etn-mltv-social-icon-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+#etn_multivendor_form .etn-mltv-social-icon-list i,
+.etn-mltv-event-attendee-list .etn-mltv-social-icon-list i,
+.etn-mltv-modal-wrapper .ant-modal-content .etn-mltv-social-icon-list i,
+.etn-frontend-dashboard .etn-mltv-social-icon-list i {
+  padding: 10px;
+  cursor: pointer;
+  border: 1px solid #e5e5e5;
+  border-radius: 4px;
+  min-width: 36px;
+  min-width: 36px;
+  display: inline-block;
+}
+#etn_multivendor_form .ant-modal-confirm-body,
+.etn-mltv-event-attendee-list .ant-modal-confirm-body,
+.etn-mltv-modal-wrapper .ant-modal-content .ant-modal-confirm-body,
+.etn-frontend-dashboard .ant-modal-confirm-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+#etn_multivendor_form .ant-modal-confirm-body .ant-modal-confirm-title,
+.etn-mltv-event-attendee-list .ant-modal-confirm-body .ant-modal-confirm-title,
+.etn-mltv-modal-wrapper .ant-modal-content .ant-modal-confirm-body .ant-modal-confirm-title,
+.etn-frontend-dashboard .ant-modal-confirm-body .ant-modal-confirm-title {
+  font-size: 20px;
+  text-align: center;
+}
+#etn_multivendor_form .ant-modal-confirm-body .ant-modal-confirm-content,
+.etn-mltv-event-attendee-list .ant-modal-confirm-body .ant-modal-confirm-content,
+.etn-mltv-modal-wrapper .ant-modal-content .ant-modal-confirm-body .ant-modal-confirm-content,
+.etn-frontend-dashboard .ant-modal-confirm-body .ant-modal-confirm-content {
+  text-align: center;
+  margin-left: 0 !important;
+}
+#etn_multivendor_form .ant-modal-confirm-body .anticon,
+.etn-mltv-event-attendee-list .ant-modal-confirm-body .anticon,
+.etn-mltv-modal-wrapper .ant-modal-content .ant-modal-confirm-body .anticon,
+.etn-frontend-dashboard .ant-modal-confirm-body .anticon {
+  margin-right: 0;
+}
+#etn_multivendor_form .ant-modal-confirm-btns,
+.etn-mltv-event-attendee-list .ant-modal-confirm-btns,
+.etn-mltv-modal-wrapper .ant-modal-content .ant-modal-confirm-btns,
+.etn-frontend-dashboard .ant-modal-confirm-btns {
+  text-align: center !important;
+}
+#etn_multivendor_form .ant-modal-confirm-btns .ant-btn,
+.etn-mltv-event-attendee-list .ant-modal-confirm-btns .ant-btn,
+.etn-mltv-modal-wrapper .ant-modal-content .ant-modal-confirm-btns .ant-btn,
+.etn-frontend-dashboard .ant-modal-confirm-btns .ant-btn {
+  padding: 15px 35px;
+  height: auto;
+}
+#etn_multivendor_form .etn-mltv-form-action-wrap .ant-btn,
+.etn-mltv-event-attendee-list .etn-mltv-form-action-wrap .ant-btn,
+.etn-mltv-modal-wrapper .ant-modal-content .etn-mltv-form-action-wrap .ant-btn,
+.etn-frontend-dashboard .etn-mltv-form-action-wrap .ant-btn {
+  border-radius: 6px;
+  font-weight: 500;
+}
+#etn_multivendor_form .etn-mltv-form-action-wrap .ant-btn:not(:last-child),
+.etn-mltv-event-attendee-list .etn-mltv-form-action-wrap .ant-btn:not(:last-child),
+.etn-mltv-modal-wrapper .ant-modal-content .etn-mltv-form-action-wrap .ant-btn:not(:last-child),
+.etn-frontend-dashboard .etn-mltv-form-action-wrap .ant-btn:not(:last-child) {
+  margin-right: 15px;
+}
+#etn_multivendor_form .ant-menu-horizontal,
+.etn-mltv-event-attendee-list .ant-menu-horizontal,
+.etn-mltv-modal-wrapper .ant-modal-content .ant-menu-horizontal,
+.etn-frontend-dashboard .ant-menu-horizontal {
+  padding-left: 0 !important;
+}
+
+.etn-mltv-events-list table {
+  background: #ffffff;
+}
+.etn-mltv-events-list .row-actions a {
+  color: #5d5dff;
+  text-decoration: underline !important;
+}
+.etn-mltv-events-list .row-actions a:hover {
+  color: #5d5dff;
+}
+.etn-mltv-events-list .etn-mltv-id-wrapper a {
+  color: #000;
+}
+.etn-mltv-events-list .etn-mltv-title-wrapper p {
+  font-size: 16px;
+  margin: 0 0 5px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #000000;
+  line-height: 22px;
+}
+.etn-mltv-events-list .etn-mltv-seats-wrapper,
+.etn-mltv-events-list .etn-mltv-date-wrapper,
+.etn-mltv-events-list .etn-mltv-id-wrapper,
+.etn-mltv-events-list .etn-mltv-location-wrapper {
+  text-align: center;
+}
+.etn-mltv-events-list td,
+.etn-mltv-events-list th {
+  border: 1px solid #e4e6eb;
+  padding: 15px 12px;
+}
+
+#etn_multivendor_form,
+.etn-frontend-dashboard {
+  min-height: 100vh;
+  padding: 20px !important;
+  background: #f1f2f7;
+  border-radius: 0 10px 10px 0;
+  margin-left: -25px;
+}
+#etn_multivendor_form .etn-mltv-content-layout-step,
+.etn-frontend-dashboard .etn-mltv-content-layout-step {
+  text-align: center;
+  margin: 0;
+  font-size: 13px;
+  font-weight: 700;
+  color: #838790;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+#etn_multivendor_form .etn-mltv-event-app,
+.etn-frontend-dashboard .etn-mltv-event-app {
+  max-width: 100%;
+  margin: 35px auto;
+}
+#etn_multivendor_form .etn-mltv-event-app .ant-form-item,
+.etn-frontend-dashboard .etn-mltv-event-app .ant-form-item {
+  margin-bottom: 0;
+}
+#etn_multivendor_form .etn-mltv-event-app .etn-mltv-step-info-title,
+.etn-frontend-dashboard .etn-mltv-event-app .etn-mltv-step-info-title {
+  text-align: center;
+  font-size: 26px;
+  color: #000000;
+  margin: 0 0 30px 0;
+  padding: 0;
+  font-weight: 700;
+}
+#etn_multivendor_form .etn-mltv-event-app .ant-form-vertical .ant-form-item-label,
+.etn-frontend-dashboard .etn-mltv-event-app .ant-form-vertical .ant-form-item-label {
+  padding: 0 0 12px;
+}
+#etn_multivendor_form .etn-mltv-event-app .ant-form-item-control-input .etn-mv-text-input,
+#etn_multivendor_form .etn-mltv-event-app .ant-form-item-control-input input[type=text],
+#etn_multivendor_form .etn-mltv-event-app .ant-form-item-control-input-content .etn-mv-text-input,
+#etn_multivendor_form .etn-mltv-event-app .ant-form-item-control-input-content input[type=text],
+.etn-frontend-dashboard .etn-mltv-event-app .ant-form-item-control-input .etn-mv-text-input,
+.etn-frontend-dashboard .etn-mltv-event-app .ant-form-item-control-input input[type=text],
+.etn-frontend-dashboard .etn-mltv-event-app .ant-form-item-control-input-content .etn-mv-text-input,
+.etn-frontend-dashboard .etn-mltv-event-app .ant-form-item-control-input-content input[type=text] {
+  padding: 0 20px;
+  height: 42px;
+  border-radius: 4px;
+  border: 1px solid #e4e6eb;
+  background-color: transparent;
+}
+#etn_multivendor_form .etn-mltv-event-app .ant-form-item-control-input ::-moz-placeholder, #etn_multivendor_form .etn-mltv-event-app .ant-form-item-control-input-content ::-moz-placeholder, .etn-frontend-dashboard .etn-mltv-event-app .ant-form-item-control-input ::-moz-placeholder, .etn-frontend-dashboard .etn-mltv-event-app .ant-form-item-control-input-content ::-moz-placeholder {
+  color: #838790;
+}
+#etn_multivendor_form .etn-mltv-event-app .ant-form-item-control-input ::placeholder,
+#etn_multivendor_form .etn-mltv-event-app .ant-form-item-control-input-content ::placeholder,
+.etn-frontend-dashboard .etn-mltv-event-app .ant-form-item-control-input ::placeholder,
+.etn-frontend-dashboard .etn-mltv-event-app .ant-form-item-control-input-content ::placeholder {
+  color: #838790;
+}
+#etn_multivendor_form .etn-mltv-event-app .ant-form-item-control-input .etn-location-type .ant-select-selector,
+#etn_multivendor_form .etn-mltv-event-app .ant-form-item-control-input-content .etn-location-type .ant-select-selector,
+.etn-frontend-dashboard .etn-mltv-event-app .ant-form-item-control-input .etn-location-type .ant-select-selector,
+.etn-frontend-dashboard .etn-mltv-event-app .ant-form-item-control-input-content .etn-location-type .ant-select-selector {
+  height: 42px;
+}
+#etn_multivendor_form .etn-mltv-event-app .ant-form-item-control-input .etn-location-type .ant-select-selection-item,
+#etn_multivendor_form .etn-mltv-event-app .ant-form-item-control-input-content .etn-location-type .ant-select-selection-item,
+.etn-frontend-dashboard .etn-mltv-event-app .ant-form-item-control-input .etn-location-type .ant-select-selection-item,
+.etn-frontend-dashboard .etn-mltv-event-app .ant-form-item-control-input-content .etn-location-type .ant-select-selection-item {
+  line-height: 40px;
+}
+#etn_multivendor_form .etn-mltv-event-app .ant-select:not(.ant-select-customize-input) .ant-select-selector,
+.etn-frontend-dashboard .etn-mltv-event-app .ant-select:not(.ant-select-customize-input) .ant-select-selector {
+  border: 1px solid #e4e6eb;
+  border-radius: 4px;
+}
+#etn_multivendor_form .etn-mltv-event-app .ant-select-multiple .ant-select-selector,
+.etn-frontend-dashboard .etn-mltv-event-app .ant-select-multiple .ant-select-selector {
+  padding: 6px 10px;
+}
+#etn_multivendor_form .etn-mltv-event-app .ant-select-multiple .ant-select-selection-placeholder,
+.etn-frontend-dashboard .etn-mltv-event-app .ant-select-multiple .ant-select-selection-placeholder {
+  left: 18px;
+  right: 18px;
+}
+#etn_multivendor_form .etn-mltv-event-app .ant-steps-item-container .ant-steps-item-tail,
+.etn-frontend-dashboard .etn-mltv-event-app .ant-steps-item-container .ant-steps-item-tail {
+  padding: 3.5px 45px 3.5px 35px;
+}
+#etn_multivendor_form .etn-mltv-event-app .ant-steps-item-container .ant-steps-item-tail::after,
+.etn-frontend-dashboard .etn-mltv-event-app .ant-steps-item-container .ant-steps-item-tail::after {
+  height: 2px;
+  background-color: #5d5dff;
+}
+#etn_multivendor_form .etn-mltv-event-app .ant-steps-item-container .ant-steps-item-title::after,
+.etn-frontend-dashboard .etn-mltv-event-app .ant-steps-item-container .ant-steps-item-title::after {
+  height: 2px;
+  background: #e4e5ec;
+}
+#etn_multivendor_form .etn-mltv-event-app .ant-steps-item-finish > .ant-steps-item-container > .ant-steps-item-content > .ant-steps-item-title::after,
+.etn-frontend-dashboard .etn-mltv-event-app .ant-steps-item-finish > .ant-steps-item-container > .ant-steps-item-content > .ant-steps-item-title::after {
+  background-color: #5d5dff;
+}
+#etn_multivendor_form .etn-mltv-event-app .etn-mltv-steps,
+.etn-frontend-dashboard .etn-mltv-event-app .etn-mltv-steps {
+  max-width: 200px;
+  margin: 0 auto 20px;
+}
+@media (max-width: 767px) {
+  #etn_multivendor_form .etn-mltv-event-app .etn-mltv-steps,
+.etn-frontend-dashboard .etn-mltv-event-app .etn-mltv-steps {
+    flex-direction: row;
+  }
+}
+#etn_multivendor_form .etn-mltv-event-app .ant-layout,
+.etn-frontend-dashboard .etn-mltv-event-app .ant-layout {
+  background: none !important;
+}
+#etn_multivendor_form .etn-mltv-event-app .etn-mltv-general-info .preview-image-wrapper,
+.etn-frontend-dashboard .etn-mltv-event-app .etn-mltv-general-info .preview-image-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  isolation: isolate;
+  width: 118px;
+  height: 118px;
+  padding: 10px;
+}
+#etn_multivendor_form .etn-mltv-event-app .etn-mltv-general-info .preview-image-wrapper::before,
+.etn-frontend-dashboard .etn-mltv-event-app .etn-mltv-general-info .preview-image-wrapper::before {
+  position: absolute;
+  content: "";
+  background: rgba(0, 0, 0, 0.7);
+  width: calc(100% - 20px);
+  height: calc(100% - 20px);
+  transition: 0.3s;
+  border-radius: 3px;
+  opacity: 0;
+  visibility: hidden;
+  left: 10px;
+  top: 10px;
+}
+#etn_multivendor_form .etn-mltv-event-app .etn-mltv-general-info .preview-image-wrapper .etn-mltv-img-prev-bin,
+.etn-frontend-dashboard .etn-mltv-event-app .etn-mltv-general-info .preview-image-wrapper .etn-mltv-img-prev-bin {
+  position: absolute;
+  z-index: 1;
+  color: #fff;
+  font-size: 20px;
+  transition: 0.3s;
+  opacity: 0;
+  visibility: hidden;
+}
+#etn_multivendor_form .etn-mltv-event-app .etn-mltv-general-info .preview-image-wrapper:hover::before,
+#etn_multivendor_form .etn-mltv-event-app .etn-mltv-general-info .preview-image-wrapper:hover .etn-mltv-img-prev-bin,
+.etn-frontend-dashboard .etn-mltv-event-app .etn-mltv-general-info .preview-image-wrapper:hover::before,
+.etn-frontend-dashboard .etn-mltv-event-app .etn-mltv-general-info .preview-image-wrapper:hover .etn-mltv-img-prev-bin {
+  opacity: 1;
+  visibility: visible;
+}
+#etn_multivendor_form .etn-mltv-event-app .etn-mltv-general-info .etn-mltv-social-icon,
+.etn-frontend-dashboard .etn-mltv-event-app .etn-mltv-general-info .etn-mltv-social-icon {
+  border: 1px solid #e4e6eb;
+  text-align: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#etn_multivendor_form .etn-mltv-event-app .etn-mltv-general-multimedia,
+.etn-frontend-dashboard .etn-mltv-event-app .etn-mltv-general-multimedia {
+  margin-bottom: 40px;
+}
+#etn_multivendor_form .etn-mltv-event-app .etn-mltv-ticket-block,
+.etn-frontend-dashboard .etn-mltv-event-app .etn-mltv-ticket-block {
+  margin-top: 37px;
+}
+#etn_multivendor_form .etn-mltv-event-app .etn-mltv-general-block,
+.etn-frontend-dashboard .etn-mltv-event-app .etn-mltv-general-block {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 30px;
+  align-items: center;
+}
+#etn_multivendor_form .etn-mltv-event-app .etn-mltv-general-block:not(:last-child),
+.etn-frontend-dashboard .etn-mltv-event-app .etn-mltv-general-block:not(:last-child) {
+  margin-bottom: 15px;
+}
+#etn_multivendor_form .etn-mltv-event-app .etn-mltv-general-block .create-category-form,
+.etn-frontend-dashboard .etn-mltv-event-app .etn-mltv-general-block .create-category-form {
+  margin: 20px 0 0;
+  padding: 20px;
+  background-color: var(--white);
+  border-radius: 6px;
+  border: 1px solid #e4e6eb;
+}
+#etn_multivendor_form .etn-mltv-event-app .etn-mltv-general-block .create-category-form .ant-form-item,
+.etn-frontend-dashboard .etn-mltv-event-app .etn-mltv-general-block .create-category-form .ant-form-item {
+  margin-bottom: 20px;
+}
+#etn_multivendor_form .etn-mltv-event-app .ql-container,
+.etn-frontend-dashboard .etn-mltv-event-app .ql-container {
+  border: 1px solid #e4e6eb;
+  border-radius: 0 0 4px 4px;
+}
+#etn_multivendor_form .etn-mltv-event-app .ql-container .ql-editor,
+.etn-frontend-dashboard .etn-mltv-event-app .ql-container .ql-editor {
+  min-height: 200px;
+  line-height: 24px;
+}
+#etn_multivendor_form .etn-mltv-event-app .ql-toolbar,
+.etn-frontend-dashboard .etn-mltv-event-app .ql-toolbar {
+  border: 1px solid #e4e6eb;
+  border-radius: 4px 4px 0 0;
+}
+#etn_multivendor_form .etn-mltv-event-app .etn-create-category-form,
+.etn-frontend-dashboard .etn-mltv-event-app .etn-create-category-form {
+  padding: 20px;
+  background-color: var(--white);
+  border-radius: 6px;
+}
+#etn_multivendor_form .etn-mltv-event-app .etn-create-category-form input,
+#etn_multivendor_form .etn-mltv-event-app .etn-create-category-form textarea,
+.etn-frontend-dashboard .etn-mltv-event-app .etn-create-category-form input,
+.etn-frontend-dashboard .etn-mltv-event-app .etn-create-category-form textarea {
+  margin-bottom: 15px;
+  display: block;
+}
+@media (min-width: 992px) {
+  #etn_multivendor_form .etn-mltv-event-app .etn-create-category-form input,
+#etn_multivendor_form .etn-mltv-event-app .etn-create-category-form textarea,
+.etn-frontend-dashboard .etn-mltv-event-app .etn-create-category-form input,
+.etn-frontend-dashboard .etn-mltv-event-app .etn-create-category-form textarea {
+    max-width: 50%;
+  }
+}
+#etn_multivendor_form .etn-mltv-form-item-label,
+.etn-frontend-dashboard .etn-mltv-form-item-label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #000000;
+}
+#etn_multivendor_form .ant-picker-range,
+#etn_multivendor_form .ant-picker,
+.etn-frontend-dashboard .ant-picker-range,
+.etn-frontend-dashboard .ant-picker {
+  width: 100%;
+}
+#etn_multivendor_form .avatar-uploader,
+.etn-frontend-dashboard .avatar-uploader {
+  height: 120px;
+  width: 120px;
+  border: 1px dashed #d9d9d9;
+  text-align: center;
+  display: grid;
+  place-items: center;
+  border-radius: 3px;
+  cursor: pointer;
+  background-color: #fafafa;
+}
+#etn_multivendor_form .avatar-uploader img,
+.etn-frontend-dashboard .avatar-uploader img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+#etn_multivendor_form .avatar-uploader .etn-mltv-img-plus-outline,
+.etn-frontend-dashboard .avatar-uploader .etn-mltv-img-plus-outline {
+  width: 120px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#etn_multivendor_form .ant-form-vertical .ant-form-item-label > label,
+.etn-frontend-dashboard .ant-form-vertical .ant-form-item-label > label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #000000;
+}
+#etn_multivendor_form .etn-mltv-form-action-wrap,
+.etn-frontend-dashboard .etn-mltv-form-action-wrap {
+  margin-top: 25px;
+  text-align: right;
+}
+#etn_multivendor_form .etn-mltv-form-action-wrap .etn-btn-primary,
+.etn-frontend-dashboard .etn-mltv-form-action-wrap .etn-btn-primary {
+  padding: 0 30px !important;
+  border-color: transparent !important;
+}
+#etn_multivendor_form .etn-mltv-form-action-wrap .etn-btn-primary:hover,
+.etn-frontend-dashboard .etn-mltv-form-action-wrap .etn-btn-primary:hover {
+  border-color: #5d5dff !important;
+}
+#etn_multivendor_form .etn-mltv-form-action-wrap .etn-btn-default,
+.etn-frontend-dashboard .etn-mltv-form-action-wrap .etn-btn-default {
+  padding: 0 30px !important;
+}
+#etn_multivendor_form .swatch,
+.etn-frontend-dashboard .swatch {
+  padding: 5px;
+  background: #ffffff;
+  border-radius: 1px;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  cursor: pointer;
+}
+#etn_multivendor_form .popover,
+.etn-frontend-dashboard .popover {
+  position: absolute;
+  z-index: 2;
+}
+#etn_multivendor_form .cover,
+.etn-frontend-dashboard .cover {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+#etn_multivendor_form .ant-modal-close,
+.etn-frontend-dashboard .ant-modal-close {
+  padding: 0;
+  line-height: 1;
+  border: none;
+}
+#etn_multivendor_form .etn-mltv-general-social-media,
+.etn-frontend-dashboard .etn-mltv-general-social-media {
+  align-items: center;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+@media (max-width: 767px) {
+  #etn_multivendor_form .etn-mltv-general-social-media,
+.etn-frontend-dashboard .etn-mltv-general-social-media {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+#etn_multivendor_form .etn-mltv-general-social-media:not(:last-child),
+.etn-frontend-dashboard .etn-mltv-general-social-media:not(:last-child) {
+  border-bottom: 1px solid #e5e5e5;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+#etn_multivendor_form .etn-mltv-event-basic-info,
+.etn-frontend-dashboard .etn-mltv-event-basic-info {
+  display: grid;
+  row-gap: 35px;
+}
+#etn_multivendor_form .etn-mltv-meta,
+.etn-frontend-dashboard .etn-mltv-meta {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+#etn_multivendor_form .etn-mltv-meta .etn-mltv-label-heading,
+.etn-frontend-dashboard .etn-mltv-meta .etn-mltv-label-heading {
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: capitalize;
+  line-height: 1;
+  margin: 0;
+}
+#etn_multivendor_form .mltv-ticket-meta-wrapper,
+.etn-frontend-dashboard .mltv-ticket-meta-wrapper {
+  display: flex;
+  gap: 60px;
+  margin-bottom: 30px;
+}
+#etn_multivendor_form .ant-collapse-header-text,
+.etn-frontend-dashboard .ant-collapse-header-text {
+  font-size: 14px;
+  font-weight: 600;
+}
+#etn_multivendor_form .etn-mltv-ticket-wrapper,
+.etn-frontend-dashboard .etn-mltv-ticket-wrapper {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  row-gap: 20px;
+}
+#etn_multivendor_form .etn-mltv-ticket-wrapper .etn-mltv-ticket-title,
+.etn-frontend-dashboard .etn-mltv-ticket-wrapper .etn-mltv-ticket-title {
+  margin-bottom: 0;
+  flex: 0 0 calc(100% - 170px);
+}
+#etn_multivendor_form .etn-mltv-ticket-wrapper .tc-content,
+.etn-frontend-dashboard .etn-mltv-ticket-wrapper .tc-content {
+  flex: 0 0 170px;
+}
+@media (max-width: 767px) {
+  #etn_multivendor_form .etn-mltv-ticket-wrapper .tc-content,
+#etn_multivendor_form .etn-mltv-ticket-wrapper .etn-mltv-ticket-title,
+.etn-frontend-dashboard .etn-mltv-ticket-wrapper .tc-content,
+.etn-frontend-dashboard .etn-mltv-ticket-wrapper .etn-mltv-ticket-title {
+    flex: 0 0 100%;
+  }
+}
+#etn_multivendor_form .etn-mltv-single-panel .etn-close-button,
+.etn-frontend-dashboard .etn-mltv-single-panel .etn-close-button {
+  margin-left: 20px;
+}
+@media (max-width: 767px) {
+  #etn_multivendor_form .etn-mltv-single-panel .etn-close-button,
+.etn-frontend-dashboard .etn-mltv-single-panel .etn-close-button {
+    margin-left: 10px;
+  }
+}
+#etn_multivendor_form .etn-mltv-single-panel:not(:last-child),
+.etn-frontend-dashboard .etn-mltv-single-panel:not(:last-child) {
+  margin-bottom: 20px;
+}
+#etn_multivendor_form .etn-mltv-subheadding,
+.etn-frontend-dashboard .etn-mltv-subheadding {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 500;
+  margin: 10px 0;
+}
+#etn_multivendor_form .ant-collapse,
+.etn-frontend-dashboard .ant-collapse {
+  background-color: #ebecef;
+  border-color: transparent;
+  border-radius: 6px;
+  padding: 20px;
+}
+#etn_multivendor_form .ant-collapse-content,
+.etn-frontend-dashboard .ant-collapse-content {
+  border: 1px solid transparent;
+  margin-top: 15px;
+}
+#etn_multivendor_form .ant-collapse-content > .ant-collapse-content-box,
+.etn-frontend-dashboard .ant-collapse-content > .ant-collapse-content-box {
+  padding: 20px 30px;
+}
+@media (max-width: 767px) {
+  #etn_multivendor_form .ant-collapse,
+.etn-frontend-dashboard .ant-collapse {
+    padding: 15px;
+  }
+  #etn_multivendor_form .ant-collapse-content .ant-collapse-content-box,
+.etn-frontend-dashboard .ant-collapse-content .ant-collapse-content-box {
+    padding: 20px 15px;
+  }
+}
+#etn_multivendor_form .ant-collapse-item:last-child > .ant-collapse-content,
+.etn-frontend-dashboard .ant-collapse-item:last-child > .ant-collapse-content {
+  border-radius: 6px;
+}
+#etn_multivendor_form .ant-collapse > .ant-collapse-item,
+.etn-frontend-dashboard .ant-collapse > .ant-collapse-item {
+  border-bottom: 1px solid transparent;
+}
+#etn_multivendor_form .ant-collapse-icon-position-end > .ant-collapse-item > .ant-collapse-header,
+.etn-frontend-dashboard .ant-collapse-icon-position-end > .ant-collapse-item > .ant-collapse-header {
+  padding: 0;
+  padding-right: 40px;
+}
+#etn_multivendor_form .etn-mltv-timezone-select select,
+.etn-frontend-dashboard .etn-mltv-timezone-select select {
+  width: 100%;
+  height: 42px;
+  background-position-y: calc(100% - 18px);
+  background-color: transparent;
+  border: 1px solid #e4e6eb;
+  background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20width%3D%2220%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M5%206l5%205%205-5%202%201-7%207-7-7%202-1z%22%20fill%3D%22%23555%22%2F%3E%3C%2Fsvg%3E");
+  background-position: 97% center;
+  background-repeat: no-repeat;
+  background-size: 14px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  position: relative;
+  padding: 0 12px;
+}
+#etn_multivendor_form .etn-mltv-timezone-select select:focus,
+.etn-frontend-dashboard .etn-mltv-timezone-select select:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2);
+}
+#etn_multivendor_form #basic_event_timezone,
+.etn-frontend-dashboard #basic_event_timezone {
+  border: 1px solid #e4e6eb;
+  border-radius: 4px;
+  background: #ffffff url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20width%3D%2220%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M5%206l5%205%205-5%202%201-7%207-7-7%202-1z%22%20fill%3D%22%23555%22%2F%3E%3C%2Fsvg%3E") no-repeat right 5px top 55%;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+#etn_multivendor_form #basic_event_timezone:focus,
+.etn-frontend-dashboard #basic_event_timezone:focus {
+  outline: none;
+}
+#etn_multivendor_form .ent-mltv-spinner-wrapper,
+.etn-frontend-dashboard .ent-mltv-spinner-wrapper {
+  margin-top: 150px;
+}
+#etn_multivendor_form .ent-mltv-spinner-wrapper .ant-alert,
+.etn-frontend-dashboard .ent-mltv-spinner-wrapper .ant-alert {
+  border-radius: 6px;
+}
+#etn_multivendor_form .ent-mltv-spinner-wrapper .ant-alert-with-description,
+.etn-frontend-dashboard .ent-mltv-spinner-wrapper .ant-alert-with-description {
+  padding: 35px 35px 140px;
+  text-align: center;
+}
+#etn_multivendor_form .ent-mltv-spinner-wrapper .ant-spin,
+.etn-frontend-dashboard .ent-mltv-spinner-wrapper .ant-spin {
+  top: 25px !important;
+}
+
+.etn-mltv-events-wrapper {
+  min-height: 100vh;
+  padding: 20px !important;
+  background: #f1f2f7;
+  border-radius: 0 10px 10px 0;
+  margin-left: -25px;
+}
+.etn-mltv-events-wrapper .etn-mltv-button-wrapper {
+  margin-bottom: 20px;
+}
+.etn-mltv-events-wrapper .etn-mltv-button-wrapper .etn-btn {
+  padding: 0 20px;
+}
+
+.ant-picker-dropdown table caption + thead tr:first-child td,
+.ant-picker-dropdown table caption + thead tr:first-child th,
+.ant-picker-dropdown table colgroup + thead tr:first-child td,
+.ant-picker-dropdown table colgroup + thead tr:first-child th,
+.ant-picker-dropdown table thead:first-child tr:first-child td,
+.ant-picker-dropdown table thead:first-child tr:first-child th {
+  border-top: transparent;
+}
+.ant-picker-dropdown table tbody > tr:nth-child(odd) > td,
+.ant-picker-dropdown table tbody > tr:nth-child(odd) > th {
+  background-color: transparent;
+}
+.ant-picker-dropdown table td,
+.ant-picker-dropdown table th {
+  padding: 0;
+  border-color: transparent;
+}
+.ant-picker-dropdown table tbody tr:hover > td,
+.ant-picker-dropdown table tbody tr:hover > th {
+  background-color: transparent;
+}
+.ant-picker-dropdown .ant-picker-ok button {
+  padding: 0 15px;
+  height: 30px;
+  font-size: 12px;
+  color: #5d5dff;
+  background-color: transparent;
+  border-color: #5d5dff;
+}
+.ant-picker-dropdown .ant-picker-ok button:hover {
+  background-color: #5d5dff !important;
+  color: #ffffff;
+  border-color: transparent;
+}
+.ant-picker-dropdown .ant-picker-header button {
+  padding: 0;
+}
+.ant-picker-dropdown .ant-picker-header button:hover {
+  background-color: transparent;
+}
+
+.etn-frontend-dashboard,
+.etn-bb-create-event-area {
+  border-radius: 6px;
+  margin-left: 0;
+  min-height: auto;
+}
+.etn-frontend-dashboard .etn-mltv-event-app,
+.etn-bb-create-event-area .etn-mltv-event-app {
+  margin: 0;
+}
+.etn-frontend-dashboard .ant-menu-horizontal,
+.etn-bb-create-event-area .ant-menu-horizontal {
+  border-radius: 6px;
+  margin: 0;
+}
+.etn-frontend-dashboard .etn-btn-primary.etn-mltv-variation-add,
+.etn-bb-create-event-area .etn-btn-primary.etn-mltv-variation-add {
+  margin-top: 20px;
+  border-radius: 6px !important;
+  line-height: 34px;
+  height: 34px;
+  font-weight: 500;
+}
+.etn-frontend-dashboard .ant-steps-item-process > .ant-steps-item-container > .ant-steps-item-content > .ant-steps-item-title::after,
+.etn-bb-create-event-area .ant-steps-item-process > .ant-steps-item-container > .ant-steps-item-content > .ant-steps-item-title::after {
+  background-color: #bfbfbf;
+}
+@media (max-width: 768px) {
+  .etn-frontend-dashboard .ant-steps-vertical.ant-steps-small .ant-steps-item-container .ant-steps-item-tail,
+.etn-bb-create-event-area .ant-steps-vertical.ant-steps-small .ant-steps-item-container .ant-steps-item-tail {
+    position: absolute;
+    top: 0;
+    left: 90%;
+    padding: 30px 0 6px;
+    transform: rotate(90deg) translateX(-10px);
+  }
+}
+
+.event-checkbox {
+  flex: 0 0 5%;
+}
+.event-checkbox input[type=checkbox] {
+  display: none;
+}
+.event-checkbox input[type=checkbox] + label {
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  line-height: 0.8;
+}
+.event-checkbox input[type=checkbox] + label::before {
+  content: "✓";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  vertical-align: bottom;
+  color: rgba(0, 0, 0, 0);
+  text-align: center;
+  line-height: 18px;
+  margin-right: 10px;
+  background-color: rgb(255, 255, 255);
+  font-size: 14px;
+  border: 1px solid #e4e6eb;
+  border-radius: 4px;
+  transition: all 0.3s ease 0s;
+}
+.event-checkbox input[type=checkbox]:checked + label:before {
+  background-color: #5d5dff;
+  border-color: #5d5dff;
+  color: #fff;
+}
+
+.etn-frontend-event-item {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 6px;
+  border: 1px solid #e4e6eb;
+}
+@media (max-width: 767px) {
+  .etn-frontend-event-item {
+    padding: 20px;
+  }
+}
+.etn-frontend-event-item:not(:last-child) {
+  margin-bottom: 10px;
+}
+.etn-frontend-event-item .etn-frontend-event-data {
+  display: flex;
+  align-items: center;
+  max-width: 55%;
+  flex: 0 0 55%;
+}
+@media (max-width: 767px) {
+  .etn-frontend-event-item .etn-frontend-event-data {
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
+  .etn-frontend-event-item .etn-frontend-event-data .etn-frontend-event-image {
+    display: none;
+  }
+}
+.etn-frontend-event-item .etn-frontend-event-image {
+  margin-right: 30px;
+  flex: 0 0 100px;
+}
+@media (max-width: 767px) {
+  .etn-frontend-event-item .etn-frontend-event-image {
+    padding-rigth: 0;
+  }
+}
+.etn-frontend-event-item .etn-frontend-event-image img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  cursor: pointer;
+}
+.etn-frontend-event-item .etn-frontend-event-content .etn-frontend-event-title {
+  font-size: 16px;
+  color: #000;
+  margin: 0;
+  line-height: 1.5;
+  margin-bottom: 10px;
+  cursor: pointer;
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+}
+.etn-frontend-event-item .etn-frontend-event-content .etn-frontend-event-title:hover {
+  color: rgb(78, 78, 78);
+}
+.etn-frontend-event-item .etn-category-description {
+  margin: 5px 0 0;
+}
+.etn-frontend-event-item .etn-frontend-event-meta-list {
+  margin: 10px 0 0;
+  padding: 0;
+  list-style: none;
+}
+.etn-frontend-event-item .etn-frontend-event-meta-list li {
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+}
+.etn-frontend-event-item .etn-frontend-event-meta-list li:not(:last-child) {
+  margin-bottom: 10px;
+}
+.etn-frontend-event-item .etn-frontend-event-meta-list li svg {
+  margin-right: 10px;
+}
+.etn-frontend-event-item .etn-frontend-event-action {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  flex: 0 0 40%;
+}
+@media (max-width: 1366px) {
+  .etn-frontend-event-item .etn-frontend-event-action {
+    justify-content: flex-start;
+    gap: 10px;
+  }
+}
+@media (max-width: 767px) {
+  .etn-frontend-event-item .etn-frontend-event-action {
+    justify-content: flex-start;
+    align-items: baseline;
+    flex: 0 0 100%;
+  }
+}
+.etn-frontend-event-item .etn-frontend-event-action {
+  border-color: #5d5dff;
+}
+.etn-frontend-event-item .etn-frontend-event-action > button {
+  height: 32px;
+  border-color: #e4e6eb;
+  border-radius: 6px;
+}
+.etn-frontend-event-item .etn-frontend-event-action > button:not(:last-child) {
+  margin-right: 15px;
+}
+@media (max-width: 375px) {
+  .etn-frontend-event-item .etn-frontend-event-action > button:not(:last-child) {
+    margin-bottom: 15px;
+  }
+}
+.etn-frontend-event-item .etn-frontend-event-action > button:not(:disabled) > span {
+  color: #5d5dff;
+  font-weight: 500;
+  font-size: 13px;
+}
+.etn-frontend-event-item .etn-frontend-event-action > button:not(:disabled):hover {
+  background: #5d5dff !important;
+  border-color: transparent !important;
+}
+.etn-frontend-event-item .etn-frontend-event-action > button:not(:disabled):hover span {
+  color: #ffffff !important;
+}
+.etn-frontend-event-item .etn-frontend-event-action > button:not(:disabled):focus {
+  background: #5d5dff;
+  border-color: #5d5dff;
+}
+.etn-frontend-event-item .etn-frontend-event-action > button:not(:disabled):focus span {
+  color: #ffffff !important;
+}
+
+.etn-frontend-action-btns {
+  display: flex;
+  align-items: center;
+}
+
+.etn-page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.etn-page-header .select-with-delete-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 0 0 240px;
+}
+.etn-page-header .event-checkbox {
+  flex: 0 0 50%;
+}
+.etn-page-header .event-checkbox input[type=checkbox] + label {
+  margin-bottom: 0;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+@media (max-width: 767px) {
+  .etn-page-header {
+    margin-top: 20px;
+  }
+  .etn-page-header .etn-ant-pagination {
+    margin-top: 0;
+  }
+}
+.ant-dropdown-menu {
+  border-radius: 6px;
+}
+.ant-dropdown-menu .ant-dropdown-menu-item.etn-item-delete-style {
+  color: #ff0000;
+}
+
+.ant-btn.etn-frontend-add-event-btn {
+  border-color: transparent !important;
+  border-radius: 6px;
+  background-color: #5d5dff;
+  color: #ffffff;
+  padding: 0 16px !important;
+}
+.ant-btn.etn-frontend-add-event-btn span {
+  line-height: 1;
+  font-size: 13px;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.ant-btn.etn-frontend-add-event-btn:hover {
+  background: transparent;
+  color: #5d5dff;
+  border-color: #5d5dff !important;
+}
+.ant-btn.etn-fend-dropdown-trigger {
+  width: 32px !important;
+  height: 32px !important;
+  padding: 0 !important;
+  color: #5d5dff;
+  border-radius: 6px;
+  border-color: #e4e6eb !important;
+}
+.ant-btn.etn-fend-dropdown-trigger span {
+  line-height: 0;
+  font-size: 20px !important;
+  transform: translate(1px, -2px);
+}
+.ant-btn.etn-fend-dropdown-trigger:hover, .ant-btn.etn-fend-dropdown-trigger:focus {
+  background: #5d5dff !important;
+  border-color: transparent !important;
+  color: #ffffff;
+}
+.ant-btn.etn-ticket-button {
+  border-color: #e4e6eb;
+  height: 32px;
+  line-height: 32px;
+  padding: 0 10px;
+  font-weight: 500;
+  margin-right: 15px;
+  border-radius: 6px;
+  color: #5d5dff;
+}
+.ant-btn.etn-ticket-button:hover {
+  background: #5d5dff;
+  color: #ffffff;
+  border-color: transparent;
+}
+.ant-btn.etn-front-end-ticket-scanner {
+  border-color: #e4e6eb;
+  height: 32px;
+  line-height: 30px;
+  padding: 0 10px;
+  font-weight: 500;
+  border-radius: 6px;
+}
+.ant-btn.etn-front-end-ticket-scanner:not(:disabled):hover {
+  background: #5d5dff;
+  color: #ffffff;
+  border-color: transparent;
+}
+
+.etn-btn-speaker-create-new {
+  width: 100% !important;
+  background-color: #5d5dff !important;
+  color: #ffffff !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 12px !important;
+  justify-content: center !important;
+  border: none !important;
+}
+
+.etn-ant-pagination .ant-pagination-item-link {
+  padding: 0 8px !important;
+}
+
+.etn-frontend-attendee-table {
+  margin-top: 30px;
+}
+
+.etn-button-group {
+  display: flex;
+  gap: 10px;
+}
+
+.ant-menu-vertical > .ant-menu-item,
+.ant-menu-vertical-left > .ant-menu-item,
+.ant-menu-vertical-right > .ant-menu-item,
+.ant-menu-inline > .ant-menu-item,
+.ant-menu-vertical > .ant-menu-submenu > .ant-menu-submenu-title,
+.ant-menu-vertical-left > .ant-menu-submenu > .ant-menu-submenu-title,
+.ant-menu-vertical-right > .ant-menu-submenu > .ant-menu-submenu-title,
+.ant-menu-inline > .ant-menu-submenu > .ant-menu-submenu-title {
+  height: 34px;
+  line-height: 34px;
+  font-weight: 500;
+}
+
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  background-color: #e6f7ff;
+  border-radius: 4px;
+}
+
+.ant-menu-title-content {
+  transition: color 0.3s;
+  font-weight: 500;
+}
+
+.ant-picker-ranges {
+  margin: 0;
+}
+
+.entry-content .ant-pagination {
+  padding: 0;
+}
+
+.etn-front-end-create-schedule .schedule-basic-information,
+.etn-front-end-create-schedule .schedule-topic-repeater {
+  border-radius: 8px;
+  padding: 35px;
+  margin: 10px 0;
+  background-color: #ffffff;
+}
+.etn-front-end-create-schedule .ant-select-single {
+  height: 40px;
+}
+.etn-front-end-create-schedule .ant-select-single .ant-select-selector {
+  padding: 5px 12px !important;
+}
+.etn-front-end-create-schedule .etn-topic-repeater {
+  background-color: #ebecef;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 0 0 20px 0;
+}
+.etn-front-end-create-schedule .ant-collapse-header {
+  padding-right: 0 !important;
+}
+
+.etn-single-input-wrapper {
+  display: flex;
+  background-color: #fff;
+  margin-bottom: 20px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.etn-single-input-content p {
+  margin-bottom: 0;
+}
+
+.etn-single-input-content .input-description {
+  color: #5b5b5b;
+}
+
+.etn-single-input-content .input-heading {
+  color: #000;
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.etn-front-end-head {
+  margin: 20px 0 !important;
+}
+
+/*# sourceMappingURL=index.css.map*/

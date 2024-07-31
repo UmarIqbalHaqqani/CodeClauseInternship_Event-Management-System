@@ -1,0 +1,129 @@
+/* RSVP admin style */
+
+.wrap .rsvp-page-title {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.rsvp-info-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    margin-right: 20px;
+}
+
+@media (min-width: 1200px) {
+    .rsvp-info-wrapper {
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+}
+
+.rsvp-info-item {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 30px;
+}
+
+.rsvp-info-box-parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    position: relative;
+    gap: 30px;
+}
+
+
+
+.rsvp-info-box {
+    position: relative;
+}
+
+.rsvp-info-box-parent .rsvp-info-box::before {
+    position: absolute;
+    content: "";
+    background-color: #E4E6EB;
+    right: 0;
+    top: 0;
+    width: 1px;
+    height: 100%;
+}
+
+@media (min-width: 1200px) {
+    .rsvp-info-box-parent {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 30px;
+    }
+
+    .rsvp-info-box-parent .rsvp-info-box:last-child::before {
+        display: none;
+    }
+}
+
+.rsvp-info-subtext {
+    margin: 0 0 10px;
+    padding-left: 12px;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, .5);
+    font-weight: 500;
+    position: relative;
+    line-height: 1;
+}
+
+.rsvp-info-subtext::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 60%;
+    transform: translateY(-50%);
+    width: 6px;
+    height: 6px;
+    background-color: #5D5DFF;
+    border-radius: 50%;
+}
+
+.rsvp-info-title {
+    margin: 0;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+/* Table style */
+
+table.widefat.rsvpreports {
+    border: none;
+    border-radius: 8px;
+}
+
+.rsvpreports.widefat th.sortable,
+.rsvpreports.widefat th.sorted {
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+}
+
+.rsvpreports.widefat tfoot td,
+.rsvpreports.widefat tfoot th {
+    border-top: 1px solid #ebebeb !important;
+}
+
+.rsvpreports th.sortable a,
+.rsvpreports th.sorted a {
+    display: block;
+    overflow: hidden;
+    color: #000;
+    font-weight: 600;
+    padding: 0;
+}
+
+.rsvpreports.widefat td,
+.rsvpreports.widefat th {
+    padding: 20px 30px;
+    vertical-align: middle;
+    border-bottom: 1px solid #e5e5e5;
+    color: #11142E;
+    font-size: 14px;
+}
+
+.rsvpreports .status.column-status {
+    text-transform: capitalize;
+}

@@ -1,0 +1,1 @@
+<div id="etn_multivendor_form" data-etn_buddy_group_id="<?php echo absint( $group_id );?>" class="bb-create-event-form"></div>

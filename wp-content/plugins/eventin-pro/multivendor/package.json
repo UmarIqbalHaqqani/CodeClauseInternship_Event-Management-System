@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "build": "wp-scripts build",
+    "start": "wp-scripts start"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "^23.2.0"
+  },
+  "dependencies": {
+    "antd": "^5.10.3",
+    "axios": "^0.27.2",
+    "dayjs": "^1.11.4",
+    "react-quill": "^2.0.0",
+    "react-router-dom": "^6.4.1"
+  }
+}
